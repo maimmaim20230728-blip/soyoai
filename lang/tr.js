@@ -243,7 +243,8 @@ export default {
    "Yalnızca hazır sözler verebildiğim için üzgünüm. Bu sohbette, yapay zeka sizi incitebilecek sözler yazmasın diye Soyogi'nin önceden yazdığı sözleri alıyorsunuz. Bu, duygularınızın hafife alındığı anlamına gelmez. Bir insanla gerçek bir konuşma istiyorsanız aşağıdaki «{open}» düğmesine dokunup destek hatlarını görebilirsiniz.",
    "Bunun yeterli gelmediği için üzgünüm. Burada verebildiğim sözler sınırlı. Sizi o anda dinleyip cevap verebilecek olanlar destek hatlarındaki insanlar. Aşağıdaki «{open}» ya da «{soudan}» bağlantısından seçebilirsiniz.",
    "Kimsenin anlamadığını hissetmek acı verir. Burada verebildiğim tek şey Soyogi'nin önceden hazırladığı sözler. Yine de bu sizin suçunuz değil. Bir insanla konuşmak istediğinizde aşağıdaki «{open}» düğmesine dokunun.",
-   "Kızgınsanız bu da önemli bir duygu. Bunu burada olduğu gibi yazabilirsiniz. Başka bir konuya geçmek isterseniz aşağıdaki «{back}» düğmesine dokunarak yapay zekayla sohbete dönebilirsiniz."
+   "Kızgınsanız bu da önemli bir duygu. Bunu burada olduğu gibi yazabilirsiniz. Başka bir konuya geçmek isterseniz aşağıdaki «{back}» düğmesine dokunarak yapay zekayla sohbete dönebilirsiniz.",
+   "Dinliyorum. Ama burada yalnızca Soyogi'nin önceden yazdığı sözlerle cevap verebilirim. Yapay zekayla konuşmak isterseniz aşağıdaki «{back}» düğmesine dokunun ya da «Yapay zekayla konuşmak istiyorum» yazın."
   ],
   "cantCall": [
    "Defalarca arayıp kimse cevap vermeyince insan daha da yalnız hisseder. Bu sizin suçunuz değil. Her destek hattının kendi çalışma saatleri var. Saatleri aşağıdaki «{open}» düğmesinin altında görebilirsiniz. Biraz bekleyip yeniden aramayı deneyin.",
@@ -466,7 +467,10 @@ export default {
    "dinlemiyorsun",
    "cevap ver",
    "saçma",
-   "sacma"
+   "sacma",
+   "dinliyor musun",
+   "okuyor musun",
+   "duyuyor musun"
   ],
   "cantCall": [
    "aradım",
@@ -578,6 +582,19 @@ export default {
    "dermanim",
    "uyanığım",
    "uyanigim"
+  ],
+  "wantAi": [
+   "yapay zekayla konuşmak",
+   "yapay zekayla konusmak",
+   "yapay zeka ile konuşmak",
+   "yapay zeka ile konusmak",
+   "yapay zekaya dön",
+   "yapay zekaya don",
+   "ai ile konuşmak",
+   "başka bir şey konuşalım",
+   "baska bir sey konusalim",
+   "konuyu değiştir",
+   "konuyu degistir"
   ]
  }
 };

@@ -152,7 +152,8 @@ export const DICT = {
         "決まった言葉しか返せなくて、ごめんなさい。この会話では、AIがあなたを傷つける言葉を作ってしまわないように、そよぎが前もって書いた言葉をお返ししています。あなたの気持ちを、軽く見ているのではありません。人とやりとりしたいときは、下の「{open}」から窓口が見られます。",
         "物足りなく感じさせて、ごめんなさい。ここから返せる言葉には、限りがあります。あなたの話を、その場で聞いて返してくれるのは、人の窓口です。下の「{open}」や「{soudan}」から選べます。",
         "わかってもらえないと感じるのは、つらいことですね。ここで返せるのは、そよぎが前もって用意した言葉だけです。それでも、あなたが悪いのではありません。人と話したくなったら、下の「{open}」を押してください。",
-        "腹が立ったなら、それも大事な気持ちです。そのままの言葉で、ここに書いてもかまいません。ほかの話に移りたいときは、下の「{back}」を押してください。"
+        "腹が立ったなら、それも大事な気持ちです。そのままの言葉で、ここに書いてもかまいません。ほかの話に移りたいときは、下の「{back}」を押してください。",
+        "聞いています。ただ、ここから返せるのは、そよぎが前もって書いた言葉だけです。AIと話したいときは、下の「{back}」を押すか、「AIと話したい」と書いてください。"
       ],
       "cantCall": [
         "何度かけてもつながらないと、心細さが大きくなりますね。それは、あなたのせいではありません。窓口によって、受付の時間がちがいます。下の「{open}」で、時間も見られます。少し時間をおいて、もう一度かけてみてください。",
@@ -194,6 +195,8 @@ export const DICT = {
       "harm": ["殺す","殺し","殺そう","殺せ","ころす","ころし","ぶっ殺","刺す","刺し","刺そう","ナイフ","包丁","刃物","殴る","殴っ","殴り","ぶん殴","復讐","仕返し","痛めつけ","道連れ","火をつけ","放火","やり返","ボコボコ"],
       // 最初の切り替えに使う言葉(人に向けた「つもり」が出ている言葉だけ・2026-11-24 ヒロさん「他人を傷つける話もそよぎの言葉で」)
       "harmStart": ["殺したい","殺してやる","殺してくる","殺しに行","殺しにい","殺すつもり","殺そうと思","殺してしまいそう","殺したる","ぶっ殺","ぶち殺","ころしたい","ころしてやる","刺したい","刺してやる","刺してくる","刺しに行","刺しにい","刺すつもり","刺してしまいそう","刺したる","殴りたい","殴ってやる","殴ってくる","殴りに行","殴りにい","殴ってしまいそう","殴ったる","ぶん殴","ボコボコにしてやる","痛めつけたい","痛めつけてやる","傷つけたい","傷つけてやる","復讐したい","復讐してやる","復讐しに","仕返ししたい","仕返ししてやる","やり返したい","やり返してやる","道連れ","火をつけてやる","火をつけたい","放火したい","放火してやる"],
+      // 「AIと話したい」のように書いたら、ボタンを押したときと同じに AI との会話に戻す(つらい言葉や人を傷つける言葉が同じ文にあれば戻さない・2026-11-24 ヒロさん「その案で直して」)
+      "wantAi": ["aiと話したい","aiと話させ","aiと話がしたい","aiとはなしたい","aiと会話したい","aiと会話がしたい","aiとしゃべりたい","aiと喋りたい","aiに戻","aiと話そう","aiとお話し","普通に話したい","ふつうに話したい","普通の話がしたい","ふつうの話がしたい","ほかの話がしたい","他の話がしたい","別の話がしたい","違う話がしたい","ちがう話がしたい","話を変えたい","話題を変えたい"],
       "urgent": [
         "今から",
         "いまから",
@@ -260,7 +263,17 @@ export const DICT = {
         "話をそら",
         "聞いてない",
         "いい加減",
-        "ふざけ"
+        "ふざけ",
+        "聞いてくれてる",
+        "聞いてる？",
+        "聞いてる?",
+        "伝わってる？",
+        "伝わってる?",
+        "届いてる？",
+        "届いてる?",
+        "読んでる？",
+        "読んでる?",
+        "読んでくれてる"
       ],
       "cantCall": [
         "電話",
@@ -555,7 +568,8 @@ export const DICT = {
         "I am sorry I can only give fixed words. In this chat, so that the AI does not write words that could hurt you, you get words that Soyogi wrote in advance. This does not mean your feelings are taken lightly. If you want a real back and forth with a person, tap “{open}” below to see support lines.",
         "I am sorry this does not feel like enough. The words I can give here are limited. It is people at support lines who can listen to you and answer in the moment. You can choose from “{open}” or “{soudan}” below.",
         "It hurts to feel that no one understands. All I can give here are words Soyogi prepared in advance. Even so, it is not your fault. When you want to talk with a person, tap “{open}” below.",
-        "If you feel angry, that is an important feeling too. You can write it here just as it is. To move on to something else, tap “{back}” below."
+        "If you feel angry, that is an important feeling too. You can write it here just as it is. To move on to something else, tap “{back}” below.",
+        "I am listening. But all I can send back here are words that Soyogi wrote in advance. If you want to talk with the AI, tap “{back}” below, or write “I want to talk to the AI”."
       ],
       "cantCall": [
         "When you call again and again and no one answers, you feel even more alone. That is not your fault. Each support line has its own hours. You can see the hours under “{open}” below. Please wait a little and try calling again.",
@@ -597,6 +611,8 @@ export const DICT = {
       "harm": ["kill him","kill her","kill them","kill you","kill someone","kill somebody","kill everyone","kill that","gonna kill","going to kill","murder","stab","knife","beat him","beat her","beat them","beat up","hurt him","hurt her","hurt them","hurt someone","revenge","get back at","shoot","set fire","burn down"],
       // 最初の切り替えに使う言葉(人に向けた「つもり」が出ている言葉だけ・2026-11-24 ヒロさん「他人を傷つける話もそよぎの言葉で」)
       "harmStart": ["want to kill him","want to kill her","want to kill them","want to kill you","want to kill someone","want to kill somebody","want to kill everyone","want to kill everybody","want to kill people","want to kill my ","want to kill that guy","want to kill that man","want to kill that woman","wanna kill him","wanna kill her","wanna kill them","wanna kill you","wanna kill someone","wanna kill somebody","wanna kill everyone","wanna kill everybody","wanna kill people","wanna kill my ","wanna kill that guy","wanna kill that man","wanna kill that woman","gonna kill him","gonna kill her","gonna kill them","gonna kill you","gonna kill someone","gonna kill somebody","gonna kill everyone","gonna kill everybody","gonna kill people","gonna kill my ","gonna kill that guy","gonna kill that man","gonna kill that woman","going to kill him","going to kill her","going to kill them","going to kill you","going to kill someone","going to kill somebody","going to kill everyone","going to kill everybody","going to kill people","going to kill my ","going to kill that guy","going to kill that man","going to kill that woman","i'll kill him","i'll kill her","i'll kill them","i'll kill you","i'll kill someone","i'll kill somebody","i'll kill everyone","i'll kill everybody","i'll kill people","i'll kill my ","i'll kill that guy","i'll kill that man","i'll kill that woman","ill kill him","ill kill her","ill kill them","ill kill you","ill kill someone","ill kill somebody","ill kill everyone","ill kill everybody","ill kill people","ill kill my ","ill kill that guy","ill kill that man","ill kill that woman","i will kill him","i will kill her","i will kill them","i will kill you","i will kill someone","i will kill somebody","i will kill everyone","i will kill everybody","i will kill people","i will kill my ","i will kill that guy","i will kill that man","i will kill that woman","gotta kill him","gotta kill her","gotta kill them","gotta kill you","gotta kill someone","gotta kill somebody","gotta kill everyone","gotta kill everybody","gotta kill people","gotta kill my ","gotta kill that guy","gotta kill that man","gotta kill that woman","need to kill him","need to kill her","need to kill them","need to kill you","need to kill someone","need to kill somebody","need to kill everyone","need to kill everybody","need to kill people","need to kill my ","need to kill that guy","need to kill that man","need to kill that woman","want to murder him","want to murder her","want to murder them","want to murder you","want to murder someone","want to murder somebody","want to murder everyone","want to murder everybody","want to murder people","want to murder my ","want to murder that guy","want to murder that man","want to murder that woman","gonna murder him","gonna murder her","gonna murder them","gonna murder you","gonna murder someone","gonna murder somebody","gonna murder everyone","gonna murder everybody","gonna murder people","gonna murder my ","gonna murder that guy","gonna murder that man","gonna murder that woman","going to murder him","going to murder her","going to murder them","going to murder you","going to murder someone","going to murder somebody","going to murder everyone","going to murder everybody","going to murder people","going to murder my ","going to murder that guy","going to murder that man","going to murder that woman","want to stab him","want to stab her","want to stab them","want to stab you","want to stab someone","want to stab somebody","want to stab everyone","want to stab everybody","want to stab people","want to stab my ","want to stab that guy","want to stab that man","want to stab that woman","wanna stab him","wanna stab her","wanna stab them","wanna stab you","wanna stab someone","wanna stab somebody","wanna stab everyone","wanna stab everybody","wanna stab people","wanna stab my ","wanna stab that guy","wanna stab that man","wanna stab that woman","gonna stab him","gonna stab her","gonna stab them","gonna stab you","gonna stab someone","gonna stab somebody","gonna stab everyone","gonna stab everybody","gonna stab people","gonna stab my ","gonna stab that guy","gonna stab that man","gonna stab that woman","going to stab him","going to stab her","going to stab them","going to stab you","going to stab someone","going to stab somebody","going to stab everyone","going to stab everybody","going to stab people","going to stab my ","going to stab that guy","going to stab that man","going to stab that woman","i'll stab him","i'll stab her","i'll stab them","i'll stab you","i'll stab someone","i'll stab somebody","i'll stab everyone","i'll stab everybody","i'll stab people","i'll stab my ","i'll stab that guy","i'll stab that man","i'll stab that woman","i will stab him","i will stab her","i will stab them","i will stab you","i will stab someone","i will stab somebody","i will stab everyone","i will stab everybody","i will stab people","i will stab my ","i will stab that guy","i will stab that man","i will stab that woman","want to shoot someone","want to shoot somebody","want to shoot everyone","want to shoot everybody","want to shoot people","want to shoot that guy","want to shoot that man","want to shoot that woman","gonna shoot someone","gonna shoot somebody","gonna shoot everyone","gonna shoot everybody","gonna shoot people","gonna shoot that guy","gonna shoot that man","gonna shoot that woman","going to shoot someone","going to shoot somebody","going to shoot everyone","going to shoot everybody","going to shoot people","going to shoot that guy","going to shoot that man","going to shoot that woman","i'll shoot someone","i'll shoot somebody","i'll shoot everyone","i'll shoot everybody","i'll shoot people","i'll shoot that guy","i'll shoot that man","i'll shoot that woman","want to hurt him","want to hurt her","want to hurt them","want to hurt you","want to hurt someone","want to hurt somebody","want to hurt everyone","want to hurt everybody","want to hurt people","want to hurt that guy","want to hurt that man","want to hurt that woman","wanna hurt him","wanna hurt her","wanna hurt them","wanna hurt you","wanna hurt someone","wanna hurt somebody","wanna hurt everyone","wanna hurt everybody","wanna hurt people","wanna hurt that guy","wanna hurt that man","wanna hurt that woman","gonna hurt him","gonna hurt her","gonna hurt them","gonna hurt someone","gonna hurt somebody","gonna hurt everyone","gonna hurt everybody","gonna hurt people","gonna hurt that guy","gonna hurt that man","gonna hurt that woman","going to hurt him","going to hurt her","going to hurt them","going to hurt someone","going to hurt somebody","going to hurt everyone","going to hurt everybody","going to hurt people","going to hurt that guy","going to hurt that man","going to hurt that woman","i'll hurt him","i'll hurt her","i'll hurt them","i'll hurt you","i'll hurt someone","i'll hurt somebody","i'll hurt everyone","i'll hurt everybody","i'll hurt people","i'll hurt that guy","i'll hurt that man","i'll hurt that woman","beat him up","beat her up","beat them up","beat the shit out of","want revenge","get my revenge","take revenge","gonna get back at","going to get back at","make him pay","make her pay","make them pay","take them with me","take him with me","take her with me","burn his house","burn her house","burn their house","set fire to his","set fire to her","set fire to their","shoot up the","shoot up my"],
+      // 「AIと話したい」のように書いたら、ボタンを押したときと同じに AI との会話に戻す(つらい言葉や人を傷つける言葉が同じ文にあれば戻さない・2026-11-24 ヒロさん「その案で直して」)
+      "wantAi": ["talk to the ai","talk to ai","talk with the ai","talk with ai","chat with the ai","chat with ai","back to the ai","back to ai","switch to the ai","talk about something else","change the subject"],
       "urgent": [
         "right now",
         "tonight",
@@ -660,7 +676,13 @@ export const DICT = {
         "shut up",
         "stupid",
         "answer me",
-        "whatever"
+        "whatever",
+        "are you listening",
+        "are you even listening",
+        "do you hear me",
+        "are you hearing me",
+        "are you reading",
+        "did you read"
       ],
       "cantCall": [
         "call",

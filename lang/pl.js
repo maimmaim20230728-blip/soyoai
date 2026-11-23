@@ -245,7 +245,8 @@ export default {
    "Przepraszam, że mogę dać tylko gotowe słowa. W tej rozmowie dostajesz słowa przygotowane wcześniej przez Soyogi, żeby AI nie pisało słów, które mogłyby cię zranić. To nie znaczy, że twoje uczucia są traktowane lekko. Jeśli chcesz prawdziwej wymiany zdań z człowiekiem, dotknij „{open}” poniżej, aby zobaczyć telefony pomocy.",
    "Przepraszam, że to nie wydaje się wystarczające. Słowa, które mogę tu dać, są ograniczone. To ludzie w telefonach pomocy mogą cię wysłuchać i odpowiedzieć od razu. Możesz wybrać w „{open}” lub „{soudan}” poniżej.",
    "Boli, gdy czujesz, że nikt cię nie rozumie. Mogę tu dać tylko słowa przygotowane wcześniej przez Soyogi. Mimo to to nie twoja wina. Kiedy zechcesz porozmawiać z człowiekiem, dotknij „{open}” poniżej.",
-   "Jeśli czujesz złość, to też ważne uczucie. Możesz ją tu napisać dokładnie tak, jak jest. Aby przejść do czegoś innego, dotknij poniżej „{back}”, aby wrócić do rozmowy z AI."
+   "Jeśli czujesz złość, to też ważne uczucie. Możesz ją tu napisać dokładnie tak, jak jest. Aby przejść do czegoś innego, dotknij poniżej „{back}”, aby wrócić do rozmowy z AI.",
+   "Słucham. Ale tutaj mogę odpowiadać tylko słowami napisanymi wcześniej przez Soyogi. Jeśli chcesz porozmawiać z AI, dotknij poniżej „{back}” albo napisz „Chcę porozmawiać z AI”."
   ],
   "cantCall": [
    "Gdy dzwonisz raz za razem i nikt nie odbiera, czujesz się jeszcze bardziej samotnie. To nie twoja wina. Każdy telefon pomocy ma własne godziny. Godziny zobaczysz w „{open}” poniżej. Poczekaj chwilę i spróbuj zadzwonić jeszcze raz.",
@@ -439,7 +440,12 @@ export default {
    "glupi",
    "głupia",
    "odpowiedz mi",
-   "odpowiedz normalnie"
+   "odpowiedz normalnie",
+   "słuchasz mnie",
+   "sluchasz mnie",
+   "czy słuchasz",
+   "czy sluchasz",
+   "czytasz to"
   ],
   "cantCall": [
    "zadzwonić",
@@ -534,6 +540,22 @@ export default {
    "nie mam siły",
    "nie mam sily",
    "bez sił"
+  ],
+  "wantAi": [
+   "rozmawiać z ai",
+   "rozmawiac z ai",
+   "porozmawiać z ai",
+   "porozmawiac z ai",
+   "pogadać z ai",
+   "pogadac z ai",
+   "wróć do ai",
+   "wroc do ai",
+   "powrót do ai",
+   "o czymś innym",
+   "o czyms innym",
+   "zmień temat",
+   "zmien temat",
+   "zmieńmy temat"
   ]
  },
  "crisisWords": [

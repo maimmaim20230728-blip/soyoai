@@ -244,7 +244,8 @@ export default {
    "Desculpe por só poder dar palavras fixas. Nesta conversa, para que a IA não escreva palavras que possam machucar você, você recebe palavras que a Soyogi escreveu antes. Isso não quer dizer que estamos fazendo pouco caso dos seus sentimentos. Se quiser conversar de verdade com uma pessoa, toque em «{open}» aqui embaixo para ver linhas de apoio.",
    "Desculpe se isto não parece suficiente. As palavras que posso dar aqui são limitadas. São as pessoas das linhas de apoio que podem escutar você e responder na hora. Você pode escolher em «{open}» ou «{soudan}» aqui embaixo.",
    "Dói sentir que ninguém entende. Tudo o que posso dar aqui são palavras que a Soyogi preparou antes. Mesmo assim, a culpa não é sua. Quando quiser falar com uma pessoa, toque em «{open}» aqui embaixo.",
-   "Se você está com raiva, esse também é um sentimento importante. Você pode escrevê-lo aqui do jeito que está. Para passar a outro assunto, toque em «{back}» aqui embaixo para voltar a conversar com a IA."
+   "Se você está com raiva, esse também é um sentimento importante. Você pode escrevê-lo aqui do jeito que está. Para passar a outro assunto, toque em «{back}» aqui embaixo para voltar a conversar com a IA.",
+   "Estou ouvindo. Mas aqui só posso responder com palavras que a Soyogi escreveu antes. Se quiser falar com a IA, toque em «{back}» aqui embaixo ou escreva «Quero falar com a IA»."
   ],
   "cantCall": [
    "Quando você liga várias vezes e ninguém atende, a sensação de solidão fica ainda maior. A culpa não é sua. Cada linha de apoio tem o seu horário. Você pode ver os horários em «{open}» aqui embaixo. Espere um pouco e tente ligar de novo.",
@@ -429,7 +430,14 @@ export default {
    "não ajuda",
    "cala a boca",
    "responde direito",
-   "burro"
+   "burro",
+   "você está me ouvindo?",
+   "voce esta me ouvindo?",
+   "está me ouvindo?",
+   "esta me ouvindo?",
+   "me ouve?",
+   "está lendo?",
+   "esta lendo?"
   ],
   "cantCall": [
    "ligar",
@@ -518,6 +526,17 @@ export default {
    "sem forças",
    "nao aguento mais",
    "não aguento mais"
+  ],
+  "wantAi": [
+   "falar com a ia",
+   "conversar com a ia",
+   "falar com ia",
+   "conversar com ia",
+   "voltar para a ia",
+   "voltar pra ia",
+   "falar de outra coisa",
+   "mudar de assunto",
+   "mudar o assunto"
   ]
  }
 };

@@ -244,7 +244,8 @@ export default {
    "Siento que solo pueda darte palabras fijas. En esta conversación, para que la IA no escriba palabras que podrían hacerte daño, recibes palabras que Soyogi escribió antes. Esto no significa que tomemos tus sentimientos a la ligera. Si quieres hablar de verdad con una persona, toca «{open}» abajo para ver líneas de ayuda.",
    "Siento que esto no te parezca suficiente. Las palabras que puedo dar aquí son limitadas. Son las personas de las líneas de ayuda quienes pueden escucharte y responderte en el momento. Puedes elegir en «{open}» o «{soudan}» abajo.",
    "Duele sentir que nadie te entiende. Lo único que puedo dar aquí son palabras que Soyogi preparó antes. Aun así, no es tu culpa. Cuando quieras hablar con una persona, toca «{open}» abajo.",
-   "Si sientes enojo, también es un sentimiento importante. Puedes escribirlo aquí tal como es. Para pasar a otra cosa, toca «{back}» abajo para volver a hablar con la IA."
+   "Si sientes enojo, también es un sentimiento importante. Puedes escribirlo aquí tal como es. Para pasar a otra cosa, toca «{back}» abajo para volver a hablar con la IA.",
+   "Te escucho. Pero lo único que puedo responder aquí son palabras que Soyogi escribió antes. Si quieres hablar con la IA, toca «{back}» abajo o escribe «Quiero hablar con la IA»."
   ],
   "cantCall": [
    "Cuando llamas una y otra vez y nadie contesta, la sensación de soledad es aún mayor. No es tu culpa. Cada línea de ayuda tiene su propio horario. Puedes ver los horarios en «{open}» abajo. Espera un poco y vuelve a llamar.",
@@ -427,7 +428,14 @@ export default {
    "cállate",
    "contesta bien",
    "no respondes",
-   "estupid"
+   "estupid",
+   "me escuchas?",
+   "me estás escuchando?",
+   "me estas escuchando?",
+   "¿me escuchas",
+   "me lees?",
+   "¿me lees",
+   "me estás leyendo"
   ],
   "cantCall": [
    "llamar",
@@ -518,6 +526,17 @@ export default {
    "no puedo mas",
    "no puedo más",
    "sin fuerzas"
+  ],
+  "wantAi": [
+   "hablar con la ia",
+   "hablar con ia",
+   "hablar con la ai",
+   "volver a la ia",
+   "volver con la ia",
+   "chatear con la ia",
+   "hablar de otra cosa",
+   "cambiar de tema",
+   "cambiemos de tema"
   ]
  }
 };

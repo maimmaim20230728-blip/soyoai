@@ -245,7 +245,8 @@ export default {
    "Pardon de ne pouvoir donner que des mots fixes. Dans cette conversation, pour que l'IA n'écrive pas des mots qui pourraient vous blesser, vous recevez des mots que Soyogi a écrits à l'avance. Cela ne veut pas dire que vos sentiments sont pris à la légère. Si vous voulez un vrai échange avec une personne, touchez « {open} » ci-dessous pour voir les lignes de soutien.",
    "Pardon si cela ne vous semble pas suffisant. Les mots que je peux donner ici sont limités. Ce sont les personnes des lignes de soutien qui peuvent vous écouter et vous répondre sur le moment. Vous pouvez choisir dans « {open} » ou « {soudan} » ci-dessous.",
    "Cela fait mal de sentir que personne ne comprend. Tout ce que je peux donner ici, ce sont des mots que Soyogi a préparés à l'avance. Malgré cela, ce n'est pas votre faute. Quand vous voudrez parler avec une personne, touchez « {open} » ci-dessous.",
-   "Si vous ressentez de la colère, c'est aussi un sentiment important. Vous pouvez l'écrire ici tel quel. Pour passer à autre chose, touchez « {back} » ci-dessous pour retourner discuter avec l'IA."
+   "Si vous ressentez de la colère, c'est aussi un sentiment important. Vous pouvez l'écrire ici tel quel. Pour passer à autre chose, touchez « {back} » ci-dessous pour retourner discuter avec l'IA.",
+   "Je vous écoute. Mais tout ce que je peux répondre ici, ce sont des mots que Soyogi a écrits à l'avance. Si vous voulez parler à l'IA, touchez « {back} » ci-dessous ou écrivez « Je veux parler à l'IA »."
   ],
   "cantCall": [
    "Quand vous appelez encore et encore et que personne ne répond, on se sent encore plus seul. Ce n'est pas votre faute. Chaque ligne de soutien a ses propres horaires. Vous pouvez voir les horaires dans « {open} » ci-dessous. Attendez un peu et essayez d'appeler de nouveau.",
@@ -422,7 +423,15 @@ export default {
    "tais-toi",
    "aide pas",
    "coutes pas",
-   "coutez pas"
+   "coutez pas",
+   "tu m'écoutes",
+   "tu m'ecoutes",
+   "tu m’écoutes",
+   "vous m'écoutez",
+   "vous m'ecoutez",
+   "vous m’écoutez",
+   "tu me lis",
+   "vous me lisez"
   ],
   "cantCall": [
    "appeler",
@@ -510,6 +519,21 @@ export default {
    "a bout",
    "à bout",
    "plus de force"
+  ],
+  "wantAi": [
+   "parler à l'ia",
+   "parler a l'ia",
+   "parler à l’ia",
+   "parler avec l'ia",
+   "parler avec l’ia",
+   "discuter avec l'ia",
+   "discuter avec l’ia",
+   "retourner à l'ia",
+   "revenir à l'ia",
+   "revenir a l'ia",
+   "parler d'autre chose",
+   "parler d’autre chose",
+   "changer de sujet"
   ]
  }
 };

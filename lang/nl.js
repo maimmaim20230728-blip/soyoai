@@ -245,7 +245,8 @@ export default {
    "Het spijt me dat ik alleen vaste woorden kan geven. In dit gesprek krijg je woorden die Soyogi van tevoren heeft geschreven, zodat de AI geen woorden schrijft die je kunnen kwetsen. Dat betekent niet dat je gevoelens licht worden opgevat. Wil je echt heen en weer praten met een mens, tik dan hieronder op „{open}” om hulplijnen te zien.",
    "Het spijt me dat dit niet genoeg voelt. De woorden die ik hier kan geven zijn beperkt. Mensen bij hulplijnen kunnen naar je luisteren en op dat moment antwoorden. Je kunt kiezen via „{open}” of „{soudan}” hieronder.",
    "Het doet pijn om te voelen dat niemand je begrijpt. Ik kan hier alleen woorden geven die Soyogi van tevoren heeft voorbereid. Toch is het niet jouw schuld. Wil je met een mens praten, tik dan hieronder op „{open}”.",
-   "Als je boos bent, is dat ook een belangrijk gevoel. Je kunt het hier precies zo opschrijven. Wil je verder gaan met iets anders, tik dan hieronder op „{back}” om terug te gaan naar het gesprek met de AI."
+   "Als je boos bent, is dat ook een belangrijk gevoel. Je kunt het hier precies zo opschrijven. Wil je verder gaan met iets anders, tik dan hieronder op „{back}” om terug te gaan naar het gesprek met de AI.",
+   "Ik luister. Maar wat ik hier kan terugsturen, zijn alleen woorden die Soyogi van tevoren heeft geschreven. Wil je met de AI praten, tik dan hieronder op „{back}” of schrijf „Ik wil met de AI praten”."
   ],
   "cantCall": [
    "Als je steeds belt en niemand opneemt, voel je je nog eenzamer. Dat is niet jouw schuld. Elke hulplijn heeft eigen tijden. De tijden zie je hieronder bij „{open}”. Wacht even en probeer het dan nog eens.",
@@ -411,7 +412,12 @@ export default {
    "kop dicht",
    "stom",
    "antwoord me",
-   "antwoord dan"
+   "antwoord dan",
+   "luister je?",
+   "luister je wel",
+   "lees je dit",
+   "lees je mee",
+   "hoor je me"
   ],
   "cantCall": [
    "bellen",
@@ -488,6 +494,17 @@ export default {
    "doodmoe",
    "uitgeput",
    "gesloopt"
+  ],
+  "wantAi": [
+   "praten met de ai",
+   "praten met ai",
+   "met de ai praten",
+   "met ai praten",
+   "chatten met de ai",
+   "terug naar de ai",
+   "over iets anders praten",
+   "ander onderwerp",
+   "van onderwerp veranderen"
   ]
  },
  "crisisWords": [

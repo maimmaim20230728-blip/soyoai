@@ -245,7 +245,8 @@ export default {
    "Es tut mir leid, dass ich nur feste Worte geben kann. In diesem Chat bekommst du Worte, die Soyogi vorher geschrieben hat, damit die KI keine Worte schreibt, die dich verletzen könnten. Das heißt nicht, dass deine Gefühle auf die leichte Schulter genommen werden. Wenn du ein echtes Hin und Her mit einem Menschen möchtest, tippe unten auf „{open}“, um Hilfetelefone zu sehen.",
    "Es tut mir leid, dass dir das nicht genug ist. Die Worte, die ich hier geben kann, sind begrenzt. Menschen bei den Hilfetelefonen können dir zuhören und im Moment antworten. Du kannst unten unter „{open}“ oder „{soudan}“ auswählen.",
    "Es tut weh, zu fühlen, dass niemand einen versteht. Ich kann hier nur Worte geben, die Soyogi vorher vorbereitet hat. Trotzdem ist es nicht deine Schuld. Wenn du mit einem Menschen sprechen möchtest, tippe unten auf „{open}“.",
-   "Wenn du wütend bist, ist das auch ein wichtiges Gefühl. Du kannst es hier genau so aufschreiben. Um zu etwas anderem zu wechseln, tippe unten auf „{back}“, um zurück zum Chat mit der KI zu gehen."
+   "Wenn du wütend bist, ist das auch ein wichtiges Gefühl. Du kannst es hier genau so aufschreiben. Um zu etwas anderem zu wechseln, tippe unten auf „{back}“, um zurück zum Chat mit der KI zu gehen.",
+   "Ich höre zu. Aber zurückgeben kann ich hier nur Worte, die Soyogi vorher geschrieben hat. Wenn du mit der KI reden möchtest, tippe unten auf „{back}“ oder schreibe „Ich möchte mit der KI reden“."
   ],
   "cantCall": [
    "Wenn man immer wieder anruft und niemand abhebt, fühlt man sich noch einsamer. Das ist nicht deine Schuld. Jedes Hilfetelefon hat eigene Zeiten. Die Zeiten siehst du unten unter „{open}“. Bitte warte ein wenig und versuche es noch einmal.",
@@ -436,7 +437,13 @@ export default {
    "dumm",
    "antworte mir",
    "antworte doch",
-   "kopiert"
+   "kopiert",
+   "hörst du mir zu",
+   "hoerst du mir zu",
+   "hörst du zu",
+   "liest du das",
+   "liest du mit",
+   "kommt das an"
   ],
   "cantCall": [
    "anrufen",
@@ -521,6 +528,19 @@ export default {
    "ausgelaugt",
    "am ende meiner kräfte",
    "keine kraft"
+  ],
+  "wantAi": [
+   "mit der ki reden",
+   "mit der ki sprechen",
+   "mit der ki schreiben",
+   "mit ki reden",
+   "mit ki sprechen",
+   "zurück zur ki",
+   "zurueck zur ki",
+   "mit der ai reden",
+   "über etwas anderes reden",
+   "ueber etwas anderes reden",
+   "thema wechseln"
   ]
  },
  "crisisWords": [

@@ -538,6 +538,15 @@ export function isHarmStart(text, startWords, crisisWords) {
 function startsCare(s) {
   return isCrisisText(s) || isHarmStart(s, careWordsOf("harmStart"), crisisList());
 }
+// そよぎの言葉のときに「AIと話したい」のように書いたら、ボタンを押したときと同じに AI との会話に戻す(2026-11-24 ヒロさん「その案で直して」)。
+// 同じ文につらい言葉や人を傷つける言葉があれば戻さない。全角の「ＡＩ」でも当たるように NFKC でそろえる。
+export function wantsAiBack(text, wantWords, stayWords) {
+  const s = String(text || "").normalize("NFKC").toLowerCase();
+  return needsCrisisCard(s, wantWords) && !needsCrisisCard(s, stayWords);
+}
+function wantsAi(s) {
+  return !startsCare(s) && wantsAiBack(s, careWordsOf("wantAi"), careWordsOf("harm"));
+}
 
 // 書かれた言葉から、いまの様子を見分ける(2026-11-24 ヒロさん「状況に合わせて」)。
 // 上から順に見る。誰かや自分を傷つけそう(刃物・殺す・刺す)と、急ぎ(いま危ない)がいちばん先(2026-11-24 ヒロさんの画面で「ナイフで刺してくる」に毛布の言葉が出た)。「おやすみ」「ありがとう」は、つらい言葉が入っていないときだけ。
@@ -556,7 +565,8 @@ export function careSituation(text, words, crisis, hour, crisisWords) {
 
 // 同じ言葉が続かないように、まだ出していない言葉から選ぶ。全部出したら、直前の1つを除いて選び直す。
 // 誰かを傷つけそうな様子(harm)は、1回目に「救急か警察へ」(1)、2回目に「刃物を置いて離れて」(0)を必ず出す。そのあとは選ぶ。
-const CARE_FIRST = { harm: [1, 0] };
+// 「聞いてくれてる？」のような問いには、1回目に「聞いています。…AIと話したいときは」(4)を出す。
+const CARE_FIRST = { harm: [1, 0], notHeard: [4] };
 function pickCare(key, list) {
   const used = (state.careUsed[key] = state.careUsed[key] || []);
   const fixed = (CARE_FIRST[key] || []).find((i) => i < list.length && !used.includes(i));
@@ -647,6 +657,7 @@ function backToAi() {
   state.careMode = false;
   state.careCount = 0;
   delete state.careUsed.harm; // 次のつらい会話でも、harm の1回目は救急か警察へ
+  delete state.careUsed.notHeard; // 「聞いています」も次の会話でまた1回目に出す
   state.history = [];
   if (state.engine) Promise.resolve().then(() => state.engine.resetChat()).catch(() => { /* なし */ });
   for (const old of Array.from(document.querySelectorAll(".careback"))) old.remove();
@@ -1226,6 +1237,7 @@ async function send(forceSearch) {
     input.value = "";
     autoGrow();
     addBubble("user", userText);
+    if (state.careMode && wantsAi(userText)) { backToAi(); return; }
     if (startsCare(userText)) state.careMode = true;
     if (state.careMode) { careReply(userText); return; }
     if (navigator.onLine === false) { addBubble("info", t.noWebGPUOffline); return; }
@@ -1256,6 +1268,8 @@ async function send(forceSearch) {
   addBubble("user", userText);
   state.history.push({ role: "user", content: userText });
 
+  // 「AIと話したい」と書いたら、AIとの会話に戻る(この一言はAIに渡さない)
+  if (state.careMode && wantsAi(userText)) { backToAi(); return; }
   // つらい言葉が一度出たら、その会話はAIに作らせず、そよぎが前もって書いた言葉で返す(調べものもしない)
   if (startsCare(userText)) state.careMode = true;
   if (state.careMode) {
@@ -1391,6 +1405,7 @@ async function clearChat() {
   state.careMode = false;
   state.careCount = 0;
   delete state.careUsed.harm; // 次のつらい会話でも、harm の1回目は救急か警察へ
+  delete state.careUsed.notHeard; // 「聞いています」も次の会話でまた1回目に出す
   const log = $("log");
   if (log) for (const el of Array.from(log.querySelectorAll(".bubble"))) el.remove();
   show($("emptyChat"), true);

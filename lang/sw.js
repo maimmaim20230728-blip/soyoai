@@ -243,7 +243,8 @@ export default {
    "Samahani kwa kuwa ninaweza kutoa maneno yaliyopangwa tu. Katika mazungumzo haya, ili AI isiandike maneno yanayoweza kukuumiza, unapata maneno ambayo Soyogi iliandika mapema. Hii haimaanishi kwamba hisia zako zinachukuliwa kuwa jambo dogo. Ukitaka mazungumzo halisi na mtu, gusa «{open}» hapa chini ili kuona simu za msaada.",
    "Samahani kama hili halionekani kutosha. Maneno ninayoweza kutoa hapa ni machache. Wanaoweza kukusikiliza na kukujibu papo hapo ni watu walio kwenye simu za msaada. Unaweza kuchagua kupitia «{open}» au «{soudan}» hapa chini.",
    "Ni maumivu kuhisi kwamba hakuna anayeelewa. Ninachoweza kutoa hapa ni maneno ambayo Soyogi iliyaandaa mapema tu. Hata hivyo, si kosa lako. Ukitaka kuzungumza na mtu, gusa «{open}» hapa chini.",
-   "Kama una hasira, hiyo pia ni hisia muhimu. Unaweza kuiandika hapa kama ilivyo. Ukitaka kuhamia jambo lingine, gusa «{back}» hapa chini ili kurudi kuzungumza na AI."
+   "Kama una hasira, hiyo pia ni hisia muhimu. Unaweza kuiandika hapa kama ilivyo. Ukitaka kuhamia jambo lingine, gusa «{back}» hapa chini ili kurudi kuzungumza na AI.",
+   "Ninasikiliza. Lakini ninachoweza kujibu hapa ni maneno ambayo Soyogi iliyaandika mapema tu. Ukitaka kuzungumza na AI, gusa «{back}» hapa chini, au andika «Nataka kuzungumza na AI»."
   ],
   "cantCall": [
    "Ukipiga simu tena na tena na hakuna anayejibu, unajisikia mpweke zaidi. Hilo si kosa lako. Kila simu ya msaada ina saa zake za kazi. Unaweza kuona saa hizo chini ya «{open}» hapa chini. Subiri kidogo kisha jaribu kupiga tena.",
@@ -423,7 +424,11 @@ export default {
    "kipumbavu",
    "hunisikilizi",
    "nijibu",
-   "jibu vizuri"
+   "jibu vizuri",
+   "unanisikiliza",
+   "unanisikia",
+   "unasoma hii",
+   "unasoma ninachoandika"
   ],
   "cantCall": [
    "piga simu",
@@ -498,6 +503,18 @@ export default {
    "sina nguvu",
    "macho wazi",
    "nimeamka"
+  ],
+  "wantAi": [
+   "kuzungumza na ai",
+   "nizungumze na ai",
+   "kuongea na ai",
+   "niongee na ai",
+   "rudi kwa ai",
+   "kurudi kwa ai",
+   "tuzungumze jambo lingine",
+   "kuzungumza jambo lingine",
+   "tubadilishe mada",
+   "badilisha mada"
   ]
  }
 };

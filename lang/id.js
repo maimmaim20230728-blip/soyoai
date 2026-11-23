@@ -244,7 +244,8 @@ export default {
    "Maaf, saya hanya bisa memberi kata-kata yang sudah ditetapkan. Dalam percakapan ini, agar AI tidak menulis kata-kata yang bisa menyakiti Anda, Anda menerima kata-kata yang sudah ditulis Soyogi sebelumnya. Ini bukan berarti perasaan Anda dianggap enteng. Jika ingin berbicara langsung dengan seseorang, ketuk «{open}» di bawah untuk melihat layanan bantuan.",
    "Maaf jika ini terasa kurang. Kata-kata yang bisa saya berikan di sini terbatas. Yang bisa mendengarkan dan menjawab Anda saat itu juga adalah orang-orang di layanan bantuan. Anda bisa memilih dari «{open}» atau «{soudan}» di bawah.",
    "Rasanya menyakitkan jika merasa tidak ada yang mengerti. Yang bisa saya berikan di sini hanyalah kata-kata yang disiapkan Soyogi sebelumnya. Meski begitu, ini bukan salah Anda. Saat ingin berbicara dengan seseorang, ketuk «{open}» di bawah.",
-   "Jika Anda marah, itu juga perasaan yang penting. Anda boleh menuliskannya di sini apa adanya. Untuk beralih ke hal lain, ketuk «{back}» di bawah untuk kembali mengobrol dengan AI."
+   "Jika Anda marah, itu juga perasaan yang penting. Anda boleh menuliskannya di sini apa adanya. Untuk beralih ke hal lain, ketuk «{back}» di bawah untuk kembali mengobrol dengan AI.",
+   "Saya mendengarkan. Tetapi yang bisa saya balas di sini hanyalah kata-kata yang ditulis Soyogi sebelumnya. Jika ingin bicara dengan AI, ketuk «{back}» di bawah, atau tulis «Saya ingin bicara dengan AI»."
   ],
   "cantCall": [
    "Saat menelepon berkali-kali dan tidak ada yang menjawab, rasa sendiri jadi makin besar. Itu bukan salah Anda. Setiap layanan bantuan punya jam layanan sendiri. Anda bisa melihat jamnya di bawah «{open}». Tunggu sebentar, lalu coba telepon lagi.",
@@ -443,7 +444,12 @@ export default {
    "gak dengerin",
    "jawab dong",
    "jawab aku",
-   "terserah"
+   "terserah",
+   "kamu dengar aku",
+   "kamu mendengarkan",
+   "anda mendengarkan",
+   "kamu baca ini",
+   "dengerin aku"
   ],
   "cantCall": [
    "telepon",
@@ -545,6 +551,17 @@ export default {
    "letih",
    "kehabisan tenaga",
    "burnout"
+  ],
+  "wantAi": [
+   "bicara dengan ai",
+   "ngobrol dengan ai",
+   "ngobrol sama ai",
+   "bicara sama ai",
+   "mengobrol dengan ai",
+   "kembali ke ai",
+   "balik ke ai",
+   "bicara hal lain",
+   "ganti topik"
   ]
  }
 };
