@@ -218,6 +218,13 @@ export default {
   "Danke, dass du das hier schreibst. Vielleicht sind es Gefühle, die du niemandem sagen konntest. Sie in Worte zu fassen, ist kein kleiner Schritt. Wenn du dich an Menschen wenden möchtest, kannst du unten unter „{open}“ ein Hilfetelefon auswählen. Unter „{soudan}“ siehst du außerdem die Beratungsstelle von Soyogi."
  ],
  "careFollowups": {
+  "harm": [
+   "Deine Wut ist so stark geworden. Es muss etwas passiert sein, das dich so fühlen lässt. Aber bitte tu jetzt nichts. Wenn du etwas Gefährliches in der Hand hast, zum Beispiel ein Messer, lass es los und lege es ein Stück weiter weg. Wenn es jemanden gibt, dem du wehtun könntest, geh bitte auch von dem Ort weg, an dem diese Person ist.",
+   "Wenn du das Gefühl hast, dass du jemandem wehtun könntest, oder dir selbst, ruf bitte sofort die Notrufnummer deines Landes oder die Polizei an. Das ist nicht, um dir Vorwürfe zu machen. Es ist, um etwas aufzuhalten, das sich nicht mehr rückgängig machen lässt.",
+   "Wenn die Wut am stärksten ist, kann der Körper handeln, bevor wir denken. Bitte verlasse jetzt diesen Ort und atme langsam aus. Auch eine Welle starker Wut kann mit der Zeit nach und nach zurückgehen.",
+   "Vielleicht wurdest du so tief verletzt, dass du nicht verzeihen kannst. Es ist in Ordnung, diese Gefühle hier aufzuschreiben. Aber bitte setze sie nicht in die Tat um. Soyogi möchte nicht, dass dir oder irgendjemand anderem etwas geschieht, das sich nicht mehr rückgängig machen lässt.",
+   "Bitte lass einen Menschen hören, wie es dir jetzt geht. Tippe unten auf „{open}“, um Hilfetelefone zu sehen, die zuhören können. Wenn ein Leben oder die Sicherheit von jemandem in Gefahr ist, ruf bitte sofort die Notrufnummer oder die Polizei an."
+  ],
   "urgent": [
    "Wenn dein Leben jetzt in Gefahr ist, ruf bitte sofort die Notrufnummer deines Landes an. Wenn jemand in deiner Nähe ist, sprich bitte mit ihm. Wenn etwas Gefährliches in deiner Nähe ist, lege es bitte ein Stück weiter weg. Tippe unten auf „{open}“, um Hilfetelefone zu sehen, die zuhören können.",
    "Danke, dass du das schreibst. Wenn du dir schon etwas angetan hast, ruf bitte sofort die Notrufnummer an. Bitte warte nicht allein. Wenn nicht, entscheide bitte jetzt nichts und sprich unten unter „{open}“ mit jemandem bei einem Hilfetelefon.",
@@ -276,6 +283,38 @@ export default {
   ]
  },
  "careWords": {
+  "harm": [
+   "bringe ihn um",
+   "bringe sie um",
+   "bring ihn um",
+   "bring sie um",
+   "bringe dich um",
+   "töte ihn",
+   "töte sie",
+   "töte dich",
+   "ihn töten",
+   "sie töten",
+   "abstechen",
+   "erstechen",
+   "ersteche",
+   "zustechen",
+   "niederstechen",
+   "ein messer",
+   "das messer",
+   "mit dem messer",
+   "mit einem messer",
+   "küchenmesser",
+   "ihn schlagen",
+   "verprügel",
+   "zusammenschlagen",
+   "krankenhausreif",
+   "rächen",
+   "rache nehmen",
+   "meine rache",
+   "abfackeln",
+   "feuer legen",
+   "haus anzünden"
+  ],
   "urgent": [
    "jetzt gleich",
    "gleich ist schluss",

@@ -217,6 +217,13 @@ export default {
   "Terima kasih sudah menuliskannya di sini. Mungkin ini perasaan yang tidak bisa Anda ceritakan kepada siapa pun. Menuangkannya ke dalam kata-kata bukan langkah kecil. Saat ingin menghubungi orang lain, Anda bisa memilih layanan bantuan dari «{open}» di bawah. Anda juga bisa melihat layanan Soyogi sendiri dari «{soudan}» di bawah."
  ],
  "careFollowups": {
+  "harm": [
+   "Kemarahan Anda sudah sebesar ini. Pasti ada sesuatu yang terjadi sampai Anda merasa begini. Tetapi tolong jangan lakukan sekarang. Jika Anda memegang sesuatu yang berbahaya, seperti pisau, tolong lepaskan dan letakkan agak jauh. Jika ada orang yang mungkin Anda lukai, tolong menjauh dari tempat orang itu berada.",
+   "Jika Anda merasa mungkin akan melukai seseorang, atau melukai diri sendiri, tolong segera hubungi nomor darurat negara Anda atau polisi. Ini bukan untuk menyalahkan Anda. Ini untuk menghentikan sesuatu yang tidak bisa dibatalkan.",
+   "Saat amarah sedang paling kuat, tubuh bisa bergerak sebelum kita sempat berpikir. Sekarang, tolong tinggalkan tempat itu dan embuskan napas pelan-pelan. Gelombang amarah yang kuat pun bisa surut sedikit demi sedikit seiring waktu.",
+   "Mungkin Anda terluka begitu dalam sampai merasa tidak bisa memaafkan. Tidak apa-apa menuliskan perasaan itu di sini. Tetapi tolong jangan menjadikannya tindakan. Soyogi tidak ingin ada hal yang tidak bisa dibatalkan terjadi pada Anda maupun orang lain.",
+   "Tolong biarkan seseorang mendengar perasaan Anda sekarang. Ketuk «{open}» di bawah untuk melihat layanan bantuan yang bisa mendengarkan. Jika nyawa atau keselamatan seseorang dalam bahaya, tolong segera hubungi nomor darurat atau polisi."
+  ],
   "urgent": [
    "Jika nyawa Anda sedang dalam bahaya sekarang, tolong segera hubungi nomor darurat di negara Anda. Jika ada orang di dekat Anda, tolong bicaralah kepadanya. Jika ada benda berbahaya di dekat Anda, tolong letakkan sedikit lebih jauh. Ketuk «{open}» di bawah untuk melihat layanan bantuan yang bisa mendengarkan.",
    "Terima kasih sudah menuliskannya. Jika Anda sudah melakukan sesuatu untuk menyakiti diri sendiri, tolong segera hubungi nomor darurat. Tolong jangan menunggu sendirian. Jika belum, tolong jangan memutuskan apa pun sekarang, dan bicaralah dengan seseorang di layanan bantuan dari «{open}» di bawah.",
@@ -294,6 +301,25 @@ export default {
  "careBack": "Kembali mengobrol dengan AI",
  "careBackDone": "Anda kembali mengobrol dengan AI. Pesan-pesan sebelumnya tidak diteruskan ke AI. Jika Anda menulis tentang perasaan yang menyakitkan lagi, Anda akan menerima kata-kata yang disiapkan Soyogi.",
  "careWords": {
+  "harm": [
+   "bunuh",
+   "tikam",
+   "menusuk",
+   "nusuk",
+   "tusuk dia",
+   "pisau",
+   "golok",
+   "parang",
+   "celurit",
+   "dendam",
+   "pukul dia",
+   "hajar dia",
+   "habisi",
+   "bakar rumah",
+   "bakar dia",
+   "membakar rumah",
+   "gebuk"
+  ],
   "urgent": [
    "sekarang juga",
    "malam ini",

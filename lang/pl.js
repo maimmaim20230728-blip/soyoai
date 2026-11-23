@@ -218,6 +218,13 @@ export default {
   "Dziękuję, że to tu piszesz. Może to uczucia, których nikomu nie dało się powiedzieć. Ujęcie ich w słowa to niemały krok. Kiedy zechcesz sięgnąć do ludzi, możesz wybrać telefon pomocy w „{open}” poniżej. W „{soudan}” poniżej zobaczysz też punkt porad Soyogi."
  ],
  "careFollowups": {
+  "harm": [
+   "Twój gniew urósł aż tak bardzo. Musiało się wydarzyć coś, przez co tak się czujesz. Ale proszę, nie rób tego teraz. Jeśli trzymasz coś niebezpiecznego, na przykład nóż, puść to i odłóż trochę dalej. Jeśli jest ktoś, komu mogłaby się stać krzywda z twojego powodu, oddal się też od miejsca, w którym ta osoba jest.",
+   "Jeśli czujesz, że możesz zrobić komuś krzywdę albo sobie, zadzwoń od razu pod numer alarmowy w swoim kraju lub na policję. To nie po to, żeby cię obwiniać. To po to, żeby powstrzymać coś, czego nie da się cofnąć.",
+   "Gdy gniew jest najsilniejszy, ciało potrafi działać, zanim pomyślimy. Teraz proszę, wyjdź z tego miejsca i powoli wypuść powietrze. Nawet fala silnego gniewu może z czasem powoli się cofać.",
+   "Może zostało ci wyrządzone tak głębokie zło, że czujesz, że nie możesz wybaczyć. Możesz napisać te uczucia tutaj. Ale proszę, nie zamieniaj ich w czyny. Soyogi nie chce, żeby stało się coś, czego nie da się cofnąć, ani tobie, ani nikomu innemu.",
+   "Proszę, pozwól, żeby jakiś człowiek usłyszał, jak się teraz czujesz. Dotknij „{open}” poniżej, aby zobaczyć telefony pomocy, gdzie ktoś cię wysłucha. Jeśli życie lub bezpieczeństwo kogoś jest zagrożone, zadzwoń od razu pod numer alarmowy lub na policję."
+  ],
   "urgent": [
    "Jeśli twoje życie jest teraz w niebezpieczeństwie, zadzwoń od razu pod numer alarmowy w swoim kraju. Jeśli ktoś jest blisko, porozmawiaj z nim. Jeśli w pobliżu jest coś niebezpiecznego, odłóż to proszę trochę dalej. Dotknij „{open}” poniżej, aby zobaczyć telefony pomocy, gdzie ktoś cię wysłucha.",
    "Dziękuję, że to piszesz. Jeśli już stało się coś, co zraniło twoje ciało, zadzwoń od razu pod numer alarmowy. Nie czekaj w samotności. Jeśli jeszcze nie, nie decyduj teraz o niczym i porozmawiaj z kimś w telefonie pomocy z „{open}” poniżej.",
@@ -276,6 +283,37 @@ export default {
   ]
  },
  "careWords": {
+  "harm": [
+   "zabiję go",
+   "zabije go",
+   "zabiję ją",
+   "zabije ja",
+   "zabiję cię",
+   "zabije cie",
+   "zabić go",
+   "zabic go",
+   "zabić ją",
+   "zabić ich",
+   "zabiję ich",
+   "zabić kogoś",
+   "dźgnąć",
+   "dzgnac",
+   "dźgnę",
+   "nóż",
+   "nożem",
+   "nozem",
+   "pobiję",
+   "pobić go",
+   "uderzę go",
+   "uderzę ją",
+   "zemsta",
+   "zemścić",
+   "zemszczę",
+   "podpalę",
+   "podpalić",
+   "zrobić krzywdę",
+   "zrobię mu krzywdę"
+  ],
   "urgent": [
    "zaraz to zrobię",
    "dziś w nocy",

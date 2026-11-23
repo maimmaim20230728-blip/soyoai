@@ -1,7 +1,7 @@
 // Service Worker
 // 自分のファイルとライブラリだけを保存する。AIのデータ(WebLLM の保存先)と検索のリクエストには触らない。
 // 版を上げるときは config.js の VER と同じ値にする(_smoke.js が照合する)。
-const VER = "0.3.6";
+const VER = "0.3.7";
 const CACHE = "ai-app-" + VER;
 
 const FILES = [

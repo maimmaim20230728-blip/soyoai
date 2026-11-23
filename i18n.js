@@ -125,6 +125,13 @@ export const DICT = {
     ],
     // 続きの言葉は、書かれた言葉の様子で選ぶ(app.js careSituation・2026-11-24)
     careFollowups: {
+      "harm": [
+        "強い怒りが、ここまで来ているのですね。そう思うほどのことが、あったのだと思います。でも、いまは実行しないでください。刃物など危ないものは、手を離して、少し離れた場所に置いてください。傷つけてしまいそうな相手がいるなら、その場所からも離れてください。",
+        "誰かを傷つけてしまいそうなとき、自分を傷つけてしまいそうなときは、すぐにその国の救急か警察の番号に電話してください。あなたを責めるためではありません。取り返しのつかないことを止めるためです。",
+        "怒りがいちばん強いときは、考える前に体が動いてしまうことがあります。いまは、その場を離れて、息をゆっくり吐いてください。強い怒りの波も、時間がたつと少しずつ引いていくことがあります。",
+        "許せないと感じるほど、深く傷つけられたのかもしれません。その気持ちを、ここに書くのはかまいません。でも、行動にはしないでください。あなたにも、ほかの誰かにも、取り返しのつかないことが起きてほしくないと、そよぎは思っています。",
+        "いまの気持ちを、人に聞いてもらってください。下の「{open}」から、話を聞いてくれる窓口が見られます。命や安全が危ないときは、すぐに救急か警察の番号に電話してください。"
+      ],
       "urgent": [
         "いま、命が危ない状態なら、すぐにその国の救急の番号に電話してください。近くに人がいれば、声をかけてください。危ないものがそばにあれば、少しだけ離れた場所に置いてください。下の「{open}」から、話を聞いてくれる窓口が見られます。",
         "書いてくれて、ありがとうございます。もし、もう何かをしてしまったなら、すぐに救急の番号に電話してください。ひとりで待たないでください。まだなら、いまは決めないで、下の「{open}」から、窓口の人と話してください。",
@@ -184,6 +191,7 @@ export const DICT = {
     },
     // 様子を見分ける言葉(一部が合えば当たる・上から順: urgent が先)
     careWords: {
+      "harm": ["殺す","殺し","殺そう","殺せ","ころす","ころし","ぶっ殺","刺す","刺し","刺そう","ナイフ","包丁","刃物","殴る","殴っ","殴り","ぶん殴","復讐","仕返し","痛めつけ","道連れ","火をつけ","放火","やり返","ボコボコ"],
       "urgent": [
         "今から",
         "いまから",
@@ -518,6 +526,13 @@ export const DICT = {
     ],
     // 続きの言葉は、書かれた言葉の様子で選ぶ(app.js careSituation・2026-11-24)
     careFollowups: {
+      "harm": [
+        "Your anger has grown this strong. Something must have happened to make you feel this way. But please do not act on it now. If you are holding anything dangerous, like a knife, put it down and place it a little farther away. If there is someone you might hurt, please move away from where that person is.",
+        "If you feel you might hurt someone, or hurt yourself, please call your country's emergency number or the police right away. This is not to blame you. It is to stop something that cannot be undone.",
+        "When anger is at its strongest, the body can move before we think. Right now, please leave that place and breathe out slowly. Even a wave of strong anger can slowly pull back with time.",
+        "You may have been hurt so deeply that you feel you cannot forgive. It is okay to write those feelings here. But please do not act on them. Soyogi does not want anything that cannot be undone to happen to you or to anyone else.",
+        "Please let a person hear how you feel right now. Tap “{open}” below to see support lines that can listen. If a life or someone's safety is in danger, please call the emergency number or the police right away."
+      ],
       "urgent": [
         "If your life is in danger right now, please call your country's emergency number now. If someone is near you, please talk to them. If there is something dangerous close to you, please put it a little farther away. Tap “{open}” below to see support lines that can listen.",
         "Thank you for writing this. If you have already done something to hurt yourself, please call the emergency number right away. Please do not wait alone. If you have not, please do not decide anything now, and talk with someone at a support line from “{open}” below.",
@@ -577,6 +592,7 @@ export const DICT = {
     },
     // 様子を見分ける言葉(一部が合えば当たる・上から順: urgent が先)
     careWords: {
+      "harm": ["kill him","kill her","kill them","kill you","kill someone","kill somebody","kill everyone","kill that","gonna kill","going to kill","murder","stab","knife","beat him","beat her","beat them","beat up","hurt him","hurt her","hurt them","hurt someone","revenge","get back at","shoot","set fire","burn down"],
       "urgent": [
         "right now",
         "tonight",

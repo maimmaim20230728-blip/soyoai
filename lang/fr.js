@@ -218,6 +218,13 @@ export default {
   "Merci de l'avoir écrit ici. Ce sont peut-être des sentiments que vous n'avez pu dire à personne. Les mettre en mots n'est pas un petit pas. Quand vous voudrez aller vers d'autres personnes, vous pourrez choisir une ligne de soutien dans « {open} » ci-dessous. Vous pouvez aussi voir l'espace de Soyogi dans « {soudan} » ci-dessous."
  ],
  "careFollowups": {
+  "harm": [
+   "Votre colère est devenue très forte. Il a dû se passer quelque chose pour que vous ressentiez cela. Mais, s'il vous plaît, ne passez pas à l'acte maintenant. Si vous tenez quelque chose de dangereux, comme un couteau, lâchez-le et posez-le un peu plus loin. Si quelqu'un risque d'être blessé par vous, éloignez-vous aussi de l'endroit où se trouve cette personne.",
+   "Si vous sentez que vous pourriez faire du mal à quelqu'un, ou vous faire du mal, appelez tout de suite le numéro d'urgence de votre pays ou la police. Ce n'est pas pour vous blâmer. C'est pour arrêter quelque chose qui ne pourrait pas être réparé.",
+   "Quand la colère est à son plus fort, le corps peut agir avant que l'on pense. En ce moment, s'il vous plaît, quittez cet endroit et expirez lentement. Même une vague de colère très forte peut se retirer peu à peu avec le temps.",
+   "Vous avez peut-être subi une blessure si profonde que vous sentez ne pas pouvoir pardonner. Vous pouvez écrire ces sentiments ici. Mais, s'il vous plaît, ne les transformez pas en actes. Soyogi ne veut pas qu'il arrive quelque chose d'irréparable, ni à vous ni à personne d'autre.",
+   "S'il vous plaît, laissez une personne entendre ce que vous ressentez maintenant. Touchez « {open} » ci-dessous pour voir des lignes de soutien qui peuvent écouter. Si une vie ou la sécurité de quelqu'un est en danger, appelez tout de suite le numéro d'urgence ou la police."
+  ],
   "urgent": [
    "Si votre vie est en danger en ce moment, appelez tout de suite le numéro d'urgence de votre pays. Si quelqu'un est près de vous, parlez-lui. S'il y a quelque chose de dangereux près de vous, éloignez-le un peu. Touchez « {open} » ci-dessous pour voir des lignes de soutien qui peuvent écouter.",
    "Merci de l'avoir écrit. Si vous avez déjà fait quelque chose pour vous faire du mal, appelez tout de suite le numéro d'urgence. Ne restez pas à attendre sans personne près de vous. Si ce n'est pas le cas, ne décidez rien maintenant et parlez avec quelqu'un d'une ligne de soutien dans « {open} » ci-dessous.",
@@ -295,6 +302,29 @@ export default {
  "careBack": "Retourner discuter avec l'IA",
  "careBackDone": "Vous retrouvez la conversation avec l'IA. Les messages d'avant n'ont pas été transmis à l'IA. Si vous parlez de nouveau de sentiments douloureux, vous recevrez les mots que Soyogi a préparés.",
  "careWords": {
+  "harm": [
+   "vais tuer",
+   "veux tuer",
+   "le tuer",
+   "la tuer",
+   "les tuer",
+   "je vais le buter",
+   "poignard",
+   "couteau",
+   "le frapper",
+   "la frapper",
+   "vais frapper",
+   "vengeance",
+   "me venger",
+   "se venger",
+   "faire du mal à",
+   "tabasser",
+   "massacrer",
+   "il va payer",
+   "elle va payer",
+   "le paiera",
+   "mettre le feu"
+  ],
   "urgent": [
    "tout de suite",
    "ce soir",

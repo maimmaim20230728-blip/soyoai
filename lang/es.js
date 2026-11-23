@@ -217,6 +217,13 @@ export default {
   "Gracias por escribirlo aquí. Puede que sean sentimientos que no pudiste contar a nadie. Ponerlos en palabras no es un paso pequeño. Cuando quieras acercarte a otras personas, puedes elegir una línea de ayuda en «{open}» abajo. También puedes ver el espacio propio de Soyogi en «{soudan}» abajo."
  ],
  "careFollowups": {
+  "harm": [
+   "Tu enojo ha llegado a ser muy fuerte. Debe de haber pasado algo para que sientas esto. Pero, por favor, no lo hagas ahora. Si tienes algo peligroso en la mano, como un cuchillo, suéltalo y déjalo un poco lejos. Si hay alguien a quien podrías hacer daño, aléjate también del lugar donde está.",
+   "Si sientes que podrías hacer daño a alguien, o hacerte daño a ti, llama ahora mismo al número de emergencias de tu país o a la policía. No es para culparte. Es para detener algo que no tiene vuelta atrás.",
+   "Cuando el enojo es más fuerte, el cuerpo puede moverse antes de pensar. Ahora, por favor, sal de ese lugar y suelta el aire despacio. Incluso una ola de enojo muy fuerte puede ir retirándose poco a poco con el tiempo.",
+   "Quizá te hicieron tanto daño que sientes que no puedes perdonar. Está bien escribir aquí esos sentimientos. Pero, por favor, no los lleves a la acción. Soyogi no quiere que ocurra nada irreparable, ni a ti ni a nadie más.",
+   "Por favor, deja que una persona escuche cómo te sientes ahora. Toca «{open}» abajo para ver líneas de ayuda que pueden escuchar. Si una vida o la seguridad de alguien está en peligro, llama ya al número de emergencias o a la policía."
+  ],
   "urgent": [
    "Si tu vida está en peligro ahora mismo, llama ya al número de emergencias de tu país. Si hay alguien cerca, habla con esa persona. Si hay algo peligroso a tu lado, aléjalo un poco. Toca «{open}» abajo para ver líneas de ayuda que pueden escuchar.",
    "Gracias por escribirlo. Si ya has hecho algo para hacerte daño, llama de inmediato al número de emergencias. Por favor, no esperes sin nadie a tu lado. Si no lo has hecho, por favor no decidas nada ahora y habla con alguien de una línea de ayuda desde «{open}» abajo.",
@@ -292,6 +299,33 @@ export default {
  "careBack": "Volver a hablar con la IA",
  "careBackDone": "Has vuelto a hablar con la IA. Los mensajes de antes no se le pasaron a la IA. Si vuelves a escribir sobre sentimientos dolorosos, recibirás las palabras que Soyogi preparó.",
  "careWords": {
+  "harm": [
+   "matar a",
+   "voy a matar",
+   "lo mato",
+   "la mato",
+   "te mato",
+   "los mato",
+   "matarlo",
+   "matarla",
+   "matarte",
+   "apuñal",
+   "acuchill",
+   "cuchillo",
+   "navaja",
+   "vengarme",
+   "venganza",
+   "vengar",
+   "me las va a pagar",
+   "me las pagará",
+   "le pego",
+   "golpearlo",
+   "golpearla",
+   "hacerle daño",
+   "hacerles daño",
+   "prenderle fuego",
+   "quemar la casa"
+  ],
   "urgent": [
    "ahora mismo",
    "esta noche",

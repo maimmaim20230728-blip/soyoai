@@ -216,6 +216,13 @@ export default {
   "Bunu buraya yazdığınız için teşekkür ederim. Belki kimseye anlatamadığınız duygulardı. Onları söze dökmek küçük bir adım değil. İnsanlara ulaşmak istediğinizde aşağıdaki «{open}» düğmesinden bir destek hattı seçebilirsiniz. Aşağıdaki «{soudan}» bağlantısından Soyogi'nin kendi danışma noktasını da görebilirsiniz."
  ],
  "careFollowups": {
+  "harm": [
+   "Öfkeniz bu kadar büyümüş. Sizi böyle hissettirecek bir şey yaşanmış olmalı. Ama lütfen şimdi bunu yapmayın. Elinizde bıçak gibi tehlikeli bir şey varsa lütfen bırakın ve biraz uzağa koyun. Zarar verebileceğinizi düşündüğünüz biri varsa lütfen onun bulunduğu yerden de uzaklaşın.",
+   "Birine zarar verebileceğinizi ya da kendinize zarar verebileceğinizi hissediyorsanız lütfen hemen ülkenizin acil durum numarasını ya da polisi arayın. Bu sizi suçlamak için değil. Geri alınamayacak bir şeyi durdurmak için.",
+   "Öfke en yoğun olduğunda beden, düşünmeden önce hareket edebilir. Şimdi lütfen o yerden uzaklaşın ve nefesinizi yavaşça verin. Güçlü bir öfke dalgası bile zamanla yavaş yavaş çekilebilir.",
+   "Affedemeyeceğinizi hissedecek kadar derin yaralanmış olabilirsiniz. Bu duyguları buraya yazmanızda bir sakınca yok. Ama lütfen bunları eyleme dökmeyin. Soyogi, size ya da bir başkasına geri alınamayacak bir şey olmasını istemiyor.",
+   "Lütfen şu anki duygularınızı bir insanın dinlemesine izin verin. Sizi dinleyebilecek destek hatlarını görmek için aşağıdaki «{open}» düğmesine dokunun. Bir can ya da birinin güvenliği tehlikedeyse lütfen hemen acil durum numarasını ya da polisi arayın."
+  ],
   "urgent": [
    "Şu anda hayatınız tehlikedeyse lütfen hemen ülkenizin acil durum numarasını arayın. Yanınızda biri varsa lütfen onunla konuşun. Yakınınızda tehlikeli bir şey varsa lütfen biraz daha uzağa koyun. Sizi dinleyen destek hatlarını görmek için aşağıdaki «{open}» düğmesine dokunun.",
    "Bunu yazdığınız için teşekkür ederim. Kendinize zarar verecek bir şey yaptıysanız lütfen hemen acil durum numarasını arayın. Lütfen tek başınıza beklemeyin. Yapmadıysanız lütfen şu an hiçbir şeye karar vermeyin ve aşağıdaki «{open}» düğmesinden bir destek hattındaki biriyle konuşun.",
@@ -293,6 +300,30 @@ export default {
  "careBack": "Yapay zekayla sohbete dön",
  "careBackDone": "Yapay zekayla sohbete döndünüz. Önceki mesajlar yapay zekaya iletilmedi. Acı veren duyguları yeniden yazarsanız, Soyogi'nin hazırladığı sözleri alırsınız.",
  "careWords": {
+  "harm": [
+   "öldüreceğ",
+   "öldüreyim",
+   "öldürürüm",
+   "öldürcem",
+   "öldürücem",
+   "öldürmek istiyorum",
+   "öldürmek istiyom",
+   "geberteceğ",
+   "gebertir",
+   "bıçakla",
+   "bıçaklay",
+   "bıçak",
+   "bicak",
+   "bıçağ",
+   "döveceğ",
+   "döverim",
+   "dövmek istiyorum",
+   "intikam",
+   "öcünü",
+   "ateşe vereceğ",
+   "evi yakar",
+   "yakıp yık"
+  ],
   "urgent": [
    "şimdi",
    "simdi",

@@ -217,6 +217,13 @@ export default {
   "Grazie per averlo scritto qui. Forse sono sentimenti che non hai potuto dire a nessuno. Metterli in parole non è un piccolo passo. Quando vorrai metterti in contatto con altre persone, puoi scegliere una linea di aiuto da «{open}» qui sotto. Puoi anche vedere lo sportello di Soyogi da «{soudan}» qui sotto."
  ],
  "careFollowups": {
+  "harm": [
+   "La tua rabbia è diventata molto forte. Dev'essere successo qualcosa che ti ha fatto sentire così. Ma, per favore, non agire adesso. Se hai in mano qualcosa di pericoloso, come un coltello, lascialo e mettilo un po' più lontano. Se c'è qualcuno a cui potresti fare del male, allontanati anche dal posto in cui si trova.",
+   "Se senti di poter fare del male a qualcuno, o di poterti fare del male, chiama subito il numero di emergenza del tuo paese o la polizia. Non è per darti la colpa. È per fermare qualcosa che non si può riparare.",
+   "Quando la rabbia è al suo massimo, il corpo può muoversi prima di pensare. Adesso, per favore, esci da quel posto ed espira lentamente. Anche un'ondata di rabbia molto forte può ritirarsi un po' alla volta con il tempo.",
+   "Forse ti hanno ferito così a fondo da non riuscire a perdonare. Va bene scrivere qui questi sentimenti. Ma, per favore, non trasformarli in azioni. Soyogi non vuole che accada nulla di irreparabile, né a te né a nessun altro.",
+   "Per favore, lascia che una persona ascolti come ti senti adesso. Tocca «{open}» qui sotto per vedere linee di aiuto che possono ascoltare. Se una vita o la sicurezza di qualcuno è in pericolo, chiama subito il numero di emergenza o la polizia."
+  ],
   "urgent": [
    "Se la tua vita è in pericolo adesso, chiama subito il numero di emergenza del tuo paese. Se c'è qualcuno vicino a te, parlagli. Se c'è qualcosa di pericoloso vicino a te, allontanalo un po'. Tocca «{open}» qui sotto per vedere linee di aiuto che possono ascoltare.",
    "Grazie per averlo scritto. Se hai già fatto qualcosa per farti del male, chiama subito il numero di emergenza. Ti prego, non aspettare senza nessuno vicino. Se non l'hai fatto, ti prego, non decidere niente adesso e parla con qualcuno di una linea di aiuto da «{open}» qui sotto.",
@@ -292,6 +299,36 @@ export default {
  "careBack": "Torna a chattare con l'IA",
  "careBackDone": "Ora puoi di nuovo chattare con l'IA. I messaggi di prima non sono stati passati all'IA. Se scrivi di nuovo di sentimenti dolorosi, riceverai le parole che Soyogi ha preparato.",
  "careWords": {
+  "harm": [
+   "lo ammazzo",
+   "la ammazzo",
+   "ti ammazzo",
+   "li ammazzo",
+   "ammazzarlo",
+   "ammazzarla",
+   "ammazzarti",
+   "uccidere",
+   "lo uccido",
+   "la uccido",
+   "ti uccido",
+   "accoltell",
+   "pugnal",
+   "coltello",
+   "lo picchio",
+   "la picchio",
+   "picchiarlo",
+   "picchiarla",
+   "fargli del male",
+   "farle del male",
+   "fare del male a",
+   "vendetta",
+   "vendicar",
+   "mi vendico",
+   "dare fuoco",
+   "dargli fuoco",
+   "la pagherà",
+   "lo faccio fuori"
+  ],
   "urgent": [
    "stanotte",
    "stasera",

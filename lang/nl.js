@@ -218,6 +218,13 @@ export default {
   "Dank je dat je dit hier schrijft. Misschien zijn het gevoelens die je aan niemand kon vertellen. Ze in woorden zetten is geen kleine stap. Wil je contact met mensen, dan kun je hieronder bij „{open}” een hulplijn kiezen. Bij „{soudan}” hieronder zie je ook het adviespunt van Soyogi."
  ],
  "careFollowups": {
+  "harm": [
+   "Je woede is heel sterk geworden. Er moet iets gebeurd zijn waardoor je je zo voelt. Maar doe nu alsjeblieft niets. Heb je iets gevaarlijks vast, zoals een mes, laat het dan los en leg het een stukje verder weg. Is er iemand aan wie je iets zou kunnen aandoen, ga dan ook weg van de plek waar die persoon is.",
+   "Heb je het gevoel dat je iemand pijn zou kunnen doen, of jezelf, bel dan meteen het noodnummer van je land of de politie. Dit is niet om je de schuld te geven. Het is om iets te stoppen dat niet meer terug te draaien is.",
+   "Als de woede op haar sterkst is, kan het lichaam bewegen voordat we nadenken. Ga nu alsjeblieft weg van die plek en adem langzaam uit. Zelfs een golf van sterke woede kan na verloop van tijd langzaam wegtrekken.",
+   "Misschien ben je zo diep gekwetst dat je niet kunt vergeven. Het is goed om die gevoelens hier op te schrijven. Maar doe er alsjeblieft niets mee. Soyogi wil niet dat jou of iemand anders iets overkomt dat niet meer goed te maken is.",
+   "Laat alsjeblieft een mens horen hoe je je nu voelt. Tik hieronder op „{open}” om hulplijnen te zien die kunnen luisteren. Is er een leven of de veiligheid van iemand in gevaar, bel dan meteen het noodnummer of de politie."
+  ],
   "urgent": [
    "Is je leven nu in gevaar, bel dan meteen het noodnummer van je land. Is er iemand in de buurt, praat dan met die persoon. Ligt er iets gevaarlijks dicht bij je, leg het dan een stukje verder weg. Tik hieronder op „{open}” om hulplijnen te zien die kunnen luisteren.",
    "Dank je dat je dit schrijft. Als je jezelf al iets hebt aangedaan, bel dan meteen het noodnummer. Wacht alsjeblieft niet alleen. Als je dat nog niet hebt gedaan, beslis dan nu niets en praat met iemand bij een hulplijn via „{open}” hieronder.",
@@ -276,6 +283,36 @@ export default {
   ]
  },
  "careWords": {
+  "harm": [
+   "vermoord hem",
+   "vermoord haar",
+   "vermoord je",
+   "ga hem vermoorden",
+   "ga haar vermoorden",
+   "iemand vermoorden",
+   "doodmaken",
+   "dood maken",
+   "maak hem dood",
+   "maak haar dood",
+   "maak je dood",
+   "neersteken",
+   "steek hem",
+   "steek haar",
+   "een mes",
+   "het mes",
+   "mijn mes",
+   "keukenmes",
+   "met een mes",
+   "hem slaan",
+   "haar slaan",
+   "in elkaar slaan",
+   "hem pijn doen",
+   "haar pijn doen",
+   "iemand pijn doen",
+   "wraak",
+   "wreken",
+   "in brand steken"
+  ],
   "urgent": [
    "nu meteen",
    "vanavond",

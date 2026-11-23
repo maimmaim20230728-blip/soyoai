@@ -216,6 +216,13 @@ export default {
   "Asante kwa kuandika hili hapa. Huenda ni hisia ambazo hukuweza kumwambia mtu yeyote. Kuziweka kwa maneno si hatua ndogo. Ukitaka kuwasiliana na watu, unaweza kuchagua simu ya msaada kwenye «{open}» hapa chini. Unaweza pia kuona dawati la Soyogi lenyewe kupitia «{soudan}» hapa chini."
  ],
  "careFollowups": {
+  "harm": [
+   "Hasira yako imefika kiwango hiki. Lazima kuna kitu kilichotokea hadi ukajisikia hivi. Lakini tafadhali usifanye kitu sasa. Kama umeshika kitu hatari, kama kisu, tafadhali kiachie na ukiweke mbali kidogo. Kama kuna mtu unayeweza kumdhuru, tafadhali ondoka mahali alipo.",
+   "Kama unahisi unaweza kumdhuru mtu, au kujidhuru, tafadhali piga namba ya dharura ya nchi yako au polisi mara moja. Hii si kukulaumu. Ni kuzuia jambo lisiloweza kurekebishwa.",
+   "Hasira inapokuwa kali zaidi, mwili unaweza kusogea kabla hatujafikiri. Sasa hivi, tafadhali ondoka mahali hapo na upumue nje polepole. Hata wimbi kali la hasira linaweza kupungua polepole kadiri muda unavyopita.",
+   "Huenda umeumizwa sana hadi unahisi huwezi kusamehe. Ni sawa kuandika hisia hizo hapa. Lakini tafadhali usizitende. Soyogi hataki jambo lisiloweza kurekebishwa litokee kwako wala kwa mtu mwingine yeyote.",
+   "Tafadhali mruhusu mtu asikie unavyohisi sasa hivi. Gusa «{open}» hapa chini ili kuona simu za msaada zinazoweza kusikiliza. Kama maisha au usalama wa mtu uko hatarini, tafadhali piga namba ya dharura au polisi mara moja."
+  ],
   "urgent": [
    "Kama maisha yako yako hatarini sasa hivi, tafadhali piga namba ya dharura ya nchi yako mara moja. Kama kuna mtu karibu nawe, tafadhali zungumza naye. Kama kuna kitu hatari karibu nawe, tafadhali kiweke mbali kidogo. Gusa «{open}» hapa chini ili kuona simu za msaada zinazoweza kusikiliza.",
    "Asante kwa kuandika hili. Kama tayari umefanya kitu cha kujidhuru, tafadhali piga namba ya dharura mara moja. Tafadhali usisubiri peke yako. Kama bado, tafadhali usiamue chochote sasa, na zungumza na mtu katika simu ya msaada kupitia «{open}» hapa chini.",
@@ -294,6 +301,28 @@ export default {
  "careBack": "Rudi kuzungumza na AI",
  "careBackDone": "Umerudi kuzungumza na AI. Ujumbe wa awali haukupitishwa kwa AI. Ukiandika tena kuhusu hisia zenye maumivu, utapata maneno ambayo Soyogi iliyaandaa.",
  "careWords": {
+  "harm": [
+   "nitamuua",
+   "nitamwua",
+   "nitakuua",
+   "nitawaua",
+   "kumuua",
+   "kumwua",
+   "kuwaua",
+   "nimuue",
+   "nataka kuua",
+   "nitaua",
+   "kisu",
+   "kumchoma",
+   "nitamchoma",
+   "nitampiga",
+   "kumpiga",
+   "nimpige",
+   "kisasi",
+   "nitamdhuru",
+   "kumdhuru",
+   "kuchoma moto"
+  ],
   "urgent": [
    "sasa hivi",
    "usiku huu",

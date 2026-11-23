@@ -522,25 +522,35 @@ function closeReport() {
   try { if (dlg && dlg.open) dlg.close(); } catch (e) { /* なし */ }
 }
 
+function crisisList() {
+  return (state.t.crisisWords || []).concat(DICT.en.crisisWords, DICT.ja.crisisWords);
+}
 function isCrisisText(s) {
-  return needsCrisisCard(s, (state.t.crisisWords || []).concat(DICT.en.crisisWords, DICT.ja.crisisWords));
+  return needsCrisisCard(s, crisisList());
 }
 
 // 書かれた言葉から、いまの様子を見分ける(2026-11-24 ヒロさん「状況に合わせて」)。
-// 上から順に見る。急ぎ(いま危ない)がいちばん先。「おやすみ」「ありがとう」は、つらい言葉が入っていないときだけ。
-const CARE_ORDER = ["urgent", "sleep", "calm", "notHeard", "cantCall", "selfBlame", "alone", "night"];
-export function careSituation(text, words, crisis, hour) {
+// 上から順に見る。誰かや自分を傷つけそう(刃物・殺す・刺す)と、急ぎ(いま危ない)がいちばん先(2026-11-24 ヒロさんの画面で「ナイフで刺してくる」に毛布の言葉が出た)。「おやすみ」「ありがとう」は、つらい言葉が入っていないときだけ。
+const CARE_ORDER = ["harm", "urgent", "sleep", "calm", "notHeard", "cantCall", "selfBlame", "alone", "night"];
+// harm は、つらい言葉(「自殺」など)を除いた文で見る(「自殺したい」の「殺し」で harm にしない)。
+export function careSituation(text, words, crisis, hour, crisisWords) {
   const s = String(text || "").toLowerCase();
+  let rest = s;
+  for (const w of crisisWords || []) if (w) rest = rest.split(String(w).toLowerCase()).join(" ");
   for (const k of CARE_ORDER) {
     if ((k === "sleep" || k === "calm") && crisis) continue;
-    if (needsCrisisCard(s, words(k))) return k;
+    if (needsCrisisCard(k === "harm" ? rest : s, words(k))) return k;
   }
   return hour >= 22 || hour < 5 ? "nightClock" : "general";
 }
 
 // 同じ言葉が続かないように、まだ出していない言葉から選ぶ。全部出したら、直前の1つを除いて選び直す。
+// 誰かを傷つけそうな様子(harm)は、1回目に「救急か警察へ」(1)、2回目に「刃物を置いて離れて」(0)を必ず出す。そのあとは選ぶ。
+const CARE_FIRST = { harm: [1, 0] };
 function pickCare(key, list) {
   const used = (state.careUsed[key] = state.careUsed[key] || []);
+  const fixed = (CARE_FIRST[key] || []).find((i) => i < list.length && !used.includes(i));
+  if (fixed !== undefined) { used.push(fixed); return list[fixed]; }
   let free = list.map((_, i) => i).filter((i) => !used.includes(i));
   if (!free.length) {
     const last = used[used.length - 1];
@@ -558,14 +568,14 @@ function careWordsOf(k) {
 }
 
 // そよぎが前もって書いた言葉を出す(AIは使わない)。1回目は careReplies から、続きは様子に合わせて careFollowups から。
-// いま危ない様子のときは、1回目でも urgent(救急の番号へ)を出す。
+// いま危ない様子・誰かを傷つけそうな様子のときは、1回目でも urgent / harm(救急や警察の番号へ)を出す。
 function careReply(text) {
   const t = state.t;
   const first = !state.careCount;
   const f = t.careFollowups || {};
-  let key = careSituation(text, careWordsOf, isCrisisText(text), new Date().getHours());
+  let key = careSituation(text, careWordsOf, isCrisisText(text), new Date().getHours(), crisisList());
   if (key === "nightClock") key = (f.night || []).some((_, i) => !(state.careUsed.night || []).includes(i)) ? "night" : "general";
-  if (first && key !== "urgent") key = "first";
+  if (first && key !== "urgent" && key !== "harm") key = "first";
   const list = key === "first" ? t.careReplies : f[key] && f[key].length ? f[key] : f.general;
   state.careCount = (state.careCount || 0) + 1;
   const answer = fmt(pickCare(key, list), { open: t.crisisOpen, soudan: t.careSoudan, back: t.careBack });
@@ -626,6 +636,7 @@ function addCrisisCard(div, buttonOnly) {
 function backToAi() {
   state.careMode = false;
   state.careCount = 0;
+  delete state.careUsed.harm; // 次のつらい会話でも、harm の1回目は救急か警察へ
   state.history = [];
   if (state.engine) Promise.resolve().then(() => state.engine.resetChat()).catch(() => { /* なし */ });
   for (const old of Array.from(document.querySelectorAll(".careback"))) old.remove();
@@ -1369,6 +1380,7 @@ async function clearChat() {
   state.history = [];
   state.careMode = false;
   state.careCount = 0;
+  delete state.careUsed.harm; // 次のつらい会話でも、harm の1回目は救急か警察へ
   const log = $("log");
   if (log) for (const el of Array.from(log.querySelectorAll(".bubble"))) el.remove();
   show($("emptyChat"), true);

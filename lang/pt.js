@@ -217,6 +217,13 @@ export default {
   "Obrigado por escrever isto aqui. Podem ser sentimentos que você não conseguiu contar a ninguém. Colocá-los em palavras não é um passo pequeno. Quando quiser procurar outras pessoas, pode escolher uma linha de apoio em «{open}» aqui embaixo. Você também pode ver o atendimento da própria Soyogi em «{soudan}» aqui embaixo."
  ],
  "careFollowups": {
+  "harm": [
+   "A sua raiva ficou muito forte. Deve ter acontecido algo para você se sentir assim. Mas, por favor, não faça nada agora. Se você estiver com algo perigoso na mão, como uma faca, solte e deixe um pouco longe. Se houver alguém que você poderia machucar, afaste-se também do lugar onde essa pessoa está.",
+   "Se você sentir que pode machucar alguém, ou se machucar, ligue agora mesmo para o número de emergência do seu país ou para a polícia. Não é para culpar você. É para impedir algo que não tem volta.",
+   "Quando a raiva está mais forte, o corpo pode se mover antes de pensarmos. Agora, por favor, saia desse lugar e solte o ar devagar. Até uma onda de raiva muito forte pode ir diminuindo aos poucos com o tempo.",
+   "Talvez tenham machucado você tão fundo que parece impossível perdoar. Não há problema em escrever esses sentimentos aqui. Mas, por favor, não os transforme em ação. A Soyogi não quer que aconteça nada sem volta, nem com você nem com ninguém.",
+   "Por favor, deixe uma pessoa ouvir como você se sente agora. Toque em «{open}» aqui embaixo para ver linhas de apoio que podem escutar. Se uma vida ou a segurança de alguém estiver em perigo, ligue já para o número de emergência ou para a polícia."
+  ],
   "urgent": [
    "Se a sua vida está em perigo agora, ligue já para o número de emergência do seu país. Se houver alguém por perto, fale com essa pessoa. Se houver algo perigoso perto de você, afaste um pouco. Toque em «{open}» aqui embaixo para ver linhas de apoio que podem escutar.",
    "Obrigado por escrever isto. Se você já fez algo para se machucar, ligue agora para o número de emergência. Por favor, não fique esperando sem ninguém por perto. Se ainda não fez, por favor, não decida nada agora e fale com alguém de uma linha de apoio em «{open}» aqui embaixo.",
@@ -293,6 +300,36 @@ export default {
  "careBack": "Voltar a conversar com a IA",
  "careBackDone": "Você voltou a conversar com a IA. As mensagens de antes não foram passadas para a IA. Se você escrever de novo sobre sentimentos dolorosos, vai receber as palavras que a Soyogi preparou.",
  "careWords": {
+  "harm": [
+   "matar ele",
+   "matar ela",
+   "matá-lo",
+   "matá-la",
+   "matar alguém",
+   "matar todos",
+   "vou matar",
+   "vou acabar com ele",
+   "vou acabar com ela",
+   "esfaquear",
+   "esfaque",
+   "apunhal",
+   "faca",
+   "facão",
+   "canivete",
+   "bater nele",
+   "bater nela",
+   "vou machucar",
+   "machucar ele",
+   "machucar ela",
+   "machucá-lo",
+   "machucá-la",
+   "vingança",
+   "vingar",
+   "vão pagar",
+   "vai pagar",
+   "tocar fogo",
+   "botar fogo"
+  ],
   "urgent": [
    "agora mesmo",
    "hoje a noite",
