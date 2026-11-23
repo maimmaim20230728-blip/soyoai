@@ -557,7 +557,7 @@ export function careSituation(text, words, crisis, hour, crisisWords) {
   let rest = s;
   for (const w of crisisWords || []) if (w) rest = rest.split(String(w).toLowerCase()).join(" ");
   // 心中・一緒に死ぬ言葉は、つらい言葉を除く前の文で見る(「一緒に死にたい」の「死にたい」で消えないように・2026-11-24 ヒロさんの画面で「心中する」「息子と一緒に逝く」にふつうの言葉が出た)
-  if (needsCrisisCard(s, words("together") || [])) return "harm";
+  if (needsCrisisCard(s, words("together") || [])) return "together";
   for (const k of CARE_ORDER) {
     if ((k === "sleep" || k === "calm") && crisis) continue;
     if (needsCrisisCard(k === "harm" ? rest : s, k === "harm" ? words("harm").concat(words("harmStart")) : words(k))) return k;
@@ -569,6 +569,7 @@ export function careSituation(text, words, crisis, hour, crisisWords) {
 // 誰かを傷つけそうな様子(harm)は、1回目に「救急か警察へ」(1)、2回目に「刃物を置いて離れて」(0)を必ず出す。そのあとは選ぶ。
 // 「聞いてくれてる？」のような問いには、1回目に「聞いています。…AIと話したいときは」(4)を出す。
 const CARE_FIRST = { harm: [1, 0], notHeard: [4] };
+const TOGETHER_ORDER = [1, 4];
 function pickCare(key, list) {
   const used = (state.careUsed[key] = state.careUsed[key] || []);
   const fixed = (CARE_FIRST[key] || []).find((i) => i < list.length && !used.includes(i));
@@ -597,10 +598,20 @@ function careReply(text) {
   const f = t.careFollowups || {};
   let key = careSituation(text, careWordsOf, isCrisisText(text), new Date().getHours(), crisisList());
   if (key === "nightClock") key = (f.night || []).some((_, i) => !(state.careUsed.night || []).includes(i)) ? "night" : "general";
-  if (first && key !== "urgent" && key !== "harm") key = "first";
-  const list = key === "first" ? t.careReplies : f[key] && f[key].length ? f[key] : f.general;
+  if (first && key !== "urgent" && key !== "harm" && key !== "together") key = "first";
   state.careCount = (state.careCount || 0) + 1;
-  const answer = fmt(pickCare(key, list), { open: t.crisisOpen, soudan: t.careSoudan, back: t.careBack });
+  let raw;
+  if (key === "together") {
+    // 心中・一緒に死ぬ言葉: 1回目は「救急か警察へ」(harm の 1)、2回目は「気持ちを人に聞いてもらって…救急か警察へ」(harm の 4)。
+    // 怒りの言葉(harm の 0・2・3)は出さない。心中は怒りより、追いつめられた気持ちから出ることが多いため(2026-11-24)。そのあとは general から。
+    const u = (state.careUsed.together = state.careUsed.together || []);
+    const i = TOGETHER_ORDER.find((x) => !u.includes(x) && (f.harm || [])[x]);
+    if (i !== undefined) { u.push(i); raw = f.harm[i]; } else raw = pickCare("general", f.general);
+  } else {
+    const list = key === "first" ? t.careReplies : f[key] && f[key].length ? f[key] : f.general;
+    raw = pickCare(key, list);
+  }
+  const answer = fmt(raw, { open: t.crisisOpen, soudan: t.careSoudan, back: t.careBack });
   const b = addBubble("care", answer);
   b.div.setAttribute("data-care", key);
   if (first) {
@@ -660,6 +671,7 @@ function backToAi() {
   state.careCount = 0;
   delete state.careUsed.harm; // 次のつらい会話でも、harm の1回目は救急か警察へ
   delete state.careUsed.notHeard; // 「聞いています」も次の会話でまた1回目に出す
+  delete state.careUsed.together; // 心中の言葉も次の会話でまた「救急か警察へ」から
   state.history = [];
   if (state.engine) Promise.resolve().then(() => state.engine.resetChat()).catch(() => { /* なし */ });
   for (const old of Array.from(document.querySelectorAll(".careback"))) old.remove();
@@ -1408,6 +1420,7 @@ async function clearChat() {
   state.careCount = 0;
   delete state.careUsed.harm; // 次のつらい会話でも、harm の1回目は救急か警察へ
   delete state.careUsed.notHeard; // 「聞いています」も次の会話でまた1回目に出す
+  delete state.careUsed.together; // 心中の言葉も次の会話でまた「救急か警察へ」から
   const log = $("log");
   if (log) for (const el of Array.from(log.querySelectorAll(".bubble"))) el.remove();
   show($("emptyChat"), true);
