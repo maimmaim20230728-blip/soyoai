@@ -174,6 +174,19 @@ export default {
  ],
  "crisisCard": "Danke, dass du mir sagst, wie es dir geht. Wir zeigen dir Hilfetelefone, die zuhören, für jedes Land geprüft.",
  "crisisOpen": "Hilfetelefone ansehen",
+ "careWho": "Worte, die Soyogi vorbereitet hat",
+ "careNote": "In diesem Chat bekommst du Worte, die Soyogi vorher geschrieben hat. So schreibt die KI keine Worte, die nicht passen. Wenn du über etwas anderes sprechen möchtest, kannst du in den Einstellungen mit „{clear}“ neu anfangen.",
+ "careReplies": [
+  "Danke, dass du mir das erzählst. Es klingt, als wäre es schon lange sehr schwer für dich. So schwer, dass du so denkst. Du musst jetzt nichts entscheiden. Es ist in Ordnung, Zeit vergehen zu lassen, ohne eine Antwort zu finden. Wenn dir jemand zuhören soll, tippe unten auf „{open}“.",
+  "Danke, dass du das hier schreibst. Du hast so schwere Gefühle allein getragen. Starker Schmerz kann wie eine Welle kommen und langsam wieder zurückgehen. Bis die Welle sich legt, musst du nichts allein entscheiden. Unten unter „{open}“ findest du Menschen, die dir jetzt zuhören können.",
+  "Danke, dass du mir das erzählst. Du hast bis heute durchgehalten. Das ist mir wichtig. Du musst nicht so tun, als wäre der Schmerz nicht da. Jetzt darfst du dich ein wenig ausruhen, ohne etwas zu entscheiden. Wenn du mit einem Menschen telefonieren oder schreiben möchtest, tippe unten auf „{open}“."
+ ],
+ "careFollowups": [
+  "Es tut mir leid, dass ich nicht die richtigen Worte gefunden habe. Dein Wunsch, verstanden zu werden, kommt bei mir an. Ich nehme deinen Schmerz nicht auf die leichte Schulter. Und es ist nicht deine Schuld.",
+  "Ich höre dir zu. Deine Worte kommen hier an. Du musst die schmerzhaften Gefühle nicht schnell kleiner machen. Du musst jetzt nichts entscheiden.",
+  "Wenn es geht, leg dir etwas in die Nähe, das dir ein bisschen guttut. Zum Beispiel ein warmes Getränk, einen Klang, den du magst, oder eine weiche Decke. Etwas Kleines reicht.",
+  "Ich bin froh, dass du mir hier weiter schreibst. Es gibt Hilfetelefone, bei denen dir ein Mensch zuhört, so wie es dir gerade geht. Du kannst unten unter „{open}“ eines auswählen."
+ ],
  "crisisWords": [
   "suizid",
   "selbstmord",

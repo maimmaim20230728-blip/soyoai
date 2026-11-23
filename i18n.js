@@ -74,8 +74,22 @@ export const DICT = {
     crisisCall: "{name} に電話する: {tel}",
     crisisCard: "つらい気持ちを話してくれて、ありがとうございます。話を聞いてくれる窓口を、国ごとに確かめて載せています。",
     crisisOpen: "相談先を見る",
-    // 言葉の一部が合えば、答えの下に「相談先を見る」を出す(言葉を止めたり、答えを変えたりはしない)
-    crisisWords: ["死にたい", "しにたい", "消えたい", "きえたい", "自殺", "死のう", "生きていたくない", "生きるのがつらい", "自分を傷つけ", "リスカ", "首をつ", "首を吊", "死ねる", "死ぬ方法", "死に方", "楽に死", "いなくなりたい"],
+    // つらい言葉が出たら、その会話はAIに答えを作らせず、そよぎが前もって書いた言葉を返す(2026-11-23 ヒロさん決定・ヒロさんのnoteの言葉を元にした)
+    careWho: "そよぎが用意した言葉",
+    careNote: "この会話では、AIが合わない言葉を作ってしまわないように、そよぎが前もって書いた言葉をお返しします。ほかの話をするときは、設定の「{clear}」から新しく始められます。",
+    careReplies: [
+      "話してくれて、ありがとうございます。そう思うほど、つらいことが続いてきたのですね。いまは、何かを決めなくていいです。答えを出さないまま、時間がたつのを待っていいです。人に話を聞いてほしいときは、下の「{open}」から、窓口が見られます。",
+      "ここに書いてくれて、ありがとうございます。そこまで思うほどの気持ちを、ひとりで抱えてきたのですね。強いつらさは、波のように来て、少しずつ引いていくことがあります。波がおさまるまで、ひとりで何かを決めなくて大丈夫です。下の「{open}」から、いま話を聞いてくれる人を探せます。",
+      "教えてくれて、ありがとうございます。あなたが今日まで持ちこたえてきたことを、大切に思います。そのつらさを、なかったことにしなくていいです。いまは、決めないまま、少し休んでいい時間です。声や文字で人と話したいときは、下の「{open}」を押してください。",
+    ],
+    careFollowups: [
+      "うまく言葉を返せなくて、ごめんなさい。わかってほしいという気持ちは、ちゃんと受け取っています。あなたのつらさを、軽く見ているのではありません。あなたが悪いのでもありません。",
+      "聞いています。あなたの言葉は、ちゃんとここに届いています。つらい気持ちを、急いで小さくしなくていいです。いまは、何も決めなくていいです。",
+      "もしできそうなら、温かい飲み物や、好きな音、やわらかい毛布のような、少しだけほっとできるものを、そばに置いてみてください。小さなことで大丈夫です。",
+      "ここに言葉を書き続けてくれて、うれしいです。いまの気持ちを、そのまま人に聞いてもらえる窓口があります。下の「{open}」から選べます。",
+    ],
+    // 言葉の一部が合えば、その会話は上の決めた言葉で返し、「相談先を見る」を出す
+    crisisWords: ["死にたい", "しにたい", "消えたい", "きえたい", "自殺", "死のう", "生きていたくない", "生きるのがつらい", "自分を傷つけ", "リスカ", "首をつ", "首を吊", "死ねる", "死ぬ方法", "死に方", "楽に死", "いなくなりたい", "死にたく", "しにたく", "消えたく", "きえたく"],
     phoneMasked: "(電話番号はAIが間違えることがあるので出していません)",
 
     // 初めてウェブで調べるとき(どこに何が送られるか)
@@ -221,6 +235,19 @@ export const DICT = {
     crisisCall: "Call {name}: {tel}",
     crisisCard: "Thank you for telling me how you feel. We list support lines that listen, checked for each country.",
     crisisOpen: "See support lines",
+    careWho: "Words prepared by Soyogi",
+    careNote: "In this chat, so that the AI does not write words that do not fit, you will get words that Soyogi wrote in advance. To talk about something else, start again from “{clear}” in Settings.",
+    careReplies: [
+      "Thank you for telling me. It sounds like painful things have gone on for a long time, enough to make you feel this way. You do not have to decide anything right now. It is okay to let time pass without finding an answer. If you want someone to listen, tap “{open}” below to see support lines.",
+      "Thank you for writing this here. You have been carrying feelings this heavy on your own. Strong pain can come like a wave and slowly pull back. Until the wave settles, you do not have to decide anything alone. Tap “{open}” below to find people who can listen right now.",
+      "Thank you for telling me. You have held on until today, and that matters. You do not have to pretend the pain is not there. Right now, it is okay to rest a little without deciding anything. If you want to talk with a person by voice or text, tap “{open}” below.",
+    ],
+    careFollowups: [
+      "I am sorry I could not find the right words. I hear that you want to be understood. I am not taking your pain lightly. And it is not your fault.",
+      "I am listening. Your words are reaching here. You do not have to make the painful feelings smaller in a hurry. You do not have to decide anything right now.",
+      "If you can, try keeping something close that brings a little comfort, like a warm drink, a favorite sound or a soft blanket. Something small is enough.",
+      "I am glad you keep writing to me here. There are support lines where a person can listen to how you feel, just as it is. You can choose one from “{open}” below.",
+    ],
     crisisWords: ["suicide", "suicidal", "kill myself", "want to die", "wanna die", "end my life", "self-harm", "self harm", "hurt myself", "cut myself", "no reason to live", "how to die", "ways to die", "painless death"],
     phoneMasked: "(Phone number not shown, because the AI can get numbers wrong.)",
 

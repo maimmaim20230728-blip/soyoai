@@ -176,6 +176,19 @@ export default {
  ],
  "crisisCard": "Merci de me dire ce que vous ressentez. Nous indiquons des lignes de soutien qui vous écoutent, vérifiées pour chaque pays.",
  "crisisOpen": "Voir les lignes de soutien",
+ "careWho": "Des mots préparés par Soyogi",
+ "careNote": "Dans cette conversation, pour que l'IA n'écrive pas des mots qui ne conviennent pas, vous recevez des mots que Soyogi a écrits à l'avance. Pour parler d'autre chose, vous pouvez recommencer avec « {clear} » dans les Réglages.",
+ "careReplies": [
+  "Merci de me l'avoir dit. Il semble que des choses douloureuses durent depuis longtemps, au point de vous faire penser cela. Vous n'avez rien à décider maintenant. Vous pouvez laisser le temps passer sans trouver de réponse. Si vous voulez que quelqu'un vous écoute, touchez « {open} » ci-dessous.",
+  "Merci de l'avoir écrit ici. Vous avez gardé pour vous des sentiments aussi lourds. Une douleur forte peut venir comme une vague, puis se retirer peu à peu. Tant que la vague n'est pas calmée, vous n'avez rien à décider par vous-même. Touchez « {open} » ci-dessous pour trouver des personnes qui peuvent vous écouter maintenant.",
+  "Merci de me l'avoir dit. Vous avez tenu bon jusqu'à aujourd'hui, et cela compte. Vous n'avez pas à faire comme si la douleur n'était pas là. Pour l'instant, vous pouvez vous reposer un peu sans rien décider. Si vous voulez parler avec quelqu'un par téléphone ou par message, touchez « {open} » ci-dessous."
+ ],
+ "careFollowups": [
+  "Pardon de ne pas avoir trouvé les bons mots. J'entends votre besoin que l'on vous comprenne. Je ne prends pas votre douleur à la légère. Et ce n'est pas votre faute.",
+  "Je vous écoute. Vos mots arrivent bien ici. Vous n'avez pas besoin de vous dépêcher de rendre cette douleur plus petite. Vous n'avez rien à décider maintenant.",
+  "Si vous le pouvez, essayez de garder près de vous quelque chose qui vous apaise un peu, comme une boisson chaude, un son que vous aimez ou une couverture douce. Une petite chose suffit.",
+  "Cela me fait plaisir que vous continuiez à m'écrire ici. Il existe des lignes de soutien où quelqu'un peut écouter ce que vous vivez maintenant, tel que vous le ressentez. Vous pouvez en choisir une dans « {open} » ci-dessous."
+ ],
  "crisisWords": [
   "suicid",
   "me suicider",

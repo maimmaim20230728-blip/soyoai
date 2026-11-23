@@ -175,6 +175,19 @@ export default {
  ],
  "crisisCard": "Grazie per avermi detto come ti senti. Mostriamo linee di aiuto che ti ascoltano, verificate per ogni paese.",
  "crisisOpen": "Vedi le linee di aiuto",
+ "careWho": "Parole preparate da Soyogi",
+ "careNote": "In questa chat, perché l'IA non scriva parole poco adatte, riceverai parole che Soyogi ha scritto prima. Se vuoi parlare d'altro, puoi ricominciare da «{clear}» nelle Impostazioni.",
+ "careReplies": [
+  "Grazie per avermelo detto. Sembra che da tanto tempo succedano cose dolorose, tanto da farti pensare questo. Adesso non devi decidere niente. Va bene lasciar passare il tempo senza trovare una risposta. Se vuoi che qualcuno ti ascolti, tocca «{open}» qui sotto.",
+  "Grazie per averlo scritto qui. Hai tenuto per te sentimenti così pesanti. Un dolore forte può arrivare come un'onda e ritirarsi piano piano. Finché l'onda non si calma, non devi decidere niente per conto tuo. Tocca «{open}» qui sotto per trovare persone che possono ascoltarti adesso.",
+  "Grazie per avermelo detto. Hai resistito fino a oggi, e questo conta. Non devi fingere che il dolore non ci sia. Adesso va bene riposare un po' senza decidere niente. Se vuoi parlare con una persona per telefono o per messaggio, tocca «{open}» qui sotto."
+ ],
+ "careFollowups": [
+  "Mi dispiace di non aver trovato le parole giuste. Sento il tuo desiderio che qualcuno ti capisca. Non sto prendendo alla leggera il tuo dolore. E non è colpa tua.",
+  "Ti sto ascoltando. Le tue parole arrivano qui. Non devi affrettarti a rendere più piccolo il dolore che senti. Adesso non devi decidere niente.",
+  "Se ci riesci, prova a tenere vicino qualcosa che ti dia un po' di sollievo, come una bevanda calda, un suono che ti piace o una coperta morbida. Basta una piccola cosa.",
+  "Mi fa piacere che continui a scrivermi qui. Ci sono linee di aiuto dove una persona può ascoltare quello che senti, così com'è. Puoi sceglierne una da «{open}» qui sotto."
+ ],
  "crisisWords": [
   "suicid",
   "uccidermi",

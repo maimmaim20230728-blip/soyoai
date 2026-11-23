@@ -174,6 +174,19 @@ export default {
  ],
  "crisisCard": "Dziękuję, że mówisz, jak się czujesz. Pokazujemy telefony, pod którymi ktoś cię wysłucha, sprawdzone dla każdego kraju.",
  "crisisOpen": "Zobacz telefony pomocy",
+ "careWho": "Słowa przygotowane przez Soyogi",
+ "careNote": "W tej rozmowie dostajesz słowa przygotowane wcześniej przez Soyogi. Dzięki temu AI nie pisze słów, które nie pasują. Jeśli chcesz porozmawiać o czymś innym, możesz zacząć od nowa przez „{clear}” w Ustawieniach.",
+ "careReplies": [
+  "Dziękuję, że mi o tym mówisz. Pewnie od dawna dzieje się coś bardzo bolesnego, skoro tak się czujesz. Teraz nie musisz niczego decydować. Możesz pozwolić, żeby czas płynął, i nie mieć jeszcze odpowiedzi. Jeśli chcesz, żeby ktoś cię wysłuchał, dotknij „{open}” poniżej.",
+  "Dziękuję, że to tu piszesz. Od dawna dźwigasz w pojedynkę tak ciężkie uczucia. Silny ból może przyjść jak fala i powoli się cofnąć. Dopóki fala się nie uspokoi, nie musisz niczego decydować w pojedynkę. Dotknij „{open}” poniżej, aby znaleźć ludzi, którzy mogą cię teraz wysłuchać.",
+  "Dziękuję, że mi o tym mówisz. To, że trzymasz się aż do dziś, jest dla mnie ważne. Nie musisz udawać, że tego bólu nie ma. Teraz możesz trochę odpocząć i niczego nie decydować. Jeśli chcesz porozmawiać z kimś przez telefon albo na czacie, dotknij „{open}” poniżej."
+ ],
+ "careFollowups": [
+  "Przepraszam, nie udało mi się znaleźć właściwych słów. Słyszę, że chcesz, żeby ktoś cię zrozumiał. Nie traktuję twojego bólu lekko. I to nie jest twoja wina.",
+  "Słucham cię. Twoje słowa tu docierają. Nie musisz w pośpiechu zmniejszać bolesnych uczuć. Teraz nie musisz niczego decydować.",
+  "Jeśli możesz, spróbuj mieć blisko coś, co da ci trochę ulgi, na przykład ciepły napój, ulubiony dźwięk albo miękki koc. Wystarczy coś małego.",
+  "Cieszę się, że dalej tu do mnie piszesz. Są telefony pomocy, gdzie ktoś po prostu wysłucha tego, co teraz czujesz. Możesz wybrać jeden w „{open}” poniżej."
+ ],
  "crisisWords": [
   "samobójstw",
   "samobójcz",

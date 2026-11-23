@@ -175,6 +175,19 @@ export default {
  ],
  "crisisCard": "Gracias por contarme cómo te sientes. Mostramos líneas de ayuda que te escuchan, comprobadas para cada país.",
  "crisisOpen": "Ver líneas de ayuda",
+ "careWho": "Palabras preparadas por Soyogi",
+ "careNote": "En esta conversación, para que la IA no escriba palabras que no encajan, recibirás palabras que Soyogi escribió antes. Si quieres hablar de otra cosa, puedes empezar de nuevo con «{clear}» en Ajustes.",
+ "careReplies": [
+  "Gracias por contármelo. Parece que han pasado cosas dolorosas durante mucho tiempo, tanto como para sentirte así. Ahora no tienes que decidir nada. Está bien dejar pasar el tiempo sin encontrar una respuesta. Si quieres que alguien te escuche, toca «{open}» abajo.",
+  "Gracias por escribirlo aquí. Has cargado por tu cuenta con sentimientos tan pesados. Un dolor fuerte puede llegar como una ola y retirarse poco a poco. Hasta que la ola se calme, no tienes que decidir nada por tu cuenta. Toca «{open}» abajo para encontrar personas que pueden escucharte ahora mismo.",
+  "Gracias por contármelo. Has aguantado hasta hoy, y eso es importante. No tienes que fingir que el dolor no está. Ahora está bien descansar un poco sin decidir nada. Si quieres hablar con una persona por llamada o por mensajes, toca «{open}» abajo."
+ ],
+ "careFollowups": [
+  "Siento no haber encontrado las palabras adecuadas. Entiendo que quieres que te comprendan. No estoy tomando tu dolor a la ligera. Y no es tu culpa.",
+  "Te estoy escuchando. Tus palabras llegan hasta aquí. No tienes que apurarte a hacer más pequeño lo que te duele. Ahora no tienes que decidir nada.",
+  "Si puedes, intenta tener cerca algo que te dé un poco de alivio, como una bebida caliente, un sonido que te guste o una manta suave. Algo pequeño es suficiente.",
+  "Me alegra que sigas escribiéndome aquí. Hay líneas de ayuda donde una persona puede escuchar lo que sientes, tal como es. Puedes elegir una en «{open}» abajo."
+ ],
  "crisisWords": [
   "suicid",
   "quitarme la vida",

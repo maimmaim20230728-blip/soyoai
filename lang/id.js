@@ -175,6 +175,19 @@ export default {
  ],
  "crisisCard": "Terima kasih sudah menceritakan perasaan Anda. Kami mencantumkan layanan bantuan yang mau mendengarkan, yang sudah diperiksa untuk tiap negara.",
  "crisisOpen": "Lihat layanan bantuan",
+ "careWho": "Kata-kata yang disiapkan oleh Soyogi",
+ "careNote": "Dalam percakapan ini, agar AI tidak menulis kata-kata yang tidak cocok, Anda akan menerima kata-kata yang sudah ditulis Soyogi sebelumnya. Jika ingin membicarakan hal lain, Anda bisa mulai lagi dari «{clear}» di Pengaturan.",
+ "careReplies": [
+  "Terima kasih sudah menceritakannya. Sepertinya hal-hal yang menyakitkan sudah berlangsung lama, sampai Anda merasa seperti ini. Saat ini, Anda tidak perlu memutuskan apa pun. Tidak apa-apa membiarkan waktu berlalu tanpa menemukan jawaban. Jika Anda ingin ada orang yang mendengarkan, ketuk «{open}» di bawah.",
+  "Terima kasih sudah menuliskannya di sini. Anda sudah memikul perasaan seberat ini sendirian. Rasa sakit yang kuat bisa datang seperti ombak, lalu perlahan surut. Sampai ombaknya reda, Anda tidak perlu memutuskan apa pun sendirian. Ketuk «{open}» di bawah untuk menemukan orang yang bisa mendengarkan Anda sekarang.",
+  "Terima kasih sudah memberi tahu saya. Anda sudah bertahan sampai hari ini, dan itu berarti. Anda tidak perlu berpura-pura rasa sakit itu tidak ada. Saat ini, tidak apa-apa beristirahat sebentar tanpa memutuskan apa pun. Jika ingin berbicara dengan seseorang lewat telepon atau pesan, ketuk «{open}» di bawah."
+ ],
+ "careFollowups": [
+  "Maaf, saya tidak bisa menemukan kata-kata yang tepat. Saya menangkap bahwa Anda ingin dimengerti. Saya tidak menganggap enteng rasa sakit Anda. Dan ini bukan salah Anda.",
+  "Saya mendengarkan. Kata-kata Anda sampai di sini. Anda tidak perlu terburu-buru mengecilkan perasaan yang menyakitkan. Saat ini, Anda tidak perlu memutuskan apa pun.",
+  "Jika bisa, cobalah menaruh di dekat Anda sesuatu yang memberi sedikit rasa tenang, seperti minuman hangat, suara yang Anda sukai, atau selimut yang lembut. Hal kecil saja sudah cukup.",
+  "Saya senang Anda terus menulis di sini. Ada layanan bantuan tempat seseorang bisa mendengarkan perasaan Anda apa adanya. Anda bisa memilihnya dari «{open}» di bawah."
+ ],
  "crisisWords": [
   "bunuh diri",
   "ingin mati",

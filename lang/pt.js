@@ -175,6 +175,19 @@ export default {
  ],
  "crisisCard": "Obrigado por contar como você se sente. Mostramos linhas de apoio que escutam você, conferidas para cada país.",
  "crisisOpen": "Ver linhas de apoio",
+ "careWho": "Palavras preparadas pela Soyogi",
+ "careNote": "Nesta conversa, para que a IA não escreva palavras que não combinam, você recebe palavras que a Soyogi escreveu antes. Para falar de outro assunto, você pode começar de novo em «{clear}», nas Configurações.",
+ "careReplies": [
+  "Obrigado por me contar. Parece que coisas dolorosas vêm acontecendo há muito tempo, a ponto de você se sentir assim. Agora, você não precisa decidir nada. Tudo bem deixar o tempo passar sem encontrar uma resposta. Se quiser que alguém escute você, toque em «{open}» aqui embaixo.",
+  "Obrigado por escrever isto aqui. Você vem carregando por conta própria sentimentos tão pesados. Uma dor forte pode vir como uma onda e recuar aos poucos. Até a onda se acalmar, você não precisa decidir nada por conta própria. Toque em «{open}» aqui embaixo para encontrar pessoas que podem escutar você agora.",
+  "Obrigado por me contar. Você aguentou até hoje, e isso importa. Você não precisa fingir que a dor não está aí. Agora, tudo bem descansar um pouco sem decidir nada. Se quiser falar com uma pessoa por ligação ou por mensagem, toque em «{open}» aqui embaixo."
+ ],
+ "careFollowups": [
+  "Desculpe por não ter encontrado as palavras certas. Percebo que você quer que entendam o que sente. Não estou fazendo pouco caso da sua dor. E a culpa não é sua.",
+  "Estou escutando. As suas palavras estão chegando aqui. Você não precisa diminuir os sentimentos dolorosos com pressa. Agora, você não precisa decidir nada.",
+  "Se conseguir, tente deixar perto de você algo que traga um pouco de conforto, como uma bebida quente, um som de que você gosta ou um cobertor macio. Uma coisa pequena já basta.",
+  "Fico feliz que você continue escrevendo aqui. Existem linhas de apoio onde uma pessoa pode escutar o que você sente, do jeito que está. Você pode escolher uma em «{open}» aqui embaixo."
+ ],
  "crisisWords": [
   "suicíd",
   "suicid",

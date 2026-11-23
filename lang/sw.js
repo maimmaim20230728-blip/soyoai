@@ -174,6 +174,19 @@ export default {
  ],
  "crisisCard": "Asante kwa kuniambia unavyohisi. Tumeorodhesha simu za msaada zinazosikiliza, zilizohakikiwa kwa kila nchi.",
  "crisisOpen": "Ona simu za msaada",
+ "careWho": "Maneno yaliyoandaliwa na Soyogi",
+ "careNote": "Katika mazungumzo haya, ili AI isiandike maneno yasiyofaa, utapata maneno ambayo Soyogi iliandika mapema. Ukitaka kuzungumza kuhusu jambo lingine, unaweza kuanza upya kwa «{clear}» kwenye Mipangilio.",
+ "careReplies": [
+  "Asante kwa kuniambia. Inaonekana mambo yenye maumivu yameendelea kwa muda mrefu, hadi ukahisi hivi. Sasa hivi huhitaji kuamua jambo lolote. Ni sawa kuacha muda upite bila kupata jibu. Ukitaka mtu akusikilize, gusa «{open}» hapa chini.",
+  "Asante kwa kuandika hapa. Umebeba hisia nzito hivi peke yako. Maumivu makali yanaweza kuja kama wimbi na kurudi nyuma polepole. Mpaka wimbi litulie, huhitaji kuamua jambo lolote peke yako. Gusa «{open}» hapa chini ili kupata watu wanaoweza kukusikiliza sasa hivi.",
+  "Asante kwa kuniambia. Umevumilia hadi leo, na hilo lina maana. Huhitaji kujifanya kwamba maumivu hayapo. Sasa hivi ni sawa kupumzika kidogo bila kuamua chochote. Ukitaka kuzungumza na mtu kwa simu au kwa ujumbe, gusa «{open}» hapa chini."
+ ],
+ "careFollowups": [
+  "Samahani, sikuweza kupata maneno yanayofaa. Ninasikia kwamba unataka kueleweka. Sichukulii maumivu yako kuwa jambo dogo. Na si kosa lako.",
+  "Ninakusikiliza. Maneno yako yanafika hapa. Huhitaji kuharakisha kupunguza hisia zenye maumivu. Sasa hivi huhitaji kuamua jambo lolote.",
+  "Ukiweza, jaribu kuweka karibu nawe kitu kinachokupa faraja kidogo, kama kinywaji cha joto, sauti unayoipenda au blanketi laini. Kitu kidogo kinatosha.",
+  "Nafurahi kwamba unaendelea kuniandikia hapa. Kuna simu za msaada ambapo mtu anaweza kusikiliza jinsi unavyohisi, kama ilivyo. Unaweza kuchagua moja kwenye «{open}» hapa chini."
+ ],
  "crisisWords": [
   "kujiua",
   "najiua",

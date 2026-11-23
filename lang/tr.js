@@ -174,6 +174,19 @@ export default {
  ],
  "crisisCard": "Nasıl hissettiğinizi anlattığınız için teşekkürler. Sizi dinleyecek destek hatlarını, her ülke için kontrol ederek gösteriyoruz.",
  "crisisOpen": "Destek hatlarını gör",
+ "careWho": "Soyogi'nin hazırladığı sözler",
+ "careNote": "Bu sohbette, yapay zeka uygun olmayan sözler yazmasın diye Soyogi'nin önceden yazdığı sözleri alırsınız. Başka bir konuda konuşmak isterseniz Ayarlar'daki «{clear}» ile yeniden başlayabilirsiniz.",
+ "careReplies": [
+  "Anlattığınız için teşekkür ederim. Bunu düşünecek kadar uzun süredir zor şeyler yaşamışsınız. Şu anda hiçbir şeye karar vermeniz gerekmiyor. Cevap bulmadan zamanın geçmesini beklemek de olur. Birinin sizi dinlemesini isterseniz aşağıdaki «{open}» düğmesine dokunun.",
+  "Bunu buraya yazdığınız için teşekkür ederim. Bu kadar ağır duyguları tek başınıza taşımışsınız. Güçlü bir acı, dalga gibi gelip yavaş yavaş geri çekilebilir. Dalga sakinleşene kadar hiçbir şeye tek başınıza karar vermeniz gerekmiyor. Şu anda sizi dinleyebilecek kişileri bulmak için aşağıdaki «{open}» düğmesine dokunun.",
+  "Anlattığınız için teşekkür ederim. Bugüne kadar dayandınız ve bu değerli. Bu acıyı yokmuş gibi davranmanız gerekmiyor. Şu an hiçbir şeye karar vermeden biraz dinlenebilirsiniz. Bir insanla telefonla ya da yazışarak konuşmak isterseniz aşağıdaki «{open}» düğmesine dokunun."
+ ],
+ "careFollowups": [
+  "Doğru sözleri bulamadığım için özür dilerim. Anlaşılmak istediğinizi duyuyorum. Acınızı hafife almıyorum. Ve bu sizin suçunuz değil.",
+  "Sizi dinliyorum. Sözleriniz buraya ulaşıyor. Acı veren duyguları aceleyle küçültmeniz gerekmiyor. Şu anda hiçbir şeye karar vermeniz gerekmiyor.",
+  "Yapabilirseniz, size biraz rahatlık veren bir şeyi yakınınızda tutmayı deneyin. Sıcak bir içecek, sevdiğiniz bir ses ya da yumuşak bir battaniye gibi. Küçük bir şey yeterli.",
+  "Buraya yazmaya devam etmenize sevindim. Duygularınızı olduğu gibi dinleyecek insanların olduğu destek hatları var. Aşağıdaki «{open}» düğmesinden birini seçebilirsiniz."
+ ],
  "crisisWords": [
   "intihar",
   "kendimi öldür",

@@ -117,7 +117,7 @@ html[lang="bn"] body { font-family: -apple-system, "Nirmala UI", "Noto Sans Beng
 .bubble { max-width: 92%; padding: 8px 12px; border-radius: 14px; white-space: pre-wrap; word-break: break-word; overflow-wrap: anywhere; }
 .bubble .who { display: block; font-size: .75rem; color: var(--muted); font-weight: 700; }
 .bubble.user { align-self: flex-end; background: var(--blue-soft); border: 1px solid #b9e0f0; }
-.bubble.ai { align-self: flex-start; background: var(--green-soft); border: 1px solid #c6e8d3; }
+.bubble.ai, .bubble.care { align-self: flex-start; background: var(--green-soft); border: 1px solid #c6e8d3; }
 .bubble.info { align-self: center; background: #f4f6f7; border: 1px dashed var(--line); font-size: .88rem; color: var(--muted); }
 .srcs { margin-top: 6px; padding-top: 6px; border-top: 1px solid #c6e8d3; font-size: .85rem; white-space: normal; }
 .srcs ol { margin: 4px 0 0; padding-inline-start: 1.6em; }
@@ -156,7 +156,7 @@ html[lang="bn"] body { font-family: -apple-system, "Nirmala UI", "Noto Sans Beng
 #crisisList .tel { display: inline-flex; align-items: center; min-height: 44px; font-weight: 700; font-size: 1.05rem; color: #135c86; }
 #crisisList .url { font-size: .8rem; color: #135c86; overflow-wrap: anywhere; }
 #crisisList span.url { color: var(--muted); user-select: all; }
-#crisisSelect, #langSelect { width: 100%; }
+#crisisSelect, #langSelect, #guideLangSelect { width: 100%; }
 .about p { margin: 0 0 8px; }
 .about a { color: #135c86; overflow-wrap: anywhere; }
 
@@ -199,6 +199,7 @@ select { font: inherit; min-height: 44px; padding: 4px 8px; border: 1.5px solid 
 /* 「死にたい」などのときに答えの下に出す相談先の案内(答えは変えない) */
 .crisiscard { margin-top: 8px; padding: 8px 10px; border-radius: 10px; background: #fff; border: 1.5px solid var(--green-deep); white-space: normal; }
 .crisiscard p { margin: 0 0 6px; }
+.bubble .carenote { white-space: normal; font-size: .8rem; margin: 8px 0 0; }
 .reportbtn { display: block; font-size: .85rem; color: #555; min-height: 44px; padding: 8px 2px 0; }
 #dlgReport textarea { width: 100%; box-sizing: border-box; font: inherit; padding: 8px; border-radius: 8px; border: 1.5px solid #999; }
 #dlgReport fieldset { border: 0; padding: 0; margin: 0 0 12px; }

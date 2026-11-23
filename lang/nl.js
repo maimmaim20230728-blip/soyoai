@@ -174,6 +174,19 @@ export default {
  ],
  "crisisCard": "Dank je dat je vertelt hoe het met je gaat. We laten hulplijnen zien die luisteren, voor elk land gecontroleerd.",
  "crisisOpen": "Hulplijnen bekijken",
+ "careWho": "Woorden die Soyogi heeft voorbereid",
+ "careNote": "In dit gesprek krijg je woorden die Soyogi van tevoren heeft geschreven. Zo schrijft de AI geen woorden die niet passen. Wil je over iets anders praten, begin dan opnieuw met „{clear}” in Instellingen.",
+ "careReplies": [
+  "Dank je dat je het me vertelt. Het klinkt alsof er al lang pijnlijke dingen gebeuren, zo erg dat je je zo voelt. Je hoeft nu niets te beslissen. Het is goed om de tijd te laten gaan zonder een antwoord te vinden. Wil je dat iemand naar je luistert, tik dan hieronder op „{open}”.",
+  "Dank je dat je dit hier schrijft. Je hebt zulke zware gevoelens alleen gedragen. Sterke pijn kan als een golf komen en langzaam weer terugtrekken. Tot de golf gaat liggen, hoef je niets alleen te beslissen. Tik hieronder op „{open}” om mensen te vinden die nu naar je kunnen luisteren.",
+  "Dank je dat je het me vertelt. Je hebt het tot vandaag volgehouden, en dat is belangrijk. Je hoeft niet te doen alsof de pijn er niet is. Nu mag je even rusten zonder iets te beslissen. Wil je met iemand praten door te bellen of te chatten, tik dan hieronder op „{open}”."
+ ],
+ "careFollowups": [
+  "Het spijt me dat ik niet de juiste woorden vond. Ik hoor dat je begrepen wilt worden. Ik neem je pijn niet licht op. En het is niet jouw schuld.",
+  "Ik luister. Je woorden komen hier aan. Je hoeft de pijnlijke gevoelens niet snel kleiner te maken. Je hoeft nu niets te beslissen.",
+  "Als het lukt, probeer dan iets dicht bij je te houden dat je een beetje troost geeft, zoals een warm drankje, een geluid dat je fijn vindt of een zachte deken. Iets kleins is genoeg.",
+  "Ik ben blij dat je me hier blijft schrijven. Er zijn hulplijnen waar iemand luistert naar hoe je je voelt, precies zoals het is. Je kunt er hieronder een kiezen bij „{open}”."
+ ],
  "crisisWords": [
   "zelfmoord",
   "suïcide",
