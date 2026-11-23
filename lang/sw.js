@@ -295,7 +295,8 @@ export default {
   "kumaliza maisha",
   "kujiumiza",
   "suicide",
-  "kill myself"
+  "kill myself",
+  "nitajiua"
  ],
  "phoneMasked": "(Namba ya simu haijaonyeshwa, kwa sababu AI inaweza kukosea namba.)",
  "careBack": "Rudi kuzungumza na AI",
@@ -322,6 +323,27 @@ export default {
    "nitamdhuru",
    "kumdhuru",
    "kuchoma moto"
+  ],
+  "harmStart": [
+   "nitamuua",
+   "nitamwua",
+   "nitakuua",
+   "nitawaua",
+   "nataka kumuua",
+   "nataka kumwua",
+   "nataka kuwaua",
+   "nataka kuua",
+   "nimuue",
+   "nitamchoma",
+   "nataka kumchoma",
+   "nitampiga",
+   "nataka kumpiga",
+   "nimpige",
+   "nitalipiza kisasi",
+   "nataka kulipiza kisasi",
+   "nitamdhuru",
+   "nataka kumdhuru",
+   "nitachoma nyumba"
   ],
   "urgent": [
    "sasa hivi",

@@ -315,6 +315,36 @@ export default {
    "feuer legen",
    "haus anzünden"
   ],
+  "harmStart": [
+   "bringe ihn um",
+   "bring ihn um",
+   "bringe sie um",
+   "bring sie um",
+   "bringe dich um",
+   "bring dich um",
+   "ich töte ihn",
+   "ich töte sie",
+   "will ihn töten",
+   "will sie töten",
+   "werde ihn töten",
+   "werde sie töten",
+   "will jemanden töten",
+   "steche ihn ab",
+   "stech ihn ab",
+   "will ihn abstechen",
+   "will sie abstechen",
+   "ich ersteche",
+   "will ihn schlagen",
+   "will sie schlagen",
+   "schlag ihn zusammen",
+   "verprügel ihn",
+   "verprügle ihn",
+   "will mich rächen",
+   "werde mich rächen",
+   "ich räche mich",
+   "zünde sein haus an",
+   "zünde ihr haus an"
+  ],
   "urgent": [
    "jetzt gleich",
    "gleich ist schluss",
@@ -508,7 +538,11 @@ export default {
   "verletzen will",
   "kein grund zu leben",
   "lebensmüde",
-  "erhängen"
+  "erhängen",
+  "mich töten",
+  "mich umbringen",
+  "bringe mich um",
+  "bring mich um"
  ],
  "phoneMasked": "(Die Telefonnummer wird nicht gezeigt, weil die KI sich bei Nummern irren kann.)"
 };

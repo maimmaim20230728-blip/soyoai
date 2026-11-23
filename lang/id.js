@@ -320,6 +320,28 @@ export default {
    "membakar rumah",
    "gebuk"
   ],
+  "harmStart": [
+   "aku bunuh",
+   "akan kubunuh",
+   "mau bunuh",
+   "ingin membunuh",
+   "mau membunuh",
+   "bunuh dia",
+   "bunuh mereka",
+   "kubunuh",
+   "tusuk dia",
+   "mau tusuk",
+   "mau menusuk",
+   "ingin menusuk",
+   "hajar dia",
+   "pukul dia",
+   "mau pukul",
+   "habisi dia",
+   "mau balas dendam",
+   "ingin balas dendam",
+   "akan balas dendam",
+   "bakar rumahnya"
+  ],
   "urgent": [
    "sekarang juga",
    "malam ini",

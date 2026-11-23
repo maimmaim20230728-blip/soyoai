@@ -314,6 +314,34 @@ export default {
    "zrobić krzywdę",
    "zrobię mu krzywdę"
   ],
+  "harmStart": [
+   "zabiję go",
+   "zabije go",
+   "zabiję ją",
+   "zabije ja",
+   "zabiję cię",
+   "zabije cie",
+   "zabiję ich",
+   "chcę go zabić",
+   "chce go zabic",
+   "chcę ją zabić",
+   "chcę kogoś zabić",
+   "dźgnę go",
+   "dzgne go",
+   "chcę go dźgnąć",
+   "pobiję go",
+   "pobije go",
+   "chcę go pobić",
+   "uderzę go",
+   "uderzę ją",
+   "zemszczę się",
+   "zemszcze sie",
+   "chcę się zemścić",
+   "podpalę mu",
+   "podpalę jej",
+   "zrobię mu krzywdę",
+   "zrobię jej krzywdę"
+  ],
   "urgent": [
    "zaraz to zrobię",
    "dziś w nocy",
@@ -523,7 +551,10 @@ export default {
   "samookalecz",
   "ciąć się",
   "okaleczać się",
-  "nie ma po co żyć"
+  "nie ma po co żyć",
+  "się zabić",
+  "zabije sie",
+  "zabic sie"
  ],
  "phoneMasked": "(Numer telefonu nie jest pokazany, bo AI może się mylić w numerach.)"
 };

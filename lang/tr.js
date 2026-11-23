@@ -324,6 +324,28 @@ export default {
    "evi yakar",
    "yakıp yık"
   ],
+  "harmStart": [
+   "öldüreceğim",
+   "öldüreyim",
+   "öldürürüm",
+   "öldürcem",
+   "öldürücem",
+   "öldürmek istiyorum",
+   "öldürmek istiyom",
+   "geberteceğim",
+   "gebertecem",
+   "bıçaklayacağım",
+   "bıçaklıcam",
+   "bıçaklamak istiyorum",
+   "döveceğim",
+   "dövecem",
+   "dövmek istiyorum",
+   "intikam alacağım",
+   "intikam almak istiyorum",
+   "öcümü alacağım",
+   "ateşe vereceğim",
+   "evini yakacağım"
+  ],
   "urgent": [
    "şimdi",
    "simdi",

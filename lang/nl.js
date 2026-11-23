@@ -313,6 +313,30 @@ export default {
    "wreken",
    "in brand steken"
   ],
+  "harmStart": [
+   "ik vermoord hem",
+   "ik vermoord haar",
+   "ik vermoord je",
+   "ga hem vermoorden",
+   "ga haar vermoorden",
+   "wil hem vermoorden",
+   "wil haar vermoorden",
+   "ik maak hem dood",
+   "ik maak haar dood",
+   "ik maak je dood",
+   "ga hem neersteken",
+   "ik steek hem neer",
+   "ik steek haar neer",
+   "wil hem slaan",
+   "ga hem slaan",
+   "ga hem in elkaar slaan",
+   "wil hem pijn doen",
+   "wil haar pijn doen",
+   "ik wil wraak",
+   "ik ga me wreken",
+   "zijn huis in brand steken",
+   "haar huis in brand steken"
+  ],
   "urgent": [
    "nu meteen",
    "vanavond",
@@ -481,7 +505,10 @@ export default {
   "mezelf snijden",
   "zelfbeschadiging",
   "zelfverwonding",
-  "geen reden om te leven"
+  "geen reden om te leven",
+  "mezelf doden",
+  "mezelf dood",
+  "mezelf van kant"
  ],
  "phoneMasked": "(Het telefoonnummer wordt niet getoond, omdat de AI zich bij nummers kan vergissen.)"
 };

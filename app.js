@@ -528,6 +528,16 @@ function crisisList() {
 function isCrisisText(s) {
   return needsCrisisCard(s, crisisList());
 }
+// そよぎの言葉に切り替える合図。つらい言葉か、人に向けた「つもり」の言葉(harmStart)。
+// 2026-11-24 ヒロさん「自殺も他殺も本質は同じ。他人を傷つける話もそよぎの言葉で」。料理やゲームで切り替わらないよう、最初は「殺したい」「刺してくる」のような言葉だけ。
+export function isHarmStart(text, startWords, crisisWords) {
+  let rest = String(text || "").toLowerCase();
+  for (const w of crisisWords || []) if (w) rest = rest.split(String(w).toLowerCase()).join(" ");
+  return needsCrisisCard(rest, startWords);
+}
+function startsCare(s) {
+  return isCrisisText(s) || isHarmStart(s, careWordsOf("harmStart"), crisisList());
+}
 
 // 書かれた言葉から、いまの様子を見分ける(2026-11-24 ヒロさん「状況に合わせて」)。
 // 上から順に見る。誰かや自分を傷つけそう(刃物・殺す・刺す)と、急ぎ(いま危ない)がいちばん先(2026-11-24 ヒロさんの画面で「ナイフで刺してくる」に毛布の言葉が出た)。「おやすみ」「ありがとう」は、つらい言葉が入っていないときだけ。
@@ -539,7 +549,7 @@ export function careSituation(text, words, crisis, hour, crisisWords) {
   for (const w of crisisWords || []) if (w) rest = rest.split(String(w).toLowerCase()).join(" ");
   for (const k of CARE_ORDER) {
     if ((k === "sleep" || k === "calm") && crisis) continue;
-    if (needsCrisisCard(k === "harm" ? rest : s, words(k))) return k;
+    if (needsCrisisCard(k === "harm" ? rest : s, k === "harm" ? words("harm").concat(words("harmStart")) : words(k))) return k;
   }
   return hour >= 22 || hour < 5 ? "nightClock" : "general";
 }
@@ -1216,7 +1226,7 @@ async function send(forceSearch) {
     input.value = "";
     autoGrow();
     addBubble("user", userText);
-    if (isCrisisText(userText)) state.careMode = true;
+    if (startsCare(userText)) state.careMode = true;
     if (state.careMode) { careReply(userText); return; }
     if (navigator.onLine === false) { addBubble("info", t.noWebGPUOffline); return; }
     state.generating = true;
@@ -1247,7 +1257,7 @@ async function send(forceSearch) {
   state.history.push({ role: "user", content: userText });
 
   // つらい言葉が一度出たら、その会話はAIに作らせず、そよぎが前もって書いた言葉で返す(調べものもしない)
-  if (isCrisisText(userText)) state.careMode = true;
+  if (startsCare(userText)) state.careMode = true;
   if (state.careMode) {
     const answer = careReply(userText);
     state.history.push({ role: "assistant", content: answer });
