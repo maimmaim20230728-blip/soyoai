@@ -334,7 +334,11 @@ export default {
    "jaan se maar",
    "chaku",
    "badla le",
-   "katl"
+   "katl",
+   "जला डाल",
+   "सब जला",
+   "फूंक दूं",
+   "फूँक दूँ"
   ],
   "harmStart": [
    "मार डालूँ",
@@ -367,7 +371,25 @@ export default {
    "maar dalunga",
    "jaan se maar",
    "badla lunga",
-   "badla lungi"
+   "badla lungi",
+   "जला दूँगा",
+   "जला दूंगा",
+   "जला दूँगी",
+   "जला दूंगी",
+   "जला डालूँगा",
+   "जला डालूंगा",
+   "सब जला दूँगा",
+   "सब जला दूंगा",
+   "जिंदा जला",
+   "ज़िंदा जला",
+   "घर जला दूँगा",
+   "घर जला दूंगा",
+   "फूंक दूंगा",
+   "फूँक दूँगा",
+   "jala dunga",
+   "jala dungi",
+   "aag laga dunga",
+   "sab jala dunga"
   ],
   "urgent": [
    "आज रात",
@@ -564,6 +586,16 @@ export default {
    "विषय बदलना",
    "ai se baat karni",
    "ai se baat karna"
+  ],
+  "together": [
+   "साथ में मर",
+   "साथ मर जाएँगे",
+   "साथ मर जाएंगे",
+   "बच्चों के साथ मर",
+   "बच्चे के साथ मर",
+   "बेटे के साथ मर",
+   "बेटी के साथ मर",
+   "saath mar"
   ]
  }
 };

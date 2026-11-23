@@ -323,7 +323,11 @@ export default {
    "kisasi",
    "nitamdhuru",
    "kumdhuru",
-   "kuchoma moto"
+   "kuchoma moto",
+   "nitachoma moto",
+   "nitaunguza",
+   "kuteketeza",
+   "nitateketeza"
   ],
   "harmStart": [
    "nitamuua",
@@ -344,7 +348,15 @@ export default {
    "nataka kulipiza kisasi",
    "nitamdhuru",
    "nataka kumdhuru",
-   "nitachoma nyumba"
+   "nitachoma nyumba",
+   "nitachoma moto",
+   "nitachoma kila kitu",
+   "nitateketeza",
+   "nataka kuchoma moto",
+   "nitaichoma nyumba",
+   "nitawachoma moto",
+   "nitamchoma moto",
+   "nitaunguza kila kitu"
   ],
   "urgent": [
    "sasa hivi",
@@ -515,6 +527,15 @@ export default {
    "kuzungumza jambo lingine",
    "tubadilishe mada",
    "badilisha mada"
+  ],
+  "together": [
+   "tufe pamoja",
+   "kufa pamoja",
+   "tutakufa pamoja",
+   "nife na mtoto",
+   "nife na watoto",
+   "nitakufa na mtoto wangu",
+   "nitakufa na watoto wangu"
   ]
  }
 };

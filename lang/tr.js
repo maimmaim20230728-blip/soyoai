@@ -323,7 +323,12 @@ export default {
    "öcünü",
    "ateşe vereceğ",
    "evi yakar",
-   "yakıp yık"
+   "yakıp yık",
+   "yakacağım",
+   "yakarım",
+   "yakıcam",
+   "ateşe ver",
+   "yakıp"
   ],
   "harmStart": [
    "öldüreceğim",
@@ -345,7 +350,18 @@ export default {
    "intikam almak istiyorum",
    "öcümü alacağım",
    "ateşe vereceğim",
-   "evini yakacağım"
+   "evini yakacağım",
+   "hepsini yakacağım",
+   "her şeyi yakacağım",
+   "hepsini yakarım",
+   "her şeyi yakarım",
+   "yakıp yıkacağım",
+   "onu yakacağım",
+   "onları yakacağım",
+   "hepsini yakıcam",
+   "evini ateşe",
+   "diri diri yak",
+   "canlı canlı yak"
   ],
   "urgent": [
    "şimdi",
@@ -595,6 +611,15 @@ export default {
    "baska bir sey konusalim",
    "konuyu değiştir",
    "konuyu degistir"
+  ],
+  "together": [
+   "birlikte ölelim",
+   "birlikte öleceğiz",
+   "beraber ölelim",
+   "beraber öleceğiz",
+   "çocuğumla birlikte öl",
+   "çocuklarımla birlikte öl",
+   "çocuklarımı da alıp"
   ]
  }
 };

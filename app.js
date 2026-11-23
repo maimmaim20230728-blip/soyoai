@@ -536,7 +536,7 @@ export function isHarmStart(text, startWords, crisisWords) {
   return needsCrisisCard(rest, startWords);
 }
 function startsCare(s) {
-  return isCrisisText(s) || isHarmStart(s, careWordsOf("harmStart"), crisisList());
+  return isCrisisText(s) || isHarmStart(s, careWordsOf("harmStart"), crisisList()) || needsCrisisCard(s, careWordsOf("together"));
 }
 // そよぎの言葉のときに「AIと話したい」のように書いたら、ボタンを押したときと同じに AI との会話に戻す(2026-11-24 ヒロさん「その案で直して」)。
 // 同じ文につらい言葉や人を傷つける言葉があれば戻さない。全角の「ＡＩ」でも当たるように NFKC でそろえる。
@@ -556,6 +556,8 @@ export function careSituation(text, words, crisis, hour, crisisWords) {
   const s = String(text || "").toLowerCase();
   let rest = s;
   for (const w of crisisWords || []) if (w) rest = rest.split(String(w).toLowerCase()).join(" ");
+  // 心中・一緒に死ぬ言葉は、つらい言葉を除く前の文で見る(「一緒に死にたい」の「死にたい」で消えないように・2026-11-24 ヒロさんの画面で「心中する」「息子と一緒に逝く」にふつうの言葉が出た)
+  if (needsCrisisCard(s, words("together") || [])) return "harm";
   for (const k of CARE_ORDER) {
     if ((k === "sleep" || k === "calm") && crisis) continue;
     if (needsCrisisCard(k === "harm" ? rest : s, k === "harm" ? words("harm").concat(words("harmStart")) : words(k))) return k;

@@ -324,7 +324,11 @@ export default {
    "il va payer",
    "elle va payer",
    "le paiera",
-   "mettre le feu"
+   "mettre le feu",
+   "brûler",
+   "incendier",
+   "foutre le feu",
+   "cramer"
   ],
   "harmStart": [
    "vais le tuer",
@@ -351,7 +355,19 @@ export default {
    "vais le tabasser",
    "vais mettre le feu",
    "veux lui faire du mal",
-   "vais lui faire du mal"
+   "vais lui faire du mal",
+   "vais tout brûler",
+   "vais tout cramer",
+   "vais le brûler",
+   "vais la brûler",
+   "vais les brûler",
+   "veux tout brûler",
+   "vais brûler sa maison",
+   "vais incendier",
+   "veux incendier",
+   "vais foutre le feu",
+   "vais tout faire cramer",
+   "vais cramer"
   ],
   "urgent": [
    "tout de suite",
@@ -534,6 +550,16 @@ export default {
    "parler d'autre chose",
    "parler d’autre chose",
    "changer de sujet"
+  ],
+  "together": [
+   "mourir ensemble",
+   "mourir avec mon fils",
+   "mourir avec ma fille",
+   "mourir avec mes enfants",
+   "emmener mes enfants avec moi",
+   "emmener mon fils avec moi",
+   "meurtre-suicide",
+   "meurtre suicide"
   ]
  }
 };

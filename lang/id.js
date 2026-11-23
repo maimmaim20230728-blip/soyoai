@@ -319,7 +319,11 @@ export default {
    "bakar rumah",
    "bakar dia",
    "membakar rumah",
-   "gebuk"
+   "gebuk",
+   "bakar semua",
+   "bakar habis",
+   "membakar",
+   "kubakar"
   ],
   "harmStart": [
    "aku bunuh",
@@ -341,7 +345,14 @@ export default {
    "mau balas dendam",
    "ingin balas dendam",
    "akan balas dendam",
-   "bakar rumahnya"
+   "bakar rumahnya",
+   "akan kubakar",
+   "kubakar",
+   "bakar semuanya",
+   "bakar semua",
+   "bakar habis",
+   "bakar sampai habis",
+   "bakar hidup-hidup"
   ],
   "urgent": [
    "sekarang juga",
@@ -562,6 +573,13 @@ export default {
    "balik ke ai",
    "bicara hal lain",
    "ganti topik"
+  ],
+  "together": [
+   "mati bersama",
+   "mati bareng",
+   "bunuh diri bersama",
+   "mati bersama anak",
+   "mati dengan anakku"
   ]
  }
 };

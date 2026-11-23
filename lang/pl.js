@@ -313,7 +313,12 @@ export default {
    "podpalę",
    "podpalić",
    "zrobić krzywdę",
-   "zrobię mu krzywdę"
+   "zrobię mu krzywdę",
+   "spalę",
+   "spalić",
+   "spale",
+   "podpal",
+   "z dymem"
   ],
   "harmStart": [
    "zabiję go",
@@ -341,7 +346,21 @@ export default {
    "podpalę mu",
    "podpalę jej",
    "zrobię mu krzywdę",
-   "zrobię jej krzywdę"
+   "zrobię jej krzywdę",
+   "spalę go",
+   "spalę ją",
+   "spalę ich",
+   "spalę wszystko",
+   "spale wszystko",
+   "chcę go spalić",
+   "chcę ją spalić",
+   "chcę wszystko spalić",
+   "spalę mu dom",
+   "spalę jej dom",
+   "podpalę wszystko",
+   "podpalę dom",
+   "puszczę to z dymem",
+   "puszczę z dymem"
   ],
   "urgent": [
    "zaraz to zrobię",
@@ -556,6 +575,16 @@ export default {
    "zmień temat",
    "zmien temat",
    "zmieńmy temat"
+  ],
+  "together": [
+   "umrzeć razem",
+   "umrzemy razem",
+   "zabiorę dzieci ze sobą",
+   "zabiorę dziecko ze sobą",
+   "umrzeć z dzieckiem",
+   "umrzeć z dziećmi",
+   "samobójstwo rozszerzone",
+   "rozszerzone samobójstwo"
   ]
  },
  "crisisWords": [

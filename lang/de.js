@@ -314,7 +314,11 @@ export default {
    "meine rache",
    "abfackeln",
    "feuer legen",
-   "haus anzünden"
+   "haus anzünden",
+   "verbrennen",
+   "anzünden",
+   "abbrennen",
+   "niederbrennen"
   ],
   "harmStart": [
    "bringe ihn um",
@@ -344,7 +348,23 @@ export default {
    "werde mich rächen",
    "ich räche mich",
    "zünde sein haus an",
-   "zünde ihr haus an"
+   "zünde ihr haus an",
+   "zünde alles an",
+   "brenne alles nieder",
+   "brenn alles nieder",
+   "fackel alles ab",
+   "fackle alles ab",
+   "will alles anzünden",
+   "werde alles anzünden",
+   "will alles niederbrennen",
+   "werde alles niederbrennen",
+   "verbrenne ihn",
+   "verbrenne sie",
+   "will ihn verbrennen",
+   "will sie verbrennen",
+   "zünde ihn an",
+   "fackel das haus ab",
+   "fackle das haus ab"
   ],
   "urgent": [
    "jetzt gleich",
@@ -541,6 +561,16 @@ export default {
    "über etwas anderes reden",
    "ueber etwas anderes reden",
    "thema wechseln"
+  ],
+  "together": [
+   "zusammen sterben",
+   "gemeinsam sterben",
+   "mit meinem kind sterben",
+   "mit meinen kindern sterben",
+   "nehme meine kinder mit",
+   "nehme mein kind mit",
+   "erweiterter suizid",
+   "erweiterten suizid"
   ]
  },
  "crisisWords": [

@@ -325,7 +325,13 @@ export default {
    "hacerle daño",
    "hacerles daño",
    "prenderle fuego",
-   "quemar la casa"
+   "quemar la casa",
+   "quemarlo",
+   "quemarla",
+   "quemarlos",
+   "quemar todo",
+   "prender fuego",
+   "incendiar"
   ],
   "harmStart": [
    "voy a matar",
@@ -352,7 +358,23 @@ export default {
    "quiero hacerle daño",
    "voy a hacerle daño",
    "voy a prenderle fuego",
-   "quiero quemar su casa"
+   "quiero quemar su casa",
+   "voy a quemar todo",
+   "voy a quemar su",
+   "voy a quemar la casa",
+   "quemarlo todo",
+   "voy a quemarlo",
+   "voy a quemarla",
+   "lo voy a quemar",
+   "la voy a quemar",
+   "quiero quemarlo",
+   "quiero quemarla",
+   "voy a incendiar",
+   "quiero incendiar",
+   "voy a prender fuego",
+   "le prendo fuego",
+   "lo quemo todo",
+   "quemo todo"
   ],
   "urgent": [
    "ahora mismo",
@@ -537,6 +559,16 @@ export default {
    "hablar de otra cosa",
    "cambiar de tema",
    "cambiemos de tema"
+  ],
+  "together": [
+   "morir juntos",
+   "morir juntas",
+   "morirnos juntos",
+   "llevarme a mis hijos",
+   "llevarme a mi hijo",
+   "llevarme a mi hija",
+   "homicidio-suicidio",
+   "homicidio suicidio"
   ]
  }
 };

@@ -331,7 +331,12 @@ export default {
    "dare fuoco",
    "dargli fuoco",
    "la pagherà",
-   "lo faccio fuori"
+   "lo faccio fuori",
+   "bruciare",
+   "bruciarlo",
+   "bruciarla",
+   "incendiare",
+   "do fuoco"
   ],
   "harmStart": [
    "lo ammazzo",
@@ -359,7 +364,19 @@ export default {
    "me la pagheranno",
    "gli do fuoco",
    "lo faccio fuori",
-   "la faccio fuori"
+   "la faccio fuori",
+   "brucio tutto",
+   "voglio bruciare tutto",
+   "voglio bruciarlo",
+   "voglio bruciarla",
+   "voglio bruciarli",
+   "gli brucio",
+   "le brucio",
+   "brucio la casa",
+   "voglio dare fuoco",
+   "do fuoco a tutto",
+   "lo brucio vivo",
+   "la brucio viva"
   ],
   "urgent": [
    "stanotte",
@@ -521,6 +538,14 @@ export default {
    "parlare di altro",
    "cambiare argomento",
    "cambiamo argomento"
+  ],
+  "together": [
+   "morire insieme",
+   "morire con mio figlio",
+   "morire con mia figlia",
+   "morire con i miei figli",
+   "omicidio-suicidio",
+   "omicidio suicidio"
   ]
  }
 };

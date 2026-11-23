@@ -312,7 +312,12 @@ export default {
    "iemand pijn doen",
    "wraak",
    "wreken",
-   "in brand steken"
+   "in brand steken",
+   "verbranden",
+   "in de fik",
+   "afbranden",
+   "platbranden",
+   "in brand"
   ],
   "harmStart": [
    "ik vermoord hem",
@@ -336,7 +341,18 @@ export default {
    "ik wil wraak",
    "ik ga me wreken",
    "zijn huis in brand steken",
-   "haar huis in brand steken"
+   "haar huis in brand steken",
+   "steek alles in brand",
+   "ik brand alles plat",
+   "alles platbranden",
+   "steek het in de fik",
+   "in de fik steken",
+   "ga alles in brand steken",
+   "wil alles in brand steken",
+   "ik verbrand hem",
+   "ik verbrand haar",
+   "wil hem verbranden",
+   "wil haar verbranden"
   ],
   "urgent": [
    "nu meteen",
@@ -505,6 +521,15 @@ export default {
    "over iets anders praten",
    "ander onderwerp",
    "van onderwerp veranderen"
+  ],
+  "together": [
+   "samen sterven",
+   "samen doodgaan",
+   "met mijn kind sterven",
+   "met mijn kinderen sterven",
+   "neem mijn kinderen mee",
+   "neem mijn kind mee",
+   "familiedrama"
   ]
  },
  "crisisWords": [

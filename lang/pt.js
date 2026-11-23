@@ -329,7 +329,13 @@ export default {
    "vão pagar",
    "vai pagar",
    "tocar fogo",
-   "botar fogo"
+   "botar fogo",
+   "queimar",
+   "incendiar",
+   "pôr fogo",
+   "por fogo",
+   "atear fogo",
+   "tacar fogo"
   ],
   "harmStart": [
    "vou matar",
@@ -355,7 +361,20 @@ export default {
    "vou machucar ele",
    "vou machucar ela",
    "vou tocar fogo",
-   "vou botar fogo"
+   "vou botar fogo",
+   "vou queimar tudo",
+   "vou queimar ele",
+   "vou queimar ela",
+   "quero queimar ele",
+   "quero queimar tudo",
+   "vou queimar a casa",
+   "vou incendiar",
+   "quero incendiar",
+   "vou pôr fogo",
+   "vou por fogo",
+   "vou atear fogo",
+   "queimo tudo",
+   "vou tacar fogo"
   ],
   "urgent": [
    "agora mesmo",
@@ -537,6 +556,16 @@ export default {
    "falar de outra coisa",
    "mudar de assunto",
    "mudar o assunto"
+  ],
+  "together": [
+   "morrer juntos",
+   "morrer juntas",
+   "morrer com meu filho",
+   "morrer com minha filha",
+   "morrer com meus filhos",
+   "levar meus filhos comigo",
+   "levar meu filho comigo",
+   "homicídio-suicídio"
   ]
  }
 };
