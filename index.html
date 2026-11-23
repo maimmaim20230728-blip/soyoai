@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#1e7a47">
+<meta name="description" content="端末の中で動くAIチャット。一度保存すればオフラインでも使えます。">
+<title>SOYOAI</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+  <header id="topbar">
+    <h1 id="appTitle">SOYOAI</h1>
+    <span id="modelBadge" class="badge" hidden></span>
+    <button id="btnSettings" class="iconbtn" type="button" aria-label="設定" title="設定">⚙</button>
+  </header>
+
+  <div id="banner" class="banner" role="status" hidden></div>
+
+  <main id="main">
+    <section id="setup" class="panel" aria-labelledby="setupTitle" hidden>
+      <h2 id="setupTitle">AIを選んでください</h2>
+      <p id="setupLead"></p>
+      <p id="wifiNote" class="note"></p>
+      <div id="recommendBox" class="recommend">
+        <p id="recommendName" class="recname"></p>
+        <p id="recommendMeta" class="note"></p>
+      </div>
+      <button id="btnShowAll" type="button" class="linkbtn" aria-expanded="false" aria-controls="modelList">ほかのAIをえらぶ</button>
+      <fieldset id="modelList" class="models" hidden>
+        <legend id="modelLegend" class="sr">AI</legend>
+      </fieldset>
+      <p id="setupMsg" class="msg" role="alert" hidden></p>
+      <div id="storageWarn" class="warn" hidden>
+        <p id="storageWarnText"></p>
+        <div class="row">
+          <button id="btnStorageNo" type="button" class="btn ghost">やめる</button>
+          <button id="btnStorageYes" type="button" class="btn">続ける</button>
+        </div>
+      </div>
+      <button id="btnStart" type="button" class="btn wide big">このAIを準備する</button>
+      <div id="progressWrap" class="progress" hidden>
+        <div class="bar"><div id="progressBar" class="fill"></div></div>
+        <p id="progressText" aria-live="polite"></p>
+      </div>
+    </section>
+
+    <section id="nogpu" class="panel" hidden>
+      <p id="nogpuText"></p>
+      <p id="nogpuSub" class="note"></p>
+    </section>
+
+    <div id="log" role="region" aria-label="会話">
+      <p id="emptyChat" class="empty"></p>
+      <p id="langNoteChat" class="note center" hidden></p>
+      <div id="examples" class="examples" role="group" aria-labelledby="examplesTitle">
+        <p id="examplesTitle" class="note">たとえば</p>
+      </div>
+    </div>
+  </main>
+
+  <footer id="composer">
+    <p id="status" class="status" role="status" hidden></p>
+    <form id="form" autocomplete="off">
+      <label id="inputLabel" for="input" class="sr">メッセージ</label>
+      <textarea id="input" rows="1" placeholder="メッセージを書く" enterkeyhint="send"></textarea>
+      <div class="row actions">
+        <button id="btnSearch" type="button" class="btn ghost">🔎 調べてから答える</button>
+        <button id="btnStop" type="button" class="btn stop" hidden>止める</button>
+        <button id="btnSend" type="submit" class="btn">送る</button>
+      </div>
+    </form>
+    <p id="footnote" class="footnote">
+      <span id="disclaimer">AIです。答えは間違うことがあります。</span>
+      <button id="btnCrisis" type="button" class="linkbtn crisisbtn">つらいときの相談先</button>
+    </p>
+  </footer>
+</div>
+
+<div id="srLive" class="sr" aria-live="polite"></div>
+
+<dialog id="dlgSettings" aria-labelledby="settingsTitle">
+  <div class="dlg">
+    <h2 id="settingsTitle">設定</h2>
+
+    <fieldset class="group">
+      <legend id="fontLegend">文字の大きさ</legend>
+      <div class="seg">
+        <label><input type="radio" name="font" id="fontS" value="s"><span id="fontSText">小</span></label>
+        <label><input type="radio" name="font" id="fontM" value="m"><span id="fontMText">中</span></label>
+        <label><input type="radio" name="font" id="fontL" value="l"><span id="fontLText">大</span></label>
+      </div>
+    </fieldset>
+
+    <div class="group">
+      <label id="langLabel" for="langSelect">言語</label>
+      <select id="langSelect"></select>
+      <p id="langNote" class="note" hidden></p>
+    </div>
+
+    <div class="group">
+      <label class="check"><input type="checkbox" id="autoSearch"><span id="autoSearchText">必要ならウェブで調べる</span></label>
+      <p id="autoSearchNote" class="note"></p>
+    </div>
+
+    <div class="group stack">
+      <button id="btnChangeModel" type="button" class="btn ghost">AIを選び直す</button>
+      <button id="btnClearChat" type="button" class="btn ghost">会話を消す</button>
+      <button id="btnDeleteModels" type="button" class="btn ghost danger">AIのデータを消す</button>
+      <button id="btnShowGuide" type="button" class="btn ghost">使い方の説明をもう一度見る</button>
+      <button id="btnAbout" type="button" class="btn ghost">このアプリについて</button>
+    </div>
+
+    <p id="privacyNote" class="note"></p>
+    <p><a id="privacyLink" target="_blank" rel="noopener" hidden>プライバシーポリシー</a></p>
+    <p id="operatorText" class="note"></p>
+    <p id="verText" class="note"></p>
+
+    <div class="row end">
+      <button id="btnCloseSettings" type="button" class="btn">閉じる</button>
+    </div>
+  </div>
+</dialog>
+
+<dialog id="dlgGuide" aria-labelledby="guideTitle">
+  <div class="dlg guide">
+    <p id="guidePage" class="note"></p>
+    <h2 id="guideTitle"></h2>
+    <p id="guideBody"></p>
+    <div class="row between">
+      <button id="btnGuideBack" type="button" class="btn ghost">戻る</button>
+      <button id="btnGuideNext" type="button" class="btn">次へ</button>
+    </div>
+  </div>
+</dialog>
+
+<dialog id="dlgCrisis" aria-labelledby="crisisTitle">
+  <div class="dlg">
+    <h2 id="crisisTitle">つらいときの相談先</h2>
+    <p id="crisisLead"></p>
+    <div class="group">
+      <label id="crisisCountryLabel" for="crisisSelect">国や地域</label>
+      <select id="crisisSelect"></select>
+    </div>
+    <div id="crisisList"></div>
+    <p id="crisisChecked" class="note"></p>
+    <p id="crisisNotListed" class="note"></p>
+    <div class="row end">
+      <button id="btnCloseCrisis" type="button" class="btn">閉じる</button>
+    </div>
+  </div>
+</dialog>
+
+<dialog id="dlgAbout" aria-labelledby="aboutTitle">
+  <div class="dlg">
+    <h2 id="aboutTitle">このアプリについて</h2>
+    <div id="aboutList" class="about"></div>
+    <p id="aboutOperator" class="note"></p>
+    <p id="aboutVer" class="note"></p>
+    <div class="row end">
+      <button id="btnCloseAbout" type="button" class="btn">閉じる</button>
+    </div>
+  </div>
+</dialog>
+
+<dialog id="dlgReport" aria-labelledby="reportTitle">
+  <div class="dlg">
+    <h2 id="reportTitle">この答えを報告する</h2>
+    <p id="reportLead"></p>
+    <fieldset class="group">
+      <legend id="reportReasonLabel">どんな答えでしたか</legend>
+      <div id="reportReasons" class="stack"></div>
+    </fieldset>
+    <div class="group">
+      <label class="check"><input type="checkbox" id="reportIncludeText" checked><span id="reportIncludeLabel">AIの答えの文も送る</span></label>
+    </div>
+    <div class="group">
+      <label id="reportNoteLabel" for="reportNote">ひとこと</label>
+      <textarea id="reportNote" rows="2" maxlength="300"></textarea>
+      <p id="reportNoteHint" class="note"></p>
+    </div>
+    <p id="reportPrivacy" class="note"></p>
+    <p id="reportMsg" role="status" aria-live="polite"></p>
+    <div class="row end">
+      <button id="btnReportCancel" type="button" class="btn ghost">やめる</button>
+      <button id="btnReportSend" type="button" class="btn">送る</button>
+    </div>
+  </div>
+</dialog>
+
+<dialog id="dlgConfirm" aria-labelledby="confirmText">
+  <div class="dlg">
+    <p id="confirmText"></p>
+    <div class="row end">
+      <button id="btnConfirmNo" type="button" class="btn ghost">やめる</button>
+      <button id="btnConfirmYes" type="button" class="btn danger-fill">消す</button>
+    </div>
+  </div>
+</dialog>
+
+<noscript><p class="panel">このアプリを使うには、JavaScriptを有効にしてください。</p></noscript>
+<script nomodule>
+  document.getElementById("app").innerHTML = '<p class="panel">この端末では使えません。</p>';
+</script>
+<script type="module" src="app.js"></script>
+</body>
+</html>
