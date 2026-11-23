@@ -175,6 +175,7 @@ export default {
  "crisisCard": "Dank je dat je vertelt hoe het met je gaat. We laten hulplijnen zien die luisteren, voor elk land gecontroleerd.",
  "crisisOpen": "Hulplijnen bekijken",
  "careWho": "Woorden die Soyogi heeft voorbereid",
+ "careSoudan": "Adviespunt van Soyogi (website)",
  "careNote": "In dit gesprek krijg je woorden die Soyogi van tevoren heeft geschreven. Zo schrijft de AI geen woorden die niet passen. Wil je over iets anders praten, begin dan opnieuw met „{clear}” in Instellingen.",
  "careReplies": [
   "Dank je dat je het me vertelt. Het klinkt alsof er al lang pijnlijke dingen gebeuren, zo erg dat je je zo voelt. Je hoeft nu niets te beslissen. Het is goed om de tijd te laten gaan zonder een antwoord te vinden. Wil je dat iemand naar je luistert, tik dan hieronder op „{open}”.",

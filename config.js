@@ -1,13 +1,16 @@
 // 設定はこのファイル1か所にまとめる。決まっていない値は(仮)。
 // 版を上げるときは、sw.js の VER も必ず同じ値にする(_smoke.js が照合する)。
 
-export const VER = "0.3.2";
+export const VER = "0.3.3";
 
 export const CONFIG = {
   appName: { ja: "SOYOAI", en: "SOYOAI" }, // 2026-11-23 ヒロさん決定
   // ■ 運営(HP のアプリ共通のプライバシーポリシーと同じ名前)。ja 以外は en を出す。
   operatorName: { ja: "介護と支援の相談どころ そよぎ", en: "Kaigo to Shien no Soudan-dokoro Soyogi" },
   operatorUrl: "https://soudansoyogi.com/",
+  // HP の「相談窓口のご案内」。ja は直下、ほかは /<言語>/soudan.html(フォルダ名は小文字・19言語とも 2026-11-23 に開けることを確認)。
+  // つらい言葉のあとの、そよぎが前もって書いた言葉の下にリンクを出す。
+  soudanPage: "soudan.html",
   // Web版の公開アドレス(GitHub Pages)。Play版の「ライセンスの全文」はここを開く。最後に / を付ける。
   webUrl: "https://maimmaim20230728-blip.github.io/soyoai/",
   // ja は日本語の節、ほかは同じページの英語の節(#en)

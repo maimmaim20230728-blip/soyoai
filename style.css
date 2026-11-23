@@ -199,6 +199,8 @@ select { font: inherit; min-height: 44px; padding: 4px 8px; border: 1.5px solid 
 /* 「死にたい」などのときに答えの下に出す相談先の案内(答えは変えない) */
 .crisiscard { margin-top: 8px; padding: 8px 10px; border-radius: 10px; background: #fff; border: 1.5px solid var(--green-deep); white-space: normal; }
 .crisiscard p { margin: 0 0 6px; }
+.crisiscard:has(.soudanlink) { display: flex; flex-wrap: wrap; gap: 8px; }
+.crisiscard .soudanlink { display: inline-flex; align-items: center; text-decoration: none; box-sizing: border-box; }
 .bubble .carenote { white-space: normal; font-size: .8rem; margin: 8px 0 0; }
 .reportbtn { display: block; font-size: .85rem; color: #555; min-height: 44px; padding: 8px 2px 0; }
 #dlgReport textarea { width: 100%; box-sizing: border-box; font: inherit; padding: 8px; border-radius: 8px; border: 1.5px solid #999; }

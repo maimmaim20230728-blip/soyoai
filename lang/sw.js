@@ -175,6 +175,7 @@ export default {
  "crisisCard": "Asante kwa kuniambia unavyohisi. Tumeorodhesha simu za msaada zinazosikiliza, zilizohakikiwa kwa kila nchi.",
  "crisisOpen": "Ona simu za msaada",
  "careWho": "Maneno yaliyoandaliwa na Soyogi",
+ "careSoudan": "Dawati la ushauri la Soyogi (tovuti)",
  "careNote": "Katika mazungumzo haya, ili AI isiandike maneno yasiyofaa, utapata maneno ambayo Soyogi iliandika mapema. Ukitaka kuzungumza kuhusu jambo lingine, unaweza kuanza upya kwa «{clear}» kwenye Mipangilio.",
  "careReplies": [
   "Asante kwa kuniambia. Inaonekana mambo yenye maumivu yameendelea kwa muda mrefu, hadi ukahisi hivi. Sasa hivi huhitaji kuamua jambo lolote. Ni sawa kuacha muda upite bila kupata jibu. Ukitaka mtu akusikilize, gusa «{open}» hapa chini.",

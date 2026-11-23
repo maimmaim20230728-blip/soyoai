@@ -175,6 +175,7 @@ export default {
  "crisisCard": "Danke, dass du mir sagst, wie es dir geht. Wir zeigen dir Hilfetelefone, die zuhören, für jedes Land geprüft.",
  "crisisOpen": "Hilfetelefone ansehen",
  "careWho": "Worte, die Soyogi vorbereitet hat",
+ "careSoudan": "Beratungsstelle von Soyogi (Website)",
  "careNote": "In diesem Chat bekommst du Worte, die Soyogi vorher geschrieben hat. So schreibt die KI keine Worte, die nicht passen. Wenn du über etwas anderes sprechen möchtest, kannst du in den Einstellungen mit „{clear}“ neu anfangen.",
  "careReplies": [
   "Danke, dass du mir das erzählst. Es klingt, als wäre es schon lange sehr schwer für dich. So schwer, dass du so denkst. Du musst jetzt nichts entscheiden. Es ist in Ordnung, Zeit vergehen zu lassen, ohne eine Antwort zu finden. Wenn dir jemand zuhören soll, tippe unten auf „{open}“.",

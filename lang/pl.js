@@ -175,6 +175,7 @@ export default {
  "crisisCard": "Dziękuję, że mówisz, jak się czujesz. Pokazujemy telefony, pod którymi ktoś cię wysłucha, sprawdzone dla każdego kraju.",
  "crisisOpen": "Zobacz telefony pomocy",
  "careWho": "Słowa przygotowane przez Soyogi",
+ "careSoudan": "Punkt porad Soyogi (strona internetowa)",
  "careNote": "W tej rozmowie dostajesz słowa przygotowane wcześniej przez Soyogi. Dzięki temu AI nie pisze słów, które nie pasują. Jeśli chcesz porozmawiać o czymś innym, możesz zacząć od nowa przez „{clear}” w Ustawieniach.",
  "careReplies": [
   "Dziękuję, że mi o tym mówisz. Pewnie od dawna dzieje się coś bardzo bolesnego, skoro tak się czujesz. Teraz nie musisz niczego decydować. Możesz pozwolić, żeby czas płynął, i nie mieć jeszcze odpowiedzi. Jeśli chcesz, żeby ktoś cię wysłuchał, dotknij „{open}” poniżej.",

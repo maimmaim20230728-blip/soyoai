@@ -561,7 +561,24 @@ function addCrisisCard(div, buttonOnly) {
   b.textContent = state.t.crisisOpen;
   b.addEventListener("click", openCrisis);
   box.appendChild(b);
+  // そよぎが前もって書いた言葉の下には、HP の相談窓口のリンクも出す
+  const href = buttonOnly ? soudanUrl() : null;
+  if (href) {
+    const a = document.createElement("a");
+    a.className = "btn ghost soudanlink";
+    a.href = href;
+    a.target = "_blank";
+    a.rel = "noopener noreferrer";
+    a.textContent = state.t.careSoudan;
+    box.appendChild(a);
+  }
   div.appendChild(box);
+}
+
+function soudanUrl() {
+  if (!CONFIG.soudanPage || !state.t.careSoudan) return null;
+  const dir = state.lang === "ja" ? "" : state.lang.toLowerCase() + "/";
+  return safeUrl(CONFIG.operatorUrl + dir + CONFIG.soudanPage);
 }
 
 function openCrisis() {

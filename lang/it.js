@@ -176,6 +176,7 @@ export default {
  "crisisCard": "Grazie per avermi detto come ti senti. Mostriamo linee di aiuto che ti ascoltano, verificate per ogni paese.",
  "crisisOpen": "Vedi le linee di aiuto",
  "careWho": "Parole preparate da Soyogi",
+ "careSoudan": "Sportello di consulenza di Soyogi (sito web)",
  "careNote": "In questa chat, perché l'IA non scriva parole poco adatte, riceverai parole che Soyogi ha scritto prima. Se vuoi parlare d'altro, puoi ricominciare da «{clear}» nelle Impostazioni.",
  "careReplies": [
   "Grazie per avermelo detto. Sembra che da tanto tempo succedano cose dolorose, tanto da farti pensare questo. Adesso non devi decidere niente. Va bene lasciar passare il tempo senza trovare una risposta. Se vuoi che qualcuno ti ascolti, tocca «{open}» qui sotto.",

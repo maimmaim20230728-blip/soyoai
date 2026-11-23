@@ -175,6 +175,7 @@ export default {
  "crisisCard": "Nasıl hissettiğinizi anlattığınız için teşekkürler. Sizi dinleyecek destek hatlarını, her ülke için kontrol ederek gösteriyoruz.",
  "crisisOpen": "Destek hatlarını gör",
  "careWho": "Soyogi'nin hazırladığı sözler",
+ "careSoudan": "Soyogi danışma noktası (web sitesi)",
  "careNote": "Bu sohbette, yapay zeka uygun olmayan sözler yazmasın diye Soyogi'nin önceden yazdığı sözleri alırsınız. Başka bir konuda konuşmak isterseniz Ayarlar'daki «{clear}» ile yeniden başlayabilirsiniz.",
  "careReplies": [
   "Anlattığınız için teşekkür ederim. Bunu düşünecek kadar uzun süredir zor şeyler yaşamışsınız. Şu anda hiçbir şeye karar vermeniz gerekmiyor. Cevap bulmadan zamanın geçmesini beklemek de olur. Birinin sizi dinlemesini isterseniz aşağıdaki «{open}» düğmesine dokunun.",

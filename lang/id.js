@@ -176,6 +176,7 @@ export default {
  "crisisCard": "Terima kasih sudah menceritakan perasaan Anda. Kami mencantumkan layanan bantuan yang mau mendengarkan, yang sudah diperiksa untuk tiap negara.",
  "crisisOpen": "Lihat layanan bantuan",
  "careWho": "Kata-kata yang disiapkan oleh Soyogi",
+ "careSoudan": "Layanan konsultasi Soyogi (situs web)",
  "careNote": "Dalam percakapan ini, agar AI tidak menulis kata-kata yang tidak cocok, Anda akan menerima kata-kata yang sudah ditulis Soyogi sebelumnya. Jika ingin membicarakan hal lain, Anda bisa mulai lagi dari «{clear}» di Pengaturan.",
  "careReplies": [
   "Terima kasih sudah menceritakannya. Sepertinya hal-hal yang menyakitkan sudah berlangsung lama, sampai Anda merasa seperti ini. Saat ini, Anda tidak perlu memutuskan apa pun. Tidak apa-apa membiarkan waktu berlalu tanpa menemukan jawaban. Jika Anda ingin ada orang yang mendengarkan, ketuk «{open}» di bawah.",

@@ -76,6 +76,7 @@ export const DICT = {
     crisisOpen: "相談先を見る",
     // つらい言葉が出たら、その会話はAIに答えを作らせず、そよぎが前もって書いた言葉を返す(2026-11-23 ヒロさん決定・ヒロさんのnoteの言葉を元にした)
     careWho: "そよぎが用意した言葉",
+    careSoudan: "そよぎの相談窓口(ホームページ)",
     careNote: "この会話では、AIが合わない言葉を作ってしまわないように、そよぎが前もって書いた言葉をお返しします。ほかの話をするときは、設定の「{clear}」から新しく始められます。",
     careReplies: [
       "話してくれて、ありがとうございます。そう思うほど、つらいことが続いてきたのですね。いまは、何かを決めなくていいです。答えを出さないまま、時間がたつのを待っていいです。人に話を聞いてほしいときは、下の「{open}」から、窓口が見られます。",
@@ -236,6 +237,7 @@ export const DICT = {
     crisisCard: "Thank you for telling me how you feel. We list support lines that listen, checked for each country.",
     crisisOpen: "See support lines",
     careWho: "Words prepared by Soyogi",
+    careSoudan: "Soyogi's consultation desk (website)",
     careNote: "In this chat, so that the AI does not write words that do not fit, you will get words that Soyogi wrote in advance. To talk about something else, start again from “{clear}” in Settings.",
     careReplies: [
       "Thank you for telling me. It sounds like painful things have gone on for a long time, enough to make you feel this way. You do not have to decide anything right now. It is okay to let time pass without finding an answer. If you want someone to listen, tap “{open}” below to see support lines.",
