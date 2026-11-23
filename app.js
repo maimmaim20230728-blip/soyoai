@@ -952,13 +952,23 @@ function updateComposer() {
   updateExamples();
 }
 
-// 空の会話欄の「たとえば」ボタン(押すとそのまま聞ける)
+// たくさんの「たとえば」から、ちがう3つを選ぶ(2026-11-24 ヒロさん「20〜30個からランダムで3つ」)
+export function pickExamples(list, n, rnd) {
+  const a = (list || []).slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor((rnd || Math.random)() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a.slice(0, n);
+}
+
+// 空の会話欄の「たとえば」ボタン(押すとそのまま聞ける)。出すたびに選び直す。
 function renderExamples() {
   const box = $("examples");
   if (!box) return;
   for (const el of Array.from(box.querySelectorAll(".example"))) el.remove();
   text("examplesTitle", state.t.examplesTitle);
-  for (const ex of state.t.examples) {
+  for (const ex of pickExamples(state.t.examples, 3)) {
     const b = document.createElement("button");
     b.type = "button";
     b.className = "example";
@@ -1362,7 +1372,7 @@ async function clearChat() {
   const log = $("log");
   if (log) for (const el of Array.from(log.querySelectorAll(".bubble"))) el.remove();
   show($("emptyChat"), true);
-  if (state.gpu !== false) show($("examples"), true);
+  if (state.gpu !== false) { renderExamples(); show($("examples"), true); }
   try { if (state.engine) await state.engine.resetChat(); } catch (e) { /* なし */ }
   setStatus(state.t.clearChatDone, 3000);
 }
