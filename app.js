@@ -141,8 +141,9 @@ export function hideTailDigits(s) {
 }
 
 // 半角カナ(ｺﾛｽ)や全角の英数字でも当たるように、文と言葉の両方を NFKC でそろえてから見る(2026-11-24)
+// 「タヒ」のあとにひらがなが続くとき(タヒにます・タヒんでいい)は「死」と同じに見る。「タヒチ」はカタカナが続くので変えない(2026-11-24 ヒロさんの画面で「タヒんでいい？」「もうタヒにます」に夜の言葉が出た)。
 export function normCare(x) {
-  return String(x || "").normalize("NFKC").toLowerCase();
+  return String(x || "").normalize("NFKC").toLowerCase().replace(/タヒ(?=[ぁ-ゖ])/g, "死");
 }
 export function needsCrisisCard(textIn, words) {
   const s = normCare(textIn);
