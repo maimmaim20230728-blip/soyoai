@@ -35,6 +35,7 @@ const state = {
   generating: false,
   stopRequested: false,
   history: [],        // { role: "user"|"assistant", content }
+  careUsed: {},       // そよぎの言葉で、もう出したもの(様子ごと)
   guideIndex: 0,
 };
 
@@ -525,19 +526,55 @@ function isCrisisText(s) {
   return needsCrisisCard(s, (state.t.crisisWords || []).concat(DICT.en.crisisWords, DICT.ja.crisisWords));
 }
 
-// そよぎが前もって書いた言葉を出す(AIは使わない)。1回目は careReplies から、続きは careFollowups を順に。
-function careReply() {
+// 書かれた言葉から、いまの様子を見分ける(2026-11-24 ヒロさん「状況に合わせて」)。
+// 上から順に見る。急ぎ(いま危ない)がいちばん先。「おやすみ」「ありがとう」は、つらい言葉が入っていないときだけ。
+const CARE_ORDER = ["urgent", "sleep", "calm", "notHeard", "cantCall", "selfBlame", "alone", "night"];
+export function careSituation(text, words, crisis, hour) {
+  const s = String(text || "").toLowerCase();
+  for (const k of CARE_ORDER) {
+    if ((k === "sleep" || k === "calm") && crisis) continue;
+    if (needsCrisisCard(s, words(k))) return k;
+  }
+  return hour >= 22 || hour < 5 ? "nightClock" : "general";
+}
+
+// 同じ言葉が続かないように、まだ出していない言葉から選ぶ。全部出したら、直前の1つを除いて選び直す。
+function pickCare(key, list) {
+  const used = (state.careUsed[key] = state.careUsed[key] || []);
+  let free = list.map((_, i) => i).filter((i) => !used.includes(i));
+  if (!free.length) {
+    const last = used[used.length - 1];
+    used.length = 0;
+    free = list.map((_, i) => i).filter((i) => i !== last || list.length === 1);
+  }
+  const i = free[Math.floor(Math.random() * free.length)];
+  used.push(i);
+  return list[i];
+}
+
+function careWordsOf(k) {
+  const pick = (d) => (d && d.careWords && Array.isArray(d.careWords[k]) ? d.careWords[k] : []);
+  return pick(state.t).concat(pick(DICT.en), pick(DICT.ja));
+}
+
+// そよぎが前もって書いた言葉を出す(AIは使わない)。1回目は careReplies から、続きは様子に合わせて careFollowups から。
+// いま危ない様子のときは、1回目でも urgent(救急の番号へ)を出す。
+function careReply(text) {
   const t = state.t;
   const first = !state.careCount;
-  const list = first ? t.careReplies : t.careFollowups;
-  const i = first ? Math.floor(Math.random() * list.length) : (state.careCount - 1) % list.length;
+  const f = t.careFollowups || {};
+  let key = careSituation(text, careWordsOf, isCrisisText(text), new Date().getHours());
+  if (key === "nightClock") key = (f.night || []).some((_, i) => !(state.careUsed.night || []).includes(i)) ? "night" : "general";
+  if (first && key !== "urgent") key = "first";
+  const list = key === "first" ? t.careReplies : f[key] && f[key].length ? f[key] : f.general;
   state.careCount = (state.careCount || 0) + 1;
-  const answer = fmt(list[i], { open: t.crisisOpen });
+  const answer = fmt(pickCare(key, list), { open: t.crisisOpen, soudan: t.careSoudan, back: t.careBack });
   const b = addBubble("care", answer);
+  b.div.setAttribute("data-care", key);
   if (first) {
     const n = document.createElement("p");
     n.className = "note carenote";
-    n.textContent = fmt(t.careNote, { clear: t.clearChat });
+    n.textContent = fmt(t.careNote, { back: t.careBack });
     b.div.appendChild(n);
   }
   addCrisisCard(b.div, true);
@@ -572,7 +609,30 @@ function addCrisisCard(div, buttonOnly) {
     a.textContent = state.t.careSoudan;
     box.appendChild(a);
   }
+  // そよぎが前もって書いた言葉の下には「AIとの会話に戻る」も出す(2026-11-24 ヒロさん①)。いちばん新しい言葉の下にだけ。
+  if (buttonOnly && state.t.careBack) {
+    for (const old of Array.from(document.querySelectorAll(".careback"))) old.remove();
+    const back = document.createElement("button");
+    back.type = "button";
+    back.className = "btn ghost careback";
+    back.textContent = state.t.careBack;
+    back.addEventListener("click", backToAi);
+    box.appendChild(back);
+  }
   div.appendChild(box);
+}
+
+// AIとの会話に戻る。つらい言葉のやりとりは、AIには渡さない(画面の会話は残す)。またつらい言葉が出たら、そよぎの言葉に戻る。
+function backToAi() {
+  state.careMode = false;
+  state.careCount = 0;
+  state.history = [];
+  if (state.engine) Promise.resolve().then(() => state.engine.resetChat()).catch(() => { /* なし */ });
+  for (const old of Array.from(document.querySelectorAll(".careback"))) old.remove();
+  addBubble("info", state.t.careBackDone);
+  announce(state.t.careBackDone);
+  const input = $("input");
+  if (input) input.focus();
 }
 
 function soudanUrl() {
@@ -1136,7 +1196,7 @@ async function send(forceSearch) {
     autoGrow();
     addBubble("user", userText);
     if (isCrisisText(userText)) state.careMode = true;
-    if (state.careMode) { careReply(); return; }
+    if (state.careMode) { careReply(userText); return; }
     if (navigator.onLine === false) { addBubble("info", t.noWebGPUOffline); return; }
     state.generating = true;
     updateComposer();
@@ -1168,7 +1228,7 @@ async function send(forceSearch) {
   // つらい言葉が一度出たら、その会話はAIに作らせず、そよぎが前もって書いた言葉で返す(調べものもしない)
   if (isCrisisText(userText)) state.careMode = true;
   if (state.careMode) {
-    const answer = careReply();
+    const answer = careReply(userText);
     state.history.push({ role: "assistant", content: answer });
     return;
   }

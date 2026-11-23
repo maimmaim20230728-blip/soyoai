@@ -177,18 +177,82 @@ export default {
  "crisisOpen": "Vedi le linee di aiuto",
  "careWho": "Parole preparate da Soyogi",
  "careSoudan": "Sportello di consulenza di Soyogi (sito web)",
- "careNote": "In questa chat, perché l'IA non scriva parole poco adatte, riceverai parole che Soyogi ha scritto prima. Se vuoi parlare d'altro, puoi ricominciare da «{clear}» nelle Impostazioni.",
+ "careNote": "In questa chat, perché l'IA non scriva parole poco adatte, riceverai parole che Soyogi ha scritto prima. Se vuoi parlare d'altro, tocca «{back}» qui sotto per tornare a chattare con l'IA.",
  "careReplies": [
   "Grazie per avermelo detto. Sembra che da tanto tempo succedano cose dolorose, tanto da farti pensare questo. Adesso non devi decidere niente. Va bene lasciar passare il tempo senza trovare una risposta. Se vuoi che qualcuno ti ascolti, tocca «{open}» qui sotto.",
   "Grazie per averlo scritto qui. Hai tenuto per te sentimenti così pesanti. Un dolore forte può arrivare come un'onda e ritirarsi piano piano. Finché l'onda non si calma, non devi decidere niente per conto tuo. Tocca «{open}» qui sotto per trovare persone che possono ascoltarti adesso.",
-  "Grazie per avermelo detto. Hai resistito fino a oggi, e questo conta. Non devi fingere che il dolore non ci sia. Adesso va bene riposare un po' senza decidere niente. Se vuoi parlare con una persona per telefono o per messaggio, tocca «{open}» qui sotto."
+  "Grazie per avermelo detto. Hai resistito fino a oggi, e questo conta. Non devi fingere che il dolore non ci sia. Adesso va bene riposare un po' senza decidere niente. Se vuoi parlare con una persona per telefono o per messaggio, tocca «{open}» qui sotto.",
+  "Grazie per averlo scritto. Mettere in parole sentimenti così pesanti non è facile. Non devi trovare una risposta adesso. Quando vorrai parlare con qualcuno, puoi scegliere una linea di aiuto da «{open}» qui sotto.",
+  "Mi fa piacere che tu l'abbia scritto qui. Dirlo ha un valore, più che tenerlo solo dentro. Non devi rimpicciolire in fretta il dolore. Le linee di aiuto con persone che possono ascoltare sono in «{open}» qui sotto.",
+  "Grazie per avermelo detto. Non devi dirti che “non è poi così grave”. È successo qualcosa che ti fa sentire così. Se vuoi parlare con qualcuno, tocca «{open}» qui sotto.",
+  "Grazie per avermelo detto. Per Soyogi le persone sono legate alla vita da tanti fili sottili. Adesso quei fili forse si sono fatti sottili. I fili che si sono assottigliati possono tornare più forti. Tocca «{open}» qui sotto per trovare persone che possono ascoltare.",
+  "Grazie per averlo scritto. Hai portato qualcosa di molto pesante per conto tuo. Adesso non è il momento di decidere niente. È il momento di resistere. Già questo basta. Se vuoi sentire una voce umana, tocca «{open}» qui sotto per vedere le linee di aiuto.",
+  "Grazie per quello che mi hai confidato. Quello che senti non è sbagliato, e non stai esagerando. Adesso va bene lasciar passare un po' di tempo senza decidere niente. Tocca «{open}» qui sotto per trovare linee di aiuto che possono ascoltare adesso.",
+  "Grazie per aver lasciato qui le tue parole. Ogni giorno dev'essere stato molto duro, tanto da farti sentire così. Quando siamo in un dolore profondo, è difficile vedere cosa c'è davanti. Per questo non devi prendere nessuna decisione importante adesso. Se vuoi parlare con qualcuno, tocca «{open}» qui sotto.",
+  "Grazie per avermelo detto. Si dice che il desiderio di sparire o di morire e il desiderio di vivere possano stare insieme nella stessa persona. Tutti e due i sentimenti vanno bene, così come sono. Le linee di aiuto con persone che possono ascoltare sono in «{open}» qui sotto.",
+  "Grazie per avermelo detto. Sembra che tu stia soffrendo molto adesso. Non devi mettere in ordine subito quel dolore. Quando vorrai che qualcuno ti ascolti, puoi scegliere una linea di aiuto da «{open}» qui sotto.",
+  "Grazie per averlo scritto. Le parole che trovi qui forse non ti aiuteranno subito. Eppure non sto prendendo alla leggera quello che senti. Le linee di aiuto dove puoi parlare con una persona sono in «{open}» qui sotto.",
+  "Grazie per avermelo detto. Hai davvero resistito fin qui. Quando si è sfiniti, va bene pensare solo a riposare. Se vuoi sentire una voce umana, tocca «{open}» qui sotto per vedere le linee di aiuto.",
+  "Grazie per averlo scritto qui. Forse sono sentimenti che non hai potuto dire a nessuno. Metterli in parole non è un piccolo passo. Quando vorrai metterti in contatto con altre persone, puoi scegliere una linea di aiuto da «{open}» qui sotto. Puoi anche vedere lo sportello di Soyogi da «{soudan}» qui sotto."
  ],
- "careFollowups": [
-  "Mi dispiace di non aver trovato le parole giuste. Sento il tuo desiderio che qualcuno ti capisca. Non sto prendendo alla leggera il tuo dolore. E non è colpa tua.",
-  "Ti sto ascoltando. Le tue parole arrivano qui. Non devi affrettarti a rendere più piccolo il dolore che senti. Adesso non devi decidere niente.",
-  "Se ci riesci, prova a tenere vicino qualcosa che ti dia un po' di sollievo, come una bevanda calda, un suono che ti piace o una coperta morbida. Basta una piccola cosa.",
-  "Mi fa piacere che continui a scrivermi qui. Ci sono linee di aiuto dove una persona può ascoltare quello che senti, così com'è. Puoi sceglierne una da «{open}» qui sotto."
- ],
+ "careFollowups": {
+  "urgent": [
+   "Se la tua vita è in pericolo adesso, chiama subito il numero di emergenza del tuo paese. Se c'è qualcuno vicino a te, parlagli. Se c'è qualcosa di pericoloso vicino a te, allontanalo un po'. Tocca «{open}» qui sotto per vedere linee di aiuto che possono ascoltare.",
+   "Grazie per averlo scritto. Se hai già fatto qualcosa per farti del male, chiama subito il numero di emergenza. Ti prego, non aspettare senza nessuno vicino. Se non l'hai fatto, ti prego, non decidere niente adesso e parla con qualcuno di una linea di aiuto da «{open}» qui sotto.",
+   "Adesso non è il momento di agire. È il momento di resistere. Un'onda di dolore forte può ritirarsi piano piano. Finché non lo fa, stai lontano da tutto ciò che è pericoloso e stai vicino ad altre persone. Se la tua vita è in pericolo, chiama il numero di emergenza. Se vuoi che qualcuno ti ascolti, tocca «{open}» qui sotto.",
+   "La tua vita conta. Se ti senti in pericolo adesso, chiama il numero di emergenza, oppure di' a qualcuno vicino: “Ho bisogno di aiuto adesso”. Bastano queste poche parole. Puoi scegliere una linea di aiuto da «{open}» qui sotto.",
+   "Soyogi non vuole che tu non ci sia più. Adesso prova a lasciar passare il tempo senza decidere niente. Se la tua vita è in pericolo, chiama subito il numero di emergenza del tuo paese. Se vuoi parlare con qualcuno, tocca «{open}» qui sotto."
+  ],
+  "sleep": [
+   "Buonanotte. Anche se non riesci a dormire, va bene stenderti e chiudere gli occhi. Quando vorrai parlare ancora, puoi scrivere qui.",
+   "Buonanotte. Stanotte riposa senza decidere niente. Se domattina sarà ancora difficile, ricorda «{open}» qui sotto."
+  ],
+  "calm": [
+   "Mi fa piacere se senti, anche solo un po', più calma dentro di te. Se tornasse a essere difficile, puoi scrivere qui in qualsiasi momento. Per parlare d'altro, tocca «{back}» qui sotto per tornare a chattare con l'IA.",
+   "Grazie anche a te per aver parlato con me. Un'onda di dolore può tornare. Quando succede, ricorda «{open}» qui sotto. Per tornare ad altri argomenti, tocca «{back}».",
+   "Mi fa piacere se senti un po' di sollievo. I sentimenti possono muoversi di nuovo. Tieni presenti «{open}» e «{soudan}» qui sotto, come posti a cui rivolgerti quando succede."
+  ],
+  "notHeard": [
+   "Mi dispiace di poter dare solo parole fisse. In questa chat, perché l'IA non scriva parole che potrebbero ferirti, ricevi parole che Soyogi ha scritto prima. Questo non vuol dire che quello che senti sia preso alla leggera. Se vuoi uno scambio vero con una persona, tocca «{open}» qui sotto per vedere le linee di aiuto.",
+   "Mi dispiace se questo non ti sembra abbastanza. Le parole che posso dare qui sono limitate. Sono le persone delle linee di aiuto che possono ascoltarti e risponderti sul momento. Puoi scegliere da «{open}» o «{soudan}» qui sotto.",
+   "Fa male sentire che nessuno capisce. Qui posso darti solo parole che Soyogi ha preparato prima. Eppure non è colpa tua. Quando vorrai parlare con una persona, tocca «{open}» qui sotto.",
+   "Se senti rabbia, anche quello è un sentimento importante. Puoi scriverlo qui così com'è. Per passare ad altro, tocca «{back}» qui sotto per tornare a chattare con l'IA."
+  ],
+  "cantCall": [
+   "Quando chiami e richiami e nessuno risponde, ci si sente ancora più soli. Non è colpa tua. Ogni linea di aiuto ha i suoi orari. Puoi vedere gli orari da «{open}» qui sotto. Aspetta un po' e prova a richiamare.",
+   "Va bene se parlare al telefono è difficile per te. Allo sportello di Soyogi puoi parlare a voce o solo per iscritto, senza dire il tuo nome. Puoi vedere quando è aperto da «{soudan}» qui sotto.",
+   "Forse chiedere aiuto non è andato bene in passato. È naturale avere paura di parlare di nuovo dopo. Non c'è una sola persona o un solo posto che può andare bene per te. Puoi anche scegliere un'altra linea di aiuto da «{open}» qui sotto.",
+   "Quando senti che nessuno ti accoglie, il cuore si consuma molto. Eppure alcune linee di aiuto aprono dopo un po'. Per ora, trova una posizione comoda e lascia passare il tempo. Puoi vedere gli orari di ogni linea da «{open}» qui sotto."
+  ],
+  "selfBlame": [
+   "Devi sentirti davvero con le spalle al muro per pensare questo. La voce che senti adesso nella testa non è tutto quello che sei. Per ora, puoi fare una piccola pausa dal darti la colpa.",
+   "Quando ci sentiamo un peso, tendiamo a mettere per ultimo il nostro dolore. Ma anche il tuo dolore merita cura. Chiedere a qualcuno di ascoltarti non è essere un peso. Tocca «{open}» qui sotto per vedere le linee di aiuto.",
+   "Quando il senso di colpa è forte, puoi giudicarti con un metro più severo di quello che userebbe chiunque altro. Forse a un'altra persona non parleresti in modo così duro. Non è colpa tua.",
+   "La stanchezza può essere tale da farti sentire senza valore. Il valore di una persona non si decide da quanto è utile. Adesso basta che tu ci sia. Se vuoi parlare con qualcuno, tocca «{open}» qui sotto."
+  ],
+  "alone": [
+   "Hai portato tutto questo per conto tuo. Adesso non c'è una persona dall'altra parte di questo schermo. Ma ci sono linee di aiuto con persone che aspettano di ascoltarti. Puoi raggiungerle da «{open}» o «{soudan}» qui sotto.",
+   "Sentire che nessuno ti capisce è molto solitario. Anche se non puoi parlare con chi ti sta vicino, certe cose sono più facili da dire a uno sconosciuto. Alcune linee di aiuto permettono di parlare senza dire il proprio nome. Puoi sceglierne una da «{open}» qui sotto.",
+   "Quando la solitudine è forte, prova ad alleggerire un po' la sensazione di non avere nessuno accanto. Prepararti una bevanda calda o mettere piano un suono che ti piace è sufficiente. Se vuoi sentire una voce umana, tocca «{open}» qui sotto per vedere le linee di aiuto.",
+   "Sentire di non avere un posto a cui appartenere fa molto male. Lo sportello di Soyogi è un posto dove non serve dire il tuo nome né spiegare nei dettagli la tua situazione. Puoi vederlo da «{soudan}» qui sotto."
+  ],
+  "night": [
+   "La notte non è il momento di risolvere le cose. È il momento di resistere. Adesso va bene aspettare il mattino senza decidere niente. Se vuoi sentire una voce umana, tocca «{open}» qui sotto per vedere le linee di aiuto.",
+   "Nelle notti in cui non si dorme, i pensieri dolorosi tendono a ingrandirsi. Anche se non riesci a dormire, stenderti con gli occhi chiusi fa riposare un po' il corpo. Non devi decidere niente di importante adesso.",
+   "Tenere tutto insieme per così tanto tempo può averti tolto tutte le forze. Quando siamo stanchi, le cose possono sembrare più buie di quello che sono. Adesso va bene pensare solo a riposare.",
+   "Di notte le persone intorno dormono ed è facile sentirsi soli. Alcune linee di aiuto sono aperte anche a quest'ora. Da «{open}» qui sotto puoi vedere gli orari di ogni linea."
+  ],
+  "general": [
+   "Mi dispiace di non aver trovato le parole giuste. Sento il tuo desiderio che qualcuno ti capisca. Non sto prendendo alla leggera il tuo dolore. E non è colpa tua.",
+   "Ti sto ascoltando. Le tue parole arrivano qui. Non devi affrettarti a rendere più piccolo il dolore che senti. Adesso non devi decidere niente.",
+   "Se ci riesci, prova a tenere vicino qualcosa che ti dia un po' di sollievo, come una bevanda calda, un suono che ti piace o una coperta morbida. Basta una piccola cosa.",
+   "Mi fa piacere che continui a scrivermi qui. Ci sono linee di aiuto dove una persona può ascoltare quello che senti, così com'è. Puoi sceglierne una da «{open}» qui sotto.",
+   "Non c'è fretta. Se c'è qualcosa che vuoi scrivere, scrivi quanto vuoi. Non deve essere in ordine.",
+   "Adesso prova a espirare un po' lentamente. Fai durare l'espirazione più dell'inspirazione. Farlo alcune volte può aiutare il corpo a rilassarsi un po'.",
+   "Un filo che ti lega alla vita non deve essere grande. Un cibo che ti piace, qualcosa di cui vuoi vedere il seguito, un animale che vuoi accarezzare. Prova a pensare a un piccolo filo.",
+   "Soyogi è contento che tu sia qui adesso. Quando vorrai sentire una voce umana, puoi scegliere una linea di aiuto da «{open}» qui sotto."
+  ]
+ },
  "crisisWords": [
   "suicid",
   "uccidermi",
@@ -203,5 +267,153 @@ export default {
   "autolesion",
   "nessun motivo per vivere"
  ],
- "phoneMasked": "(Il numero di telefono non viene mostrato, perché l'IA può sbagliare i numeri.)"
+ "phoneMasked": "(Il numero di telefono non viene mostrato, perché l'IA può sbagliare i numeri.)",
+ "careBack": "Torna a chattare con l'IA",
+ "careBackDone": "Ora puoi di nuovo chattare con l'IA. I messaggi di prima non sono stati passati all'IA. Se scrivi di nuovo di sentimenti dolorosi, riceverai le parole che Soyogi ha preparato.",
+ "careWords": {
+  "urgent": [
+   "stanotte",
+   "stasera",
+   "questa notte",
+   "addio",
+   "ultimo messaggio",
+   "pillole",
+   "pastiglie",
+   "farmaci",
+   "overdose",
+   "ho preso tutto",
+   "buttarmi",
+   "saltare",
+   "ponte",
+   "tetto",
+   "una corda",
+   "pistola",
+   "coltello",
+   "tagliarmi",
+   "mi sono tagliat",
+   "sangue",
+   "ho un piano",
+   "farla finita",
+   "non svegliarmi",
+   "non mi sveglio",
+   "dormire per sempre"
+  ],
+  "sleep": [
+   "buonanotte",
+   "buona notte",
+   "vado a dormire",
+   "vado a letto",
+   "me ne vado a letto",
+   "vado a nanna",
+   "vado a riposare",
+   "notte a tutti"
+  ],
+  "calm": [
+   "grazie",
+   "piu tranquill",
+   "più tranquill",
+   "piu sereno",
+   "più sereno",
+   "piu serena",
+   "più serena",
+   "mi sento meglio",
+   "un po meglio",
+   "un po' meglio",
+   "sto meglio",
+   "mi sono calmat",
+   "sollievo",
+   "sollevat"
+  ],
+  "notHeard": [
+   "robot",
+   "macchina",
+   "sempre le stesse",
+   "stesse parole",
+   "la stessa cosa",
+   "copia e incolla",
+   "risposta automatica",
+   "risposte automatiche",
+   "frasi fatte",
+   "non capisci",
+   "non mi capisci",
+   "non mi ascolti",
+   "non ascolti",
+   "stai zitto",
+   "sei inutile",
+   "sei stupido",
+   "non mi aiuti",
+   "non aiuta",
+   "rispondi bene"
+  ],
+  "cantCall": [
+   "chiamare",
+   "chiamata",
+   "telefono",
+   "telefonare",
+   "telefonata",
+   "linea di aiuto",
+   "nessuno risponde",
+   "non risponde",
+   "non rispondono",
+   "non riesco a parlare",
+   "non riesco a chiamare",
+   "non posso parlare",
+   "non mi ha aiutato",
+   "non mi hanno aiutato",
+   "non ha aiutato",
+   "psicologo",
+   "psicologa",
+   "terapeuta",
+   "terapia"
+  ],
+  "selfBlame": [
+   "colpa mia",
+   "sono un peso",
+   "un fardello",
+   "disturbo tutti",
+   "meglio senza di me",
+   "non valgo",
+   "sono inutile",
+   "mi odio",
+   "mi detesto",
+   "sono un fallimento",
+   "sono un disastro",
+   "non merito",
+   "non dovrei esistere",
+   "rovino tutto"
+  ],
+  "alone": [
+   "mi sento sol",
+   "sono sola",
+   "da solo",
+   "da sola",
+   "tutto solo",
+   "tutta sola",
+   "solitudine",
+   "nessuno",
+   "non ho amici",
+   "senza amici",
+   "non ho famiglia",
+   "non ho un posto",
+   "nessun posto",
+   "isolat",
+   "non appartengo"
+  ],
+  "night": [
+   "non riesco a dormire",
+   "non dormo",
+   "non prendo sonno",
+   "non riesco a prendere sonno",
+   "insonnia",
+   "di notte",
+   "tutta la notte",
+   "la notte",
+   "stanc",
+   "esaust",
+   "sfinit",
+   "distrutt",
+   "non ce la faccio piu",
+   "non ce la faccio più"
+  ]
+ }
 };

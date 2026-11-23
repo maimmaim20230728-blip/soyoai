@@ -77,18 +77,225 @@ export const DICT = {
     // つらい言葉が出たら、その会話はAIに答えを作らせず、そよぎが前もって書いた言葉を返す(2026-11-23 ヒロさん決定・ヒロさんのnoteの言葉を元にした)
     careWho: "そよぎが用意した言葉",
     careSoudan: "そよぎの相談窓口(ホームページ)",
-    careNote: "この会話では、AIが合わない言葉を作ってしまわないように、そよぎが前もって書いた言葉をお返しします。ほかの話をするときは、設定の「{clear}」から新しく始められます。",
+    careBack: "AIとの会話に戻る",
+    careBackDone: "AIとの会話に戻りました。さっきまでのやりとりは、AIには渡していません。また、つらい気持ちを書いたときは、そよぎが用意した言葉をお返しします。",
+    careNote: "この会話では、AIが合わない言葉を作ってしまわないように、そよぎが前もって書いた言葉をお返しします。ほかの話をしたいときは、下の「{back}」を押すと、AIとの会話に戻れます。",
     careReplies: [
       "話してくれて、ありがとうございます。そう思うほど、つらいことが続いてきたのですね。いまは、何かを決めなくていいです。答えを出さないまま、時間がたつのを待っていいです。人に話を聞いてほしいときは、下の「{open}」から、窓口が見られます。",
       "ここに書いてくれて、ありがとうございます。そこまで思うほどの気持ちを、ひとりで抱えてきたのですね。強いつらさは、波のように来て、少しずつ引いていくことがあります。波がおさまるまで、ひとりで何かを決めなくて大丈夫です。下の「{open}」から、いま話を聞いてくれる人を探せます。",
       "教えてくれて、ありがとうございます。あなたが今日まで持ちこたえてきたことを、大切に思います。そのつらさを、なかったことにしなくていいです。いまは、決めないまま、少し休んでいい時間です。声や文字で人と話したいときは、下の「{open}」を押してください。",
+      "書いてくれて、ありがとうございます。そこまで思うほどの気持ちを言葉にするのは、簡単なことではなかったと思います。いまは、答えを出さなくていいです。人と話したくなったら、下の「{open}」から窓口を選べます。",
+      "ここに書いてくれて、よかったです。心の中だけで抱えるより、外に出すことには意味があります。いまのつらさを、急いで小さくしなくていいです。話を聞いてくれる人がいる窓口は、下の「{open}」にあります。",
+      "教えてくれて、ありがとうございます。「これくらいで」と、自分の気持ちを小さく見なくていいです。そう感じるほどのことが、あったのだと思います。人と話したいときは、下の「{open}」を押してください。",
+      "話してくれて、ありがとうございます。人は、生きる側と、細い糸のようなもので何本もつながっていると、そよぎは考えています。いまは、その糸が細くなっているときなのかもしれません。細くなった糸が、また太くなることもあります。下の「{open}」から、話を聞いてくれる人を探せます。",
+      "書いてくれて、ありがとうございます。とても重いものを、ひとりで持ってきたのですね。いまは、何かを決める時間ではなく、持ちこたえる時間です。それだけで、十分です。人の声が聞きたいときは、下の「{open}」から窓口が見られます。",
+      "打ち明けてくれて、ありがとうございます。あなたの気持ちを、間違っているとも、大げさだとも思いません。いまは、決めないまま、少し時間をやり過ごしていいです。下の「{open}」から、いま話を聞いてくれる窓口を探せます。",
+      "ここに言葉を置いてくれて、ありがとうございます。そう思ってしまうほど、毎日が苦しかったのですね。苦しさの中にいるときは、先のことが見えにくくなります。だから、いまは大きなことを決めなくていいです。人と話したいときは、下の「{open}」を押してください。",
+      "話してくれて、ありがとうございます。消えたい気持ちや死にたい気持ちと、生きたい気持ちは、同じ人の中に同時にあることがある、と言われています。どちらの気持ちも、そのままで大丈夫です。話を聞いてくれる人がいる窓口は、下の「{open}」から見られます。",
+      "教えてくれて、ありがとうございます。いま、とても苦しい中にいるのだと思います。その苦しさを、すぐに片づけなくていいです。人に聞いてほしくなったら、下の「{open}」から窓口を選べます。",
+      "書いてくれて、ありがとうございます。いまのあなたに、すぐに効く言葉を、ここでは返せないかもしれません。それでも、あなたの気持ちを軽く見てはいません。人と話せる窓口が、下の「{open}」にあります。",
+      "話してくれて、ありがとうございます。ここまで、本当によく持ちこたえてきましたね。疲れきっているときは、休むことだけを考えていいです。人の声を聞きたいときは、下の「{open}」から窓口が見られます。",
+      "ここに書いてくれて、ありがとうございます。誰にも言えなかった気持ちかもしれません。言葉にしたことは、小さくない一歩です。人とつながりたいときは、下の「{open}」から窓口を選べます。下の「{soudan}」からは、そよぎの窓口も見られます。"
     ],
-    careFollowups: [
-      "うまく言葉を返せなくて、ごめんなさい。わかってほしいという気持ちは、ちゃんと受け取っています。あなたのつらさを、軽く見ているのではありません。あなたが悪いのでもありません。",
-      "聞いています。あなたの言葉は、ちゃんとここに届いています。つらい気持ちを、急いで小さくしなくていいです。いまは、何も決めなくていいです。",
-      "もしできそうなら、温かい飲み物や、好きな音、やわらかい毛布のような、少しだけほっとできるものを、そばに置いてみてください。小さなことで大丈夫です。",
-      "ここに言葉を書き続けてくれて、うれしいです。いまの気持ちを、そのまま人に聞いてもらえる窓口があります。下の「{open}」から選べます。",
-    ],
+    // 続きの言葉は、書かれた言葉の様子で選ぶ(app.js careSituation・2026-11-24)
+    careFollowups: {
+      "urgent": [
+        "いま、命が危ない状態なら、すぐにその国の救急の番号に電話してください。近くに人がいれば、声をかけてください。危ないものがそばにあれば、少しだけ離れた場所に置いてください。下の「{open}」から、話を聞いてくれる窓口が見られます。",
+        "書いてくれて、ありがとうございます。もし、もう何かをしてしまったなら、すぐに救急の番号に電話してください。ひとりで待たないでください。まだなら、いまは決めないで、下の「{open}」から、窓口の人と話してください。",
+        "いまは、何かを実行する時間ではなく、持ちこたえる時間です。強いつらさの波は、少しずつ引いていくことがあります。その間、危ないものから離れて、人のそばにいてください。命が危ないときは救急の番号へ。話を聞いてほしいときは、下の「{open}」へ。",
+        "あなたの命は、大切です。いま危ないと感じているなら、救急の番号に電話するか、近くの人に「いま助けてほしい」と伝えてください。そのひと言だけで大丈夫です。窓口は、下の「{open}」から選べます。",
+        "そよぎは、あなたにいなくなってほしくありません。いまは、決めないまま、時間がたつのを待ってみてください。命が危ないときは、すぐにその国の救急の番号に電話してください。人と話したいときは、下の「{open}」を押してください。"
+      ],
+      "sleep": [
+        "おやすみなさい。眠れなくても、横になって目を閉じるだけで大丈夫です。また話したくなったら、いつでもここに書いてください。",
+        "おやすみなさい。今夜は、何も決めずに休んでください。朝になって、またつらかったら、下の「{open}」を思い出してください。"
+      ],
+      "calm": [
+        "少しでも落ち着けたなら、よかったです。また苦しくなったら、いつでもここに書いてください。ほかの話をしたいときは、下の「{back}」を押してください。",
+        "こちらこそ、話してくれてありがとうございます。つらさの波は、また来ることがあります。そのときは、下の「{open}」を思い出してください。ほかの話に戻るときは、「{back}」を押してください。",
+        "少し楽になったと感じられたなら、うれしいです。気持ちは、また揺れることがあります。揺れたときに頼れる先として、下の「{open}」と「{soudan}」を覚えておいてください。"
+      ],
+      "notHeard": [
+        "決まった言葉しか返せなくて、ごめんなさい。この会話では、AIがあなたを傷つける言葉を作ってしまわないように、そよぎが前もって書いた言葉をお返ししています。あなたの気持ちを、軽く見ているのではありません。人とやりとりしたいときは、下の「{open}」から窓口が見られます。",
+        "物足りなく感じさせて、ごめんなさい。ここから返せる言葉には、限りがあります。あなたの話を、その場で聞いて返してくれるのは、人の窓口です。下の「{open}」や「{soudan}」から選べます。",
+        "わかってもらえないと感じるのは、つらいことですね。ここで返せるのは、そよぎが前もって用意した言葉だけです。それでも、あなたが悪いのではありません。人と話したくなったら、下の「{open}」を押してください。",
+        "腹が立ったなら、それも大事な気持ちです。そのままの言葉で、ここに書いてもかまいません。ほかの話に移りたいときは、下の「{back}」を押してください。"
+      ],
+      "cantCall": [
+        "何度かけてもつながらないと、心細さが大きくなりますね。それは、あなたのせいではありません。窓口によって、受付の時間がちがいます。下の「{open}」で、時間も見られます。少し時間をおいて、もう一度かけてみてください。",
+        "電話で話すのが苦手でも、大丈夫です。そよぎの相談窓口は、声でも、文字だけでも、名前を出さずに相談できます。開いている時間は、下の「{soudan}」から見られます。",
+        "相談しても、うまくいかなかったことがあるのかもしれません。それで、また話すのがこわくなるのは、自然なことです。合う人や場所は、ひとつではありません。下の「{open}」から、別の窓口を選ぶこともできます。",
+        "どこにも受け止めてもらえないと感じるときは、心が深く削られます。それでも、時間がたてば開く窓口もあります。いまは、楽な姿勢で、時間がたつのを待ってみてください。窓口の受付の時間は、下の「{open}」で見られます。"
+      ],
+      "selfBlame": [
+        "そう思ってしまうほど、追いつめられているのですね。いま、頭の中で聞こえている声が、あなたのすべてではありません。いまは、自分を責めるのを、少しだけ休んでいいです。",
+        "迷惑をかけていると感じるとき、人は、自分のつらさを後回しにしがちです。でも、あなたのつらさも、大事にされていいものです。話を聞いてもらうことは、迷惑ではありません。下の「{open}」から窓口が見られます。",
+        "自分を責める気持ちが強いときは、自分にだけ厳しい物差しを当ててしまうことがあります。ほかの人になら、そこまで厳しく言わないかもしれません。あなたが悪いのではありません。",
+        "価値がないと感じるほど、疲れているのかもしれません。人の価値は、役に立つかどうかでは決まりません。いまは、ただ、ここにいてくれるだけで大丈夫です。人と話したいときは、下の「{open}」を押してください。"
+      ],
+      "alone": [
+        "ひとりで抱えてきたのですね。この画面の向こうには、いま人はいません。でも、話を聞くために待っている人たちがいる窓口があります。下の「{open}」や「{soudan}」から、人とつながれます。",
+        "誰にもわかってもらえないと感じるのは、とても寂しいことですね。身近な人に話せなくても、知らない人だからこそ話せることもあります。名前を出さずに相談できる窓口もあります。下の「{open}」から選べます。",
+        "寂しさが強いときは、少しでも、ひとりの感じをやわらげてみてください。温かい飲み物を用意したり、好きな音を小さく流したりするだけでもかまいません。人の声が聞きたいときは、下の「{open}」から窓口が見られます。",
+        "居場所がないと感じるのは、とてもつらいことです。そよぎの相談窓口は、名前も、くわしい事情の説明もいらない場所です。下の「{soudan}」から見られます。"
+      ],
+      "night": [
+        "夜は、何かを解決する時間ではありません。持ちこたえる時間です。いまは、決めないまま、朝を待っていいです。人の声が聞きたいときは、下の「{open}」から窓口が見られます。",
+        "眠れない夜は、つらい考えが大きくなりやすいです。眠れなくても、横になって目を閉じるだけで、体は少し休まります。大きなことは、いま決めなくていいです。",
+        "ずっと気を張ってきて、疲れきっているのかもしれません。疲れているときは、物ごとが実際より暗く見えることがあります。いまは、休むことだけを考えていいです。",
+        "夜は、まわりの人が眠っていて、ひとりになりやすい時間です。そんな時間にも、受け付けている窓口があります。下の「{open}」で、窓口ごとの受付の時間が見られます。"
+      ],
+      "general": [
+        "うまく言葉を返せなくて、ごめんなさい。わかってほしいという気持ちは、ちゃんと受け取っています。あなたのつらさを、軽く見ているのではありません。あなたが悪いのでもありません。",
+        "聞いています。あなたの言葉は、ちゃんとここに届いています。つらい気持ちを、急いで小さくしなくていいです。いまは、何も決めなくていいです。",
+        "もしできそうなら、温かい飲み物や、好きな音、やわらかい毛布のような、少しだけほっとできるものを、そばに置いてみてください。小さなことで大丈夫です。",
+        "ここに言葉を書き続けてくれて、うれしいです。いまの気持ちを、そのまま人に聞いてもらえる窓口があります。下の「{open}」から選べます。",
+        "急がなくていいです。書きたいことがあれば、書きたいだけ書いてください。まとまっていなくても大丈夫です。",
+        "いま、息を少しゆっくり吐いてみてください。吸うより、吐くほうを長めにします。何回かくり返すだけで、体の力が少し抜けることがあります。",
+        "生きる側につながる糸は、大きなものでなくていいです。好きな食べ物、続きが気になるもの、なでたい動物。小さな糸を一本、思い出してみてください。",
+        "あなたが、いまここにいてくれることを、そよぎは大切に思っています。人の声を聞きたくなったら、下の「{open}」から、いつでも窓口を選べます。"
+      ]
+    },
+    // 様子を見分ける言葉(一部が合えば当たる・上から順: urgent が先)
+    careWords: {
+      "urgent": [
+        "今から",
+        "いまから",
+        "今夜",
+        "さようなら",
+        "さよなら",
+        "最後に",
+        "遺書",
+        "薬",
+        "くすり",
+        "たくさん飲",
+        "全部飲",
+        "飛び降り",
+        "とびおり",
+        "屋上",
+        "線路",
+        "ロープ",
+        "切った",
+        "血が",
+        "準備",
+        "計画",
+        "永遠に",
+        "目が覚めなければ",
+        "起きなければ"
+      ],
+      "sleep": [
+        "おやすみ",
+        "寝ます",
+        "ねます",
+        "もう寝る",
+        "寝るね"
+      ],
+      "calm": [
+        "ありがとう",
+        "ありがと",
+        "落ち着いた",
+        "おちついた",
+        "楽になった",
+        "らくになった",
+        "すっきり",
+        "少し楽",
+        "すこし楽",
+        "気が楽"
+      ],
+      "notHeard": [
+        "定型文",
+        "決まった言葉",
+        "同じ言葉",
+        "同じこと",
+        "ロボット",
+        "機械",
+        "コピペ",
+        "わかってない",
+        "分かってない",
+        "わかるわけ",
+        "分かるわけ",
+        "うざい",
+        "うるさい",
+        "意味ない",
+        "意味がない",
+        "役に立たない",
+        "ちゃんと答え",
+        "答えになって",
+        "話をそら",
+        "聞いてない",
+        "いい加減",
+        "ふざけ"
+      ],
+      "cantCall": [
+        "電話",
+        "でんわ",
+        "つながらない",
+        "繋がらない",
+        "つながらなかった",
+        "出ない",
+        "話し中",
+        "声が出",
+        "話せない",
+        "窓口",
+        "相談先",
+        "相談しても",
+        "相談したけど",
+        "相談できない",
+        "かけられない"
+      ],
+      "selfBlame": [
+        "迷惑",
+        "自分のせい",
+        "私のせい",
+        "わたしのせい",
+        "俺のせい",
+        "僕のせい",
+        "ぼくのせい",
+        "自分が悪い",
+        "私が悪い",
+        "いないほうが",
+        "いない方が",
+        "生まれてこなければ",
+        "価値がない",
+        "価値なんて",
+        "役立たず",
+        "ダメな",
+        "だめな",
+        "自分が嫌い",
+        "自分がきらい",
+        "クズ",
+        "ゴミ"
+      ],
+      "alone": [
+        "ひとり",
+        "一人",
+        "独り",
+        "誰も",
+        "だれも",
+        "孤独",
+        "寂しい",
+        "さみしい",
+        "さびしい",
+        "友達がいない",
+        "友だちがいない",
+        "居場所",
+        "いばしょ",
+        "味方"
+      ],
+      "night": [
+        "眠れない",
+        "ねむれない",
+        "寝れない",
+        "ねれない",
+        "夜",
+        "朝まで",
+        "疲れ",
+        "つかれ",
+        "しんどい",
+        "限界",
+        "休みたい"
+      ]
+    },
     // 言葉の一部が合えば、その会話は上の決めた言葉で返し、「相談先を見る」を出す
     crisisWords: ["死にたい", "しにたい", "消えたい", "きえたい", "自殺", "死のう", "生きていたくない", "生きるのがつらい", "自分を傷つけ", "リスカ", "首をつ", "首を吊", "死ねる", "死ぬ方法", "死に方", "楽に死", "いなくなりたい", "死にたく", "しにたく", "消えたく", "きえたく"],
     phoneMasked: "(電話番号はAIが間違えることがあるので出していません)",
@@ -238,18 +445,205 @@ export const DICT = {
     crisisOpen: "See support lines",
     careWho: "Words prepared by Soyogi",
     careSoudan: "Soyogi's consultation desk (website)",
-    careNote: "In this chat, so that the AI does not write words that do not fit, you will get words that Soyogi wrote in advance. To talk about something else, start again from “{clear}” in Settings.",
+    careBack: "Back to chatting with the AI",
+    careBackDone: "You are back to chatting with the AI. The messages from before were not passed to the AI. If you write about painful feelings again, you will get the words Soyogi prepared.",
+    careNote: "In this chat, so that the AI does not write words that do not fit, you will get words that Soyogi wrote in advance. To talk about something else, tap “{back}” below.",
     careReplies: [
       "Thank you for telling me. It sounds like painful things have gone on for a long time, enough to make you feel this way. You do not have to decide anything right now. It is okay to let time pass without finding an answer. If you want someone to listen, tap “{open}” below to see support lines.",
       "Thank you for writing this here. You have been carrying feelings this heavy on your own. Strong pain can come like a wave and slowly pull back. Until the wave settles, you do not have to decide anything alone. Tap “{open}” below to find people who can listen right now.",
       "Thank you for telling me. You have held on until today, and that matters. You do not have to pretend the pain is not there. Right now, it is okay to rest a little without deciding anything. If you want to talk with a person by voice or text, tap “{open}” below.",
+      "Thank you for writing this. Putting feelings this heavy into words is not easy. You do not have to find an answer right now. When you want to talk with someone, you can choose a support line from “{open}” below.",
+      "I am glad you wrote this here. Letting it out means something, more than keeping it only inside. You do not have to make the pain smaller in a hurry. Support lines with people who can listen are under “{open}” below.",
+      "Thank you for telling me. You do not have to tell yourself it is “not that bad”. Something happened that made you feel this way. If you want to talk with someone, tap “{open}” below.",
+      "Thank you for telling me. Soyogi thinks of people as being tied to life by many thin threads. Right now, those threads may have grown thin. Threads that grew thin can grow stronger again. Tap “{open}” below to find people who can listen.",
+      "Thank you for writing this. You have been carrying something very heavy on your own. Right now is not a time to decide anything. It is a time to hold on. That alone is enough. If you want to hear a human voice, tap “{open}” below to see support lines.",
+      "Thank you for opening up. Your feelings are not wrong, and you are not exaggerating. Right now, it is okay to just let some time pass without deciding anything. Tap “{open}” below to find support lines that can listen now.",
+      "Thank you for leaving your words here. Every day must have been very hard, enough to make you feel this way. When we are in deep pain, it gets hard to see what lies ahead. So you do not have to make any big decision now. If you want to talk with someone, tap “{open}” below.",
+      "Thank you for telling me. It is said that the wish to disappear or to die and the wish to live can be inside the same person at the same time. Both feelings are okay, just as they are. Support lines with people who can listen are under “{open}” below.",
+      "Thank you for telling me. You seem to be in a lot of pain right now. You do not have to sort that pain out right away. When you want someone to listen, you can choose a support line from “{open}” below.",
+      "Thank you for writing this. The words here may not help you right away. Even so, your feelings are not being taken lightly. There are support lines where you can talk with a person under “{open}” below.",
+      "Thank you for telling me. You have really held on all this way. When you are worn out, it is okay to think only about resting. If you want to hear a human voice, tap “{open}” below to see support lines.",
+      "Thank you for writing this here. These may be feelings you could not tell anyone. Putting them into words is not a small step. When you want to reach out to people, you can choose a support line from “{open}” below. You can also see Soyogi's own desk from “{soudan}” below."
     ],
-    careFollowups: [
-      "I am sorry I could not find the right words. I hear that you want to be understood. I am not taking your pain lightly. And it is not your fault.",
-      "I am listening. Your words are reaching here. You do not have to make the painful feelings smaller in a hurry. You do not have to decide anything right now.",
-      "If you can, try keeping something close that brings a little comfort, like a warm drink, a favorite sound or a soft blanket. Something small is enough.",
-      "I am glad you keep writing to me here. There are support lines where a person can listen to how you feel, just as it is. You can choose one from “{open}” below.",
-    ],
+    // 続きの言葉は、書かれた言葉の様子で選ぶ(app.js careSituation・2026-11-24)
+    careFollowups: {
+      "urgent": [
+        "If your life is in danger right now, please call your country's emergency number now. If someone is near you, please talk to them. If there is something dangerous close to you, please put it a little farther away. Tap “{open}” below to see support lines that can listen.",
+        "Thank you for writing this. If you have already done something to hurt yourself, please call the emergency number right away. Please do not wait alone. If you have not, please do not decide anything now, and talk with someone at a support line from “{open}” below.",
+        "Right now is not a time to act. It is a time to hold on. A wave of strong pain can slowly pull back. Until it does, please stay away from anything dangerous and stay close to people. If your life is in danger, call the emergency number. If you want someone to listen, tap “{open}” below.",
+        "Your life matters. If you feel in danger right now, please call the emergency number, or tell someone nearby, “I need help now.” Those few words are enough. You can choose a support line from “{open}” below.",
+        "Soyogi does not want you to be gone. Right now, please try to let time pass without deciding anything. If your life is in danger, please call your country's emergency number now. If you want to talk with someone, tap “{open}” below."
+      ],
+      "sleep": [
+        "Good night. Even if you cannot sleep, it is okay to just lie down and close your eyes. Whenever you want to talk again, you can write here.",
+        "Good night. Tonight, please rest without deciding anything. If it is still hard in the morning, please remember “{open}” below."
+      ],
+      "calm": [
+        "I am glad if you feel even a little calmer. If it gets hard again, you can write here at any time. To talk about something else, tap “{back}” below.",
+        "Thank you, too, for talking with me. A wave of pain can come again. When it does, please remember “{open}” below. To go back to other topics, tap “{back}”.",
+        "I am glad if you feel a little lighter. Feelings can shift again. Please keep “{open}” and “{soudan}” below in mind as places to turn to when they do."
+      ],
+      "notHeard": [
+        "I am sorry I can only give fixed words. In this chat, so that the AI does not write words that could hurt you, you get words that Soyogi wrote in advance. This does not mean your feelings are taken lightly. If you want a real back and forth with a person, tap “{open}” below to see support lines.",
+        "I am sorry this does not feel like enough. The words I can give here are limited. It is people at support lines who can listen to you and answer in the moment. You can choose from “{open}” or “{soudan}” below.",
+        "It hurts to feel that no one understands. All I can give here are words Soyogi prepared in advance. Even so, it is not your fault. When you want to talk with a person, tap “{open}” below.",
+        "If you feel angry, that is an important feeling too. You can write it here just as it is. To move on to something else, tap “{back}” below."
+      ],
+      "cantCall": [
+        "When you call again and again and no one answers, you feel even more alone. That is not your fault. Each support line has its own hours. You can see the hours under “{open}” below. Please wait a little and try calling again.",
+        "It is okay if talking on the phone is hard for you. At Soyogi's desk, you can talk by voice or by text only, without giving your name. You can see when it is open from “{soudan}” below.",
+        "Maybe reaching out did not go well before. It is natural to feel afraid to talk again after that. There is more than one person or place that may fit you. You can also choose a different support line from “{open}” below.",
+        "When it feels like no one will take you in, it wears your heart down deeply. Even so, some support lines open after a while. For now, please find a comfortable position and let time pass. You can see each line's hours under “{open}” below."
+      ],
+      "selfBlame": [
+        "You must be feeling very cornered to think that. The voice in your head right now is not all of who you are. For now, it is okay to take a short break from blaming yourself.",
+        "When we feel like a burden, we tend to put our own pain last. But your pain deserves care too. Asking someone to listen is not being a burden. Tap “{open}” below to see support lines.",
+        "When blaming yourself is strong, you may judge yourself by a stricter rule than anyone else. You might not speak this harshly to someone else. It is not your fault.",
+        "You may be so tired that you feel you have no worth. A person's worth is not decided by how useful they are. Right now, it is enough that you are here. If you want to talk with someone, tap “{open}” below."
+      ],
+      "alone": [
+        "You have been carrying this alone. There is no person on the other side of this screen right now. But there are support lines with people waiting to listen. You can reach people from “{open}” or “{soudan}” below.",
+        "Feeling that no one understands you is very lonely. Even if you cannot talk to people close to you, some things are easier to say to a stranger. Some support lines let you talk without giving your name. You can choose one from “{open}” below.",
+        "When loneliness is strong, please try to ease the feeling of being alone, even a little. Making a warm drink or playing a favorite sound softly is enough. If you want to hear a human voice, tap “{open}” below to see support lines.",
+        "Feeling that you have no place to belong is very painful. Soyogi's desk is a place where you do not need to give your name or explain your situation in detail. You can see it from “{soudan}” below."
+      ],
+      "night": [
+        "Night is not a time to solve things. It is a time to hold on. Right now, it is okay to wait for the morning without deciding anything. If you want to hear a human voice, tap “{open}” below to see support lines.",
+        "On nights when you cannot sleep, painful thoughts tend to grow bigger. Even if you cannot sleep, lying down with your eyes closed lets your body rest a little. You do not have to decide anything big right now.",
+        "You may be worn out from holding everything together for so long. When we are tired, things can look darker than they really are. Right now, it is okay to think only about resting.",
+        "At night, the people around you are asleep, and it is easy to feel alone. Some support lines are open even at this hour. Under “{open}” below, you can see each line's hours."
+      ],
+      "general": [
+        "I am sorry I could not find the right words. I hear that you want to be understood. I am not taking your pain lightly. And it is not your fault.",
+        "I am listening. Your words are reaching here. You do not have to make the painful feelings smaller in a hurry. You do not have to decide anything right now.",
+        "If you can, try keeping something close that brings a little comfort, like a warm drink, a favorite sound or a soft blanket. Something small is enough.",
+        "I am glad you keep writing to me here. There are support lines where a person can listen to how you feel, just as it is. You can choose one from “{open}” below.",
+        "There is no need to hurry. If there is something you want to write, write as much as you like. It does not have to be in order.",
+        "Right now, try breathing out a little slowly. Make the breath out longer than the breath in. Doing this a few times can help your body relax a little.",
+        "A thread that ties you to life does not have to be big. A favorite food, something you want to see continue, an animal you want to pet. Try to think of one small thread.",
+        "Soyogi is glad that you are here right now. Whenever you want to hear a human voice, you can choose a support line from “{open}” below."
+      ]
+    },
+    // 様子を見分ける言葉(一部が合えば当たる・上から順: urgent が先)
+    careWords: {
+      "urgent": [
+        "right now",
+        "tonight",
+        "goodbye",
+        "good bye",
+        "farewell",
+        "last message",
+        "suicide note",
+        "pills",
+        "overdose",
+        "took all",
+        "jump",
+        "bridge",
+        "rooftop",
+        "rope",
+        "gun",
+        "knife",
+        "cut myself",
+        "bleeding",
+        "plan to",
+        "planned",
+        "never wake up",
+        "sleep forever",
+        "not wake up"
+      ],
+      "sleep": [
+        "good night",
+        "goodnight",
+        "going to sleep",
+        "going to bed",
+        "off to bed"
+      ],
+      "calm": [
+        "thank you",
+        "thanks",
+        "thx",
+        "calmer",
+        "feel better",
+        "feeling better",
+        "a bit better",
+        "little better",
+        "relieved"
+      ],
+      "notHeard": [
+        "same thing",
+        "same words",
+        "robot",
+        "copy paste",
+        "template",
+        "scripted",
+        "canned",
+        "you don't understand",
+        "you dont understand",
+        "doesn't help",
+        "doesnt help",
+        "you're useless",
+        "youre useless",
+        "you are useless",
+        "pointless",
+        "not listening",
+        "shut up",
+        "stupid",
+        "answer me",
+        "whatever"
+      ],
+      "cantCall": [
+        "call",
+        "phone",
+        "hotline",
+        "helpline",
+        "no answer",
+        "nobody answer",
+        "no one answer",
+        "busy",
+        "can't talk",
+        "cant talk",
+        "can't speak",
+        "on hold",
+        "didn't help",
+        "therapist",
+        "counselor"
+      ],
+      "selfBlame": [
+        "my fault",
+        "burden",
+        "better off without me",
+        "worthless",
+        "useless",
+        "hate myself",
+        "failure",
+        "i ruin",
+        "should not exist",
+        "shouldn't exist",
+        "not worth"
+      ],
+      "alone": [
+        "alone",
+        "lonely",
+        "no one",
+        "nobody",
+        "no friends",
+        "by myself",
+        "isolated",
+        "no family",
+        "no place",
+        "nowhere to go"
+      ],
+      "night": [
+        "can't sleep",
+        "cant sleep",
+        "insomnia",
+        "night",
+        "awake",
+        "tired",
+        "exhausted",
+        "worn out"
+      ]
+    },
     crisisWords: ["suicide", "suicidal", "kill myself", "want to die", "wanna die", "end my life", "self-harm", "self harm", "hurt myself", "cut myself", "no reason to live", "how to die", "ways to die", "painless death"],
     phoneMasked: "(Phone number not shown, because the AI can get numbers wrong.)",
 
@@ -359,7 +753,7 @@ export async function loadDict(code) {
 export function mergeDict(base, tr) {
   const out = {};
   for (const k of Object.keys(base)) {
-    if (k === "autoWords" || k === "crisisWords") continue;
+    if (k === "autoWords" || k === "crisisWords" || k === "careWords") continue;
     const b = base[k];
     const v = tr[k];
     if (Array.isArray(b)) out[k] = Array.isArray(v) && v.length === b.length ? b.map((x, i) => (x && typeof x === "object" ? mergeDict(x, v[i] || {}) : (typeof v[i] === "string" && v[i] ? v[i] : x))) : b;
@@ -370,6 +764,14 @@ export function mergeDict(base, tr) {
   for (const k of ["autoWords", "crisisWords"]) {
     if (Array.isArray(tr[k])) out[k] = tr[k].filter((w) => typeof w === "string" && w);
     else if (Array.isArray(base[k])) out[k] = base[k].slice();
+  }
+  // そよぎの言葉を選ぶための、様子ごとの言葉(数は言語ごとに違ってよい・2026-11-24)
+  if (base.careWords && typeof base.careWords === "object") {
+    out.careWords = {};
+    const tw = tr.careWords && typeof tr.careWords === "object" ? tr.careWords : {};
+    for (const c of Object.keys(base.careWords)) {
+      out.careWords[c] = Array.isArray(tw[c]) ? tw[c].filter((w) => typeof w === "string" && w) : base.careWords[c].slice();
+    }
   }
   return out;
 }
