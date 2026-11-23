@@ -59,8 +59,8 @@ export const DICT = {
     // AIの種類(名前は短く)
     models: {
       light: { label: "かるい", note: "スマホ向け。はやいけれど、ときどき間違えます。" },
-      standard: { label: "ふつう", note: "たいていのパソコン向け。かるいより、ずっと確か。" },
-      smart: { label: "かしこい", note: "ゲーム用など、力のあるパソコン向け。答えがていねいで確か。" },
+      standard: { label: "ふつう", note: "スマホと、たいていのパソコン向け。答えを間違えることがあります。" },
+      smart: { label: "かしこい", note: "ゲーム用など、力のあるパソコン向け。ふつうより、ていねいに答えます。" },
       best: { label: "いちばんかしこい", note: "とても力のあるパソコン向け。ダウンロードがとても大きい。" },
     },
 
@@ -207,8 +207,8 @@ export const DICT = {
 
     models: {
       light: { label: "Light", note: "For phones. Fast, but sometimes wrong." },
-      standard: { label: "Standard", note: "For most computers. Much more reliable than Light." },
-      smart: { label: "Smart", note: "For powerful computers, such as gaming PCs. Careful, reliable answers." },
+      standard: { label: "Standard", note: "For phones and most computers. Its answers can be wrong." },
+      smart: { label: "Smart", note: "For powerful computers, such as gaming PCs. Answers more carefully than Standard." },
       best: { label: "Smartest", note: "For very powerful computers. Very large download." },
     },
 

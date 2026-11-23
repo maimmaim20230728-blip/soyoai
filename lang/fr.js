@@ -56,11 +56,11 @@ export default {
   },
   "standard": {
    "label": "Standard",
-   "note": "Pour la plupart des ordinateurs. Bien plus fiable que la légère."
+   "note": "Pour les téléphones et la plupart des ordinateurs. Ses réponses peuvent être fausses."
   },
   "smart": {
    "label": "Maligne",
-   "note": "Pour les ordinateurs puissants, comme ceux pour jouer. Des réponses soignées et fiables."
+   "note": "Pour les ordinateurs puissants, comme les PC de jeu. Répond avec plus de soin que « Standard »."
   },
   "best": {
    "label": "La plus maligne",

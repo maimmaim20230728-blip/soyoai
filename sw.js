@@ -1,7 +1,7 @@
 // Service Worker
 // 自分のファイルとライブラリだけを保存する。AIのデータ(WebLLM の保存先)と検索のリクエストには触らない。
 // 版を上げるときは config.js の VER と同じ値にする(_smoke.js が照合する)。
-const VER = "0.3.0";
+const VER = "0.3.1";
 const CACHE = "ai-app-" + VER;
 
 const FILES = [
@@ -64,7 +64,11 @@ self.addEventListener("fetch", (event) => {
   // 別のサイト(AIのデータ、ウィキペディア、検索の中継)には触らない
   if (url.origin !== self.location.origin) return;
 
-  if (req.mode === "navigate") {
+  // 画面そのもの(アプリの入口)を開くときだけ index.html を返す。
+  // ほかのファイル(ライセンスの全文など)を開くときは、そのファイルを返す(2026-11-23 に、全部 index.html になっていたのを直した)。
+  const scope = new URL(self.registration.scope);
+  const isEntry = url.pathname === scope.pathname || url.pathname === scope.pathname + "index.html";
+  if (req.mode === "navigate" && isEntry) {
     event.respondWith(
       caches.match("./index.html", { cacheName: CACHE }).then((hit) => hit || fetch(req))
     );

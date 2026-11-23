@@ -373,6 +373,18 @@ function renderCrisisLines(id) {
       en.setAttribute("dir", "auto");
       li.appendChild(en);
     }
+    // 説明と受付時間(その国の言葉が画面の言葉と同じならその国の言葉・ちがえば英語)
+    const useNat = state.lang.slice(0, 2) === c.lang || !(w.ed || w.eh);
+    const desc = useNat ? w.nd : w.ed;
+    const hours = useNat ? w.nh : w.eh;
+    for (const v of [hours, desc]) {
+      if (!v) continue;
+      const p = document.createElement("span");
+      p.className = "desc";
+      p.textContent = v;
+      p.setAttribute("dir", "auto");
+      li.appendChild(p);
+    }
     for (const tel of [w.tel, w.tel2]) {
       const href = telHref(tel);
       if (!href) continue;

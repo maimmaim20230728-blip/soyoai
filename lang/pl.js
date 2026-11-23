@@ -56,11 +56,11 @@ export default {
   },
   "standard": {
    "label": "Zwykła",
-   "note": "Do większości komputerów. Znacznie pewniejsza niż Lekka."
+   "note": "Na telefony i większość komputerów. Odpowiedzi mogą być błędne."
   },
   "smart": {
    "label": "Mądra",
-   "note": "Do mocnych komputerów, na przykład do gier. Staranne, pewne odpowiedzi."
+   "note": "Na mocne komputery, na przykład do gier. Odpowiada staranniej niż «Zwykła»."
   },
   "best": {
    "label": "Najmądrzejsza",

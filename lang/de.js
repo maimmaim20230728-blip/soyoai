@@ -56,11 +56,11 @@ export default {
   },
   "standard": {
    "label": "Normal",
-   "note": "Für die meisten Computer. Viel zuverlässiger als Leicht."
+   "note": "Für Handys und die meisten Computer. Die Antworten können falsch sein."
   },
   "smart": {
    "label": "Klug",
-   "note": "Für leistungsstarke Computer, zum Beispiel Gaming-PCs. Sorgfältige, zuverlässige Antworten."
+   "note": "Für leistungsstarke Computer, zum Beispiel Gaming-PCs. Antwortet sorgfältiger als „Normal“."
   },
   "best": {
    "label": "Klügste",

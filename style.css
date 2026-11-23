@@ -204,3 +204,4 @@ select { font: inherit; min-height: 44px; padding: 4px 8px; border: 1.5px solid 
 #dlgReport fieldset { border: 0; padding: 0; margin: 0 0 12px; }
 #dlgReport legend { font-weight: 600; margin-bottom: 4px; }
 #reportMsg:empty { display: none; }
+#crisisList .lines .desc { display: block; font-size: .92rem; color: #3a3a3a; margin: 4px 0; white-space: normal; }

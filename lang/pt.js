@@ -56,11 +56,11 @@ export default {
   },
   "standard": {
    "label": "Padrão",
-   "note": "Para a maioria dos computadores. Bem mais confiável que a leve."
+   "note": "Para celulares e a maioria dos computadores. As respostas podem ter erros."
   },
   "smart": {
    "label": "Esperta",
-   "note": "Para computadores potentes, como os de jogos. Respostas cuidadosas e confiáveis."
+   "note": "Para computadores potentes, como os de jogos. Responde com mais cuidado que o «Padrão»."
   },
   "best": {
    "label": "A mais esperta",

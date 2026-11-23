@@ -56,11 +56,11 @@ export default {
   },
   "standard": {
    "label": "Biasa",
-   "note": "Untuk kebanyakan komputer. Jauh lebih bisa diandalkan daripada Ringan."
+   "note": "Untuk ponsel dan kebanyakan komputer. Jawabannya bisa salah."
   },
   "smart": {
    "label": "Pintar",
-   "note": "Untuk komputer bertenaga, seperti PC gaming. Jawabannya teliti dan bisa diandalkan."
+   "note": "Untuk komputer yang kuat, seperti PC gaming. Menjawab lebih teliti daripada «Biasa»."
   },
   "best": {
    "label": "Paling pintar",

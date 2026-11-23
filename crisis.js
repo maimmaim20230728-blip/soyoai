@@ -8,6 +8,7 @@ export const CRISIS = [
   "checked": "2026-11-17",
   "nameJa": "日本",
   "nameEn": "Japan",
+  "lang": "ja",
   "lines": [
    {
     "n": "#いのちSOS",
@@ -15,7 +16,11 @@ export const CRISIS = [
     "tel": "0120-061-338",
     "tel2": "",
     "url": "https://www.mhlw.go.jp/mamorouyokokoro/soudan/tel/",
-    "link": true
+    "link": true,
+    "nd": "「死にたい」「消えたい」「生きることに つかれた」と いう 気もちを、専門の 相談員が うけとめて、いっしょに 考えます。",
+    "nh": "毎日 24時間(365日)・無料(フリーダイヤル)",
+    "ed": "Specialist counselors listen to feelings such as wanting to die, wanting to disappear, or being worn out by life, and think through your situation with you.",
+    "eh": "24 hours a day, 365 days a year. Free of charge (toll-free)."
    },
    {
     "n": "よりそいホットライン",
@@ -23,7 +28,11 @@ export const CRISIS = [
     "tel": "0120-279-338",
     "tel2": "0120-279-226",
     "url": "https://www.mhlw.go.jp/mamorouyokokoro/soudan/tel/",
-    "link": true
+    "link": true,
+    "nd": "ガイダンスで、専門的な 相談(外国語を ふくむ)も えらべます。福島県から かけるときは 0120-279-226 です。050で はじまる IP電話からは 050-3655-0279(24時間)に かけます。",
+    "nh": "24時間 対応・無料(フリーダイヤル)",
+    "ed": "You can choose specialized support (including foreign languages) through the voice guidance. From Fukushima Prefecture, call 0120-279-226. From an IP phone starting with 050, call 050-3655-0279 (24 hours).",
+    "eh": "Available 24 hours a day. Free of charge (toll-free)."
    },
    {
     "n": "いのちの電話",
@@ -31,7 +40,11 @@ export const CRISIS = [
     "tel": "0120-783-556",
     "tel2": "0570-783-556",
     "url": "https://www.mhlw.go.jp/mamorouyokokoro/soudan/tel/",
-    "link": true
+    "link": true,
+    "nd": "フリーダイヤルと ナビダイヤルの 2つの 番号が あります。ナビダイヤルは 通話料が かかります。IP電話からは 03-6634-7830(通話料 あり)に かけます。",
+    "nh": "0120: 毎日 16時から 21時まで(毎月10日は 午前8時から 翌日の 午前8時まで)・無料 / 0570: 午前10時から 午後10時まで・通話料が かかります",
+    "ed": "There are two numbers: a toll-free number and a Navi Dial number. Navi Dial calls are charged. From an IP phone, call 03-6634-7830 (charges apply).",
+    "eh": "0120 (toll-free): every day from 4 pm to 9 pm, and on the 10th of each month from 8 am until 8 am the next morning. 0570: 10 am to 10 pm, call charges apply."
    },
    {
     "n": "あなたのいばしょ(チャット)",
@@ -39,7 +52,11 @@ export const CRISIS = [
     "tel": "",
     "tel2": "",
     "url": "https://talkme.jp/",
-    "link": false
+    "link": false,
+    "nd": "文字(チャット)で 相談できます。年齢や 性別を とわず、だれでも 無料で、名前を 言わなくても 使えます。",
+    "nh": "毎日 24時間(365日)",
+    "ed": "You can talk by text chat. Anyone of any age or gender can use it for free, and you do not need to give your name.",
+    "eh": "24 hours a day, 365 days a year."
    },
    {
     "n": "119(救急・消防)・110(警察)",
@@ -47,7 +64,11 @@ export const CRISIS = [
     "tel": "119",
     "tel2": "110",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "命が あぶないとき、すぐに 助けが ほしい ときは、ためらわずに 電話して ください。救急車や 消防車は 119、事件や 事故は 110 です。",
+    "nh": "",
+    "ed": "If your life is in danger or you need help right away, call without hesitation. Call 119 for an ambulance or fire engine, and 110 for a crime or accident.",
+    "eh": ""
    }
   ]
  },
@@ -57,6 +78,7 @@ export const CRISIS = [
   "checked": "2026-11-17",
   "nameJa": "アメリカ",
   "nameEn": "United States",
+  "lang": "en",
   "lines": [
    {
     "n": "988 Suicide & Crisis Lifeline",
@@ -64,7 +86,11 @@ export const CRISIS = [
     "tel": "988",
     "tel2": "",
     "url": "https://988lifeline.org/",
-    "link": true
+    "link": true,
+    "nd": "Call or text 988, or chat at 988lifeline.org, to connect with a trained crisis counselor. There is no reason too big or too small to reach out, and you can also reach out when you are worried about someone else. English and Spanish; calls can use free interpreters in more than 240 languages. Veterans and their families: dial 988, then press 1. You do not have to give personal information. Most people are helped by talking; 911 is contacted only in a small number of cases when a life is in immediate danger.",
+    "nh": "24 hours a day, 7 days a week. Free (standard text message rates may apply).",
+    "ed": "Call or text 988, or chat at 988lifeline.org, to connect with a trained crisis counselor. There is no reason too big or too small to reach out, and you can also reach out when you are worried about someone else. English and Spanish; calls can use free interpreters in more than 240 languages. Veterans and their families: dial 988, then press 1. You do not have to give personal information. Most people are helped by talking; 911 is contacted only in a small number of cases when a life is in immediate danger.",
+    "eh": "24 hours a day, 7 days a week. Free (standard text message rates may apply)."
    },
    {
     "n": "911 (emergency)",
@@ -72,7 +98,11 @@ export const CRISIS = [
     "tel": "911",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "In life-threatening situations, call 911 or go to the nearest emergency room.",
+    "nh": "24 hours a day.",
+    "ed": "In life-threatening situations, call 911 or go to the nearest emergency room.",
+    "eh": "24 hours a day."
    },
    {
     "n": "Disaster Distress Helpline",
@@ -80,7 +110,11 @@ export const CRISIS = [
     "tel": "1-800-985-5990",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "For anyone in the U.S. and its territories who is feeling emotional distress related to a natural or human-caused disaster, including anniversaries of a disaster or events that bring it back. Call or text. For Spanish, call or text and press 2. Counselors can be reached in more than 100 languages through interpreters. Deaf and hard of hearing ASL users can call or text using their preferred relay provider. You do not have to give identifying information.",
+    "nh": "24 hours a day, 7 days a week. Toll-free.",
+    "ed": "For anyone in the U.S. and its territories who is feeling emotional distress related to a natural or human-caused disaster, including anniversaries of a disaster or events that bring it back. Call or text. For Spanish, call or text and press 2. Counselors can be reached in more than 100 languages through interpreters. Deaf and hard of hearing ASL users can call or text using their preferred relay provider. You do not have to give identifying information.",
+    "eh": "24 hours a day, 7 days a week. Toll-free."
    },
    {
     "n": "National Domestic Violence Hotline",
@@ -88,7 +122,11 @@ export const CRISIS = [
     "tel": "1-800-799-7233",
     "tel2": "1-800-787-3224",
     "url": "https://www.thehotline.org/",
-    "link": false
+    "link": false,
+    "nd": "For people experiencing domestic violence and their families. Call, or chat at thehotline.org. Help is available in 240 languages. The second number (1-800-787-3224) is for TTY.",
+    "nh": "24 hours a day, 7 days a week. Free.",
+    "ed": "For people experiencing domestic violence and their families. Call, or chat at thehotline.org. Help is available in 240 languages. The second number (1-800-787-3224) is for TTY.",
+    "eh": "24 hours a day, 7 days a week. Free."
    }
   ]
  },
@@ -98,6 +136,7 @@ export const CRISIS = [
   "checked": "2026-11-17",
   "nameJa": "フランス",
   "nameEn": "France",
+  "lang": "fr",
   "lines": [
    {
     "n": "3114 (numéro national de prévention du suicide)",
@@ -105,7 +144,11 @@ export const CRISIS = [
     "tel": "3114",
     "tel2": "",
     "url": "https://3114.fr/",
-    "link": false
+    "link": false,
+    "nd": "Un professionnel vous écoute. Il vous pose quelques questions pour bien comprendre ce dont vous avez besoin. Les appels sont confidentiels. Il peut vous demander votre nom et vos coordonnées. Vous pouvez aussi appeler si vous vous inquiétez pour quelqu’un. Si vous préférez ne pas donner votre nom, SOS Amitié et Suicide Écoute, plus bas dans cette liste, sont anonymes.",
+    "nh": "24 h/24, 7 j/7. Appel gratuit partout en France.",
+    "ed": "A professional listens to you. They ask you a few questions to understand what you need. Calls are confidential. They may ask for your name and contact details. You can also call if you are worried about someone else. If you would rather not give your name, SOS Amitié and Suicide Écoute, further down this list, let you talk without giving it.",
+    "eh": "24 hours a day, 7 days a week. Free call from anywhere in France."
    },
    {
     "n": "15 (Samu) · 112",
@@ -113,7 +156,11 @@ export const CRISIS = [
     "tel": "15",
     "tel2": "112",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "Si une vie est en danger immédiat, appelez le 15 (Samu) ou le 112. Ces appels sont gratuits et n’apparaissent pas sur les factures. Si vous pouvez vous déplacer, vous pouvez aussi aller aux urgences de l’hôpital le plus proche. Les services d’urgence rappellent depuis le 0 800 112 112.",
+    "nh": "24 h/24, 7 j/7.",
+    "ed": "If a life is in immediate danger, call 15 (Samu) or 112. These calls are free and do not appear on phone bills. If you can get there, you can also go to the emergency department of the nearest hospital. The emergency services call back from 0 800 112 112.",
+    "eh": "24 hours a day, 7 days a week."
    },
    {
     "n": "SOS Amitié",
@@ -121,7 +168,11 @@ export const CRISIS = [
     "tel": "09 72 39 40 50",
     "tel2": "01 46 21 46 46",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "Des bénévoles formés écoutent les personnes en détresse et leur entourage. Vous n’avez pas à dire votre nom. Service gratuit. Le deuxième numéro (01 46 21 46 46) est une ligne en anglais (SOS Help), tous les jours de 15 h à 23 h.",
+    "nh": "24 h/24, 7 j/7.",
+    "ed": "Trained volunteers listen to people in distress and to those close to them. You do not have to give your name. Free service. The second number (01 46 21 46 46) is an English-language line (SOS Help), every day from 3 p.m. to 11 p.m.",
+    "eh": "24 hours a day, 7 days a week."
    },
    {
     "n": "Suicide Écoute",
@@ -129,7 +180,11 @@ export const CRISIS = [
     "tel": "01 45 39 40 00",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "Une autre ligne où vous n’avez pas à dire votre nom. Des bénévoles formés écoutent les personnes en grande souffrance psychologique ou confrontées au suicide, et leur entourage. Service gratuit. Si une ligne est occupée, vous pouvez patienter ou en essayer une autre.",
+    "nh": "24 h/24, 7 j/7.",
+    "ed": "Another line where you do not have to give your name. Trained volunteers listen to people in great psychological distress or facing suicide, and to those close to them. Free service. If a line is busy, you can wait or try another one.",
+    "eh": "24 hours a day, 7 days a week."
    },
    {
     "n": "114 (SMS, visio, langue des signes)",
@@ -137,7 +192,11 @@ export const CRISIS = [
     "tel": "",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "Pour les personnes sourdes, malentendantes ou qui ont du mal à parler, et quand vous ne pouvez pas parler : envoyez un SMS au 114. Le 114 est aussi accessible par visio, tchat et langue des signes française (LSF). Il demande votre nom, votre adresse précise et le motif de l’appel.",
+    "nh": "24 h/24, 7 j/7. Gratuit.",
+    "ed": "For people who are deaf, hard of hearing or who have difficulty speaking, and for when you cannot speak: send a text message to 114. You can also reach 114 by video call, chat and French Sign Language (LSF). It asks for your name, your exact address and the reason for the call.",
+    "eh": "24 hours a day, 7 days a week. Free."
    },
    {
     "n": "3919 (Violences Femmes Info)",
@@ -145,7 +204,11 @@ export const CRISIS = [
     "tel": "3919",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "Écoute, information et orientation pour les femmes victimes de violences et pour les personnes témoins de ces violences. Appel anonyme, qui n’apparaît pas sur les factures de téléphone. En cas d’urgence, appelez le 17 ou le 112.",
+    "nh": "24 h/24, 7 j/7. Gratuit.",
+    "ed": "Listening, information and guidance for women who are victims of violence and for people who witness such violence. The call is anonymous and does not appear on phone bills. In an emergency, call 17 or 112.",
+    "eh": "24 hours a day, 7 days a week. Free."
    },
    {
     "n": "115 (Samu social)",
@@ -153,7 +216,11 @@ export const CRISIS = [
     "tel": "115",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "Pour trouver un endroit où dormir ce soir : le 115 est le numéro d’urgence et d’accueil des personnes sans abri. L’appel n’apparaît pas sur les factures.",
+    "nh": "24 h/24, 7 j/7. Gratuit, en métropole et en outre-mer.",
+    "ed": "To find a place to sleep tonight: 115 is the emergency and shelter number for people who are homeless. The call does not appear on phone bills.",
+    "eh": "24 hours a day, 7 days a week. Free, in mainland France and overseas."
    }
   ]
  },
@@ -163,6 +230,7 @@ export const CRISIS = [
   "checked": "2026-11-17",
   "nameJa": "ドイツ",
   "nameEn": "Germany",
+  "lang": "de",
   "lines": [
    {
     "n": "TelefonSeelsorge",
@@ -170,7 +238,11 @@ export const CRISIS = [
     "tel": "116 123",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "Wenn es Ihnen psychisch schlecht geht oder Sie in einer Krise stecken, können Sie hier anrufen. Psychologisch geschulte Mitarbeiterinnen und Mitarbeiter beraten Sie kostenlos und anonym. Es gibt auch eine Beratung per E-Mail und Chat. Die Beratung ist nur auf Deutsch. Auf Türkisch, Arabisch und Urdu berät rund um die Uhr die muslimische Telefonseelsorge MuTeS (030 44 35 09 821), auf Russisch rund um die Uhr Doweria (030 440 308 454). Wenn besetzt ist, versuchen Sie es bitte etwas später noch einmal.",
+    "nh": "Rund um die Uhr, an sieben Tagen in der Woche. Kostenlos.",
+    "ed": "If you feel mentally unwell or are in a crisis, you can call here. Staff with psychological training give you advice free of charge and anonymously. There is also advice by e-mail and chat. The advice is in German only. In Turkish, Arabic and Urdu, the Muslim telephone helpline MuTeS (030 44 35 09 821) gives advice around the clock, and in Russian, Doweria (030 440 308 454) gives advice around the clock. If the line is busy, please try again a little later.",
+    "eh": "24 hours a day, seven days a week. Free of charge."
    },
    {
     "n": "112 (Rettungsdienst) · 110 (Polizei)",
@@ -178,7 +250,11 @@ export const CRISIS = [
     "tel": "112",
     "tel2": "110",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "Wenn Sie sich selbst oder andere in Gefahr sehen, zögern Sie nicht anzurufen: den Rettungsdienst unter 112 oder die Polizei unter 110.",
+    "nh": "",
+    "ed": "If you see yourself or others in danger, do not hesitate to call: the emergency medical service on 112 or the police on 110.",
+    "eh": ""
    },
    {
     "n": "116 117 (ärztlicher Bereitschaftsdienst)",
@@ -186,7 +262,11 @@ export const CRISIS = [
     "tel": "116 117",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "Wenn die Arztpraxis geschlossen ist und Sie mit dringenden Beschwerden nicht bis zur nächsten Sprechzeit warten können, hilft der ärztliche Bereitschaftsdienst. Er ist für Fälle gedacht, die nicht lebensbedrohlich sind. Bei Lebensgefahr rufen Sie die 112. Der Anruf ist kostenlos.",
+    "nh": "",
+    "ed": "If the doctor's practice is closed and you have urgent symptoms that cannot wait until the next consultation hours, the on-call doctor service can help. It is meant for cases that are not life-threatening. If life is in danger, call 112. The call is free of charge.",
+    "eh": ""
    },
    {
     "n": "Notruf ohne Sprechen (Fax, nora)",
@@ -194,7 +274,11 @@ export const CRISIS = [
     "tel": "",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "Wenn Sie nicht sprechen können oder schlecht hören: Sie können ein Notfall-Fax an die 110 oder die 112 senden. Mit nora, dem Notruf-App-System der Bundesländer, schreiben Sie mit der Leitstelle. Die App muss vorher eingerichtet werden: Bei der Registrierung werden Ihr Name und Ihre Handynummer erfasst, manchmal ist ein zusätzlicher Bestätigungsschritt nötig. Wenn die Registrierung nicht klappt, rufen Sie, wenn Sie können, die 110 oder die 112 an.",
+    "nh": "",
+    "ed": "If you cannot speak or are hard of hearing: you can send an emergency fax to 110 or 112. With nora, the emergency call app system of the federal states, you communicate in writing with the emergency control center. The app has to be set up beforehand: when you register, your name and your mobile phone number are recorded, and sometimes an additional confirmation step is needed. If registration does not work, call 110 or 112 if you can.",
+    "eh": ""
    },
    {
     "n": "Hilfetelefon „Gewalt gegen Frauen“",
@@ -202,7 +286,11 @@ export const CRISIS = [
     "tel": "116 016",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "Für Frauen, die Gewalt erleben. Ausgebildete Beraterinnen hören zu. Sie bestimmen selbst, was Sie erzählen. Der Anruf ist kostenlos, auch ohne Guthaben auf dem Handy, und Sie können anonym bleiben. Ihre Nummer wird der Beraterin nicht angezeigt, und die Nummer des Hilfetelefons steht nicht auf dem Einzelverbindungsnachweis. Sie erscheint aber in der Anrufliste Ihres Telefons und muss dort selbst gelöscht werden. Die Nummer ist nur innerhalb Deutschlands erreichbar. Es kann Wartezeiten geben.",
+    "nh": "Rund um die Uhr, auch an Wochenenden und Feiertagen.",
+    "ed": "For women who experience violence. Trained advisers listen. You decide for yourself what you tell them. The call is free of charge, even with no credit on your phone, and you can stay anonymous. Your number is not shown to the adviser, and the helpline's number does not appear on an itemized phone bill. It does appear in the call list of your phone, though, and you have to delete it there yourself. The number can only be reached within Germany. There may be waiting times.",
+    "eh": "Around the clock, including weekends and public holidays."
    }
   ]
  },
@@ -212,6 +300,7 @@ export const CRISIS = [
   "checked": "2026-11-17",
   "nameJa": "スペイン",
   "nameEn": "Spain",
+  "lang": "es",
   "lines": [
    {
     "n": "Línea 024 de atención a la conducta suicida",
@@ -219,7 +308,11 @@ export const CRISIS = [
     "tel": "024",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "Línea de ayuda para personas que tienen pensamientos de suicidio y para sus familiares y personas cercanas. Los profesionales del 024 te escuchan y te acompañan para que puedas calmarte; también te pueden recomendar que contactes con los servicios sanitarios y, si ven una situación de emergencia, pasan la llamada al 112. Es confidencial y se puede llamar desde toda España. En la página del 024 hay también un chat y acceso en lengua de signos por videointerpretación. Si tu vida corre peligro en este momento, puedes llamar directamente al 112.",
+    "nh": "Las 24 horas, todos los días del año. Gratuita.",
+    "ed": "A helpline for people who have thoughts of suicide and for their relatives and others close to them. The 024 professionals listen to you and stay with you so that you can calm down; they can also recommend that you contact health services and, if they see an emergency, they pass the call to 112. It is confidential and can be called from anywhere in Spain. The 024 page also has a chat and access in sign language through video interpreting. If your life is in danger right now, you can call 112 directly.",
+    "eh": "24 hours a day, every day of the year. Free of charge."
    },
    {
     "n": "112 (emergencias)",
@@ -227,7 +320,11 @@ export const CRISIS = [
     "tel": "112",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "En casos de urgente necesidad, el 112 sirve para pedir ayuda a los servicios de urgencias sanitarias, de bomberos y salvamento, y de seguridad ciudadana. La llamada es gratuita.",
+    "nh": "",
+    "ed": "In cases of urgent need, 112 is used to ask for help from the emergency health services, the fire and rescue services, and the public safety services. The call is free of charge.",
+    "eh": ""
    },
    {
     "n": "Si no puedes hablar o no oyes bien: Servicio de Comunicación por Texto (SCT)",
@@ -235,7 +332,11 @@ export const CRISIS = [
     "tel": "",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "Para personas sordas o con dificultades en el habla. Escribes por chat o por correo electrónico, y una persona del servicio habla por voz con quien necesitas y te pasa la conversación por escrito. Tiene un chat específico para servicios de emergencia como el 112 y para el 016. Antes de usarlo hay que registrarse en www.svisual.org.",
+    "nh": "Las 24 horas, todos los días del año. Gratuito.",
+    "ed": "For people who are deaf or have difficulties with speech. You write by chat or by email, and a person from the service speaks by voice with whoever you need to reach and passes the conversation back to you in writing. It has a specific chat for emergency services such as 112 and for 016. Before using it you have to register at www.svisual.org.",
+    "eh": "24 hours a day, every day of the year. Free of charge."
    },
    {
     "n": "016: atención a todas las formas de violencia contra las mujeres",
@@ -243,7 +344,11 @@ export const CRISIS = [
     "tel": "016",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "Información, asesoramiento jurídico y atención psicosocial inmediata para mujeres que viven violencia y para su entorno. Además del teléfono 016, puedes escribir por WhatsApp al 600 000 016 (solo mensajes, no llamadas), por el chat de violenciagenero.igualdad.gob.es o por correo a 016-online@igualdad.gob.es. Es gratuito y confidencial. Por teléfono te atienden en 53 idiomas. Las llamadas de emergencia se pasan al 112. En algunos modelos de móvil, las llamadas al 016 no quedan guardadas en el registro de llamadas; depende del modelo.",
+    "nh": "Teléfono, chat y correo: las 24 horas, todos los días. Asesoramiento jurídico: de 8 a 22 h, todos los días.",
+    "ed": "Information, legal advice and immediate psychosocial care for women who experience violence and for the people around them. Besides the 016 phone line, you can write on WhatsApp to 600 000 016 (messages only, no calls), through the chat at violenciagenero.igualdad.gob.es or by email to 016-online@igualdad.gob.es. It is free of charge and confidential. By phone, they answer in 53 languages. Emergency calls are passed to 112. On some phone models, calls to 016 are not saved in the call log; it depends on the model.",
+    "eh": "Phone, chat and email: 24 hours a day, every day. Legal advice: from 8 a.m. to 10 p.m., every day."
    }
   ]
  },
@@ -253,6 +358,7 @@ export const CRISIS = [
   "checked": "2026-11-17",
   "nameJa": "オランダ",
   "nameEn": "Netherlands",
+  "lang": "nl",
   "lines": [
    {
     "n": "113 Zelfmoordpreventie",
@@ -260,7 +366,11 @@ export const CRISIS = [
     "tel": "113",
     "tel2": "0800-0113",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "Een telefonische hulplijn voor mensen met gedachten aan zelfdoding, en voor hun naasten. Je kunt bellen naar 113 of naar 0800-0113.",
+    "nh": "Dag en nacht, elke dag. Gratis.",
+    "ed": "A telephone helpline for people with thoughts of suicide, and for those close to them. You can call 113 or 0800-0113.",
+    "eh": "Around the clock, every day. Free of charge."
    },
    {
     "n": "112 (alarmnummer)",
@@ -268,7 +378,11 @@ export const CRISIS = [
     "tel": "112",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "Bel 112 als je dringend hulp nodig hebt van de politie, de brandweer of de ambulance. Je komt eerst bij de meldkamer. Die verbindt je meteen door met de hulpdienst in jouw regio. Je kunt 112 altijd bellen, ook zonder beltegoed en zonder simkaart.",
+    "nh": "Altijd bereikbaar.",
+    "ed": "Call 112 if you urgently need help from the police, the fire department or an ambulance. You first reach the emergency control room (meldkamer). It puts you straight through to the emergency service in your region. You can always call 112, even with no credit on your phone and without a SIM card.",
+    "eh": "Always available."
    },
    {
     "n": "Als je niet kunt praten of slecht hoort: 112 met tekst",
@@ -276,7 +390,11 @@ export const CRISIS = [
     "tel": "",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "Ben je doof of slechthorend, of heb je een spraakbeperking? Met de app Tolkcontact kun je via de bemiddelingsdienst met tekst contact leggen met 112. Met een tolk Nederlandse Gebarentaal (beeld) kan het ook. Je kunt ook de 112NL app gebruiken. Wil je 112 een sms sturen (e-sms)? Dan moet je je eerst één keer aanmelden: sms het woord ‘aanmelden’ naar 112.",
+    "nh": "Met tekst: dag en nacht. Met een tolk gebarentaal: elke dag van 7:00 tot 22:00 uur.",
+    "ed": "Are you deaf, hard of hearing or speech impaired? With the Tolkcontact app you can get in touch with 112 by text, through the relay service. It is also available with a Dutch Sign Language interpreter (video). You can also use the 112NL app. Do you want to send 112 a text message (SMS)? Then you must register once first: text the word ‘aanmelden’ to 112.",
+    "eh": "By text: around the clock. With a sign language interpreter: every day from 7 a.m. to 10 p.m. Dutch time."
    },
    {
     "n": "Veilig Thuis (huiselijk geweld)",
@@ -284,7 +402,11 @@ export const CRISIS = [
     "tel": "0800-2000",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "Voor als je te maken hebt met huiselijk geweld, of als je denkt dat iemand in je omgeving het meemaakt. Ook als je het geweld zelf gebruikt of het hebt gezien, kun je bellen. Je kunt advies vragen of een melding doen. Als je belt, zeg je de naam van je woonplaats. Dan kom je vanzelf bij Veilig Thuis in jouw regio. Je praat met een hulpverlener. Als je wilt, kun je anoniem blijven. Ben je in direct gevaar? Bel dan 112.",
+    "nh": "Dag en nacht, elke dag. Gratis.",
+    "ed": "For when you are dealing with domestic violence, or when you think someone around you is going through it. You can also call if you use the violence yourself or have seen it. You can ask for advice or make a report. When you call, you say the name of your town. Then you automatically reach Veilig Thuis in your region. You talk to a support worker. If you want, you can stay anonymous. Are you in immediate danger? Then call 112.",
+    "eh": "Around the clock, every day. Free of charge."
    },
    {
     "n": "Centrum Seksueel Geweld",
@@ -292,7 +414,11 @@ export const CRISIS = [
     "tel": "0800-0188",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "Voor iedereen die een nare seksuele ervaring of seksueel misbruik heeft meegemaakt. Het maakt niet uit of het kort of lang geleden is, of dat het online gebeurde. Als je belt, word je doorverbonden met het Centrum Seksueel Geweld in jouw regio. Je kunt anoniem contact opnemen. Het 0800-nummer werkt niet vanuit het buitenland.",
+    "nh": "Dag en nacht, elke dag. Gratis.",
+    "ed": "For anyone who has had a bad sexual experience or has experienced sexual abuse. It does not matter whether it was recent or long ago, or whether it happened online. When you call, you are put through to the Centrum Seksueel Geweld in your region. You can get in touch anonymously. The 0800 number does not work from abroad.",
+    "eh": "Around the clock, every day. Free of charge."
    },
    {
     "n": "Huisartsenpost (als je huisartsenpraktijk dicht is)",
@@ -300,7 +426,11 @@ export const CRISIS = [
     "tel": "",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "Is je huisartsenpraktijk dicht? Dan verwijst je huisarts je naar de huisartsenpost. Neem altijd eerst contact op met de huisartsenpost voordat je naar de spoedeisende hulp van een ziekenhuis gaat. Bij levensgevaar bel je meteen 112. De zorg van de huisartsenpost gaat niet van je eigen risico af.",
+    "nh": "Als je huisartsenpraktijk dicht is.",
+    "ed": "Is your family doctor's practice closed? Then your family doctor (huisarts) refers you to the huisartsenpost. Always contact the huisartsenpost first before you go to the emergency department of a hospital. If your life is in danger, call 112 straight away. Care from the huisartsenpost does not come out of your deductible (eigen risico).",
+    "eh": "When your family doctor's practice is closed."
    },
    {
     "n": "De Luisterlijn",
@@ -308,7 +438,11 @@ export const CRISIS = [
     "tel": "088 07 67 000",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "Voor een vertrouwelijk gesprek of informatie, bijvoorbeeld als je je eenzaam voelt. Op de website van De Luisterlijn kun je ook chatten met een vrijwilliger.",
+    "nh": "Dag en nacht. Je betaalt de gewone belkosten.",
+    "ed": "For a confidential conversation or for information, for example if you feel lonely. On the website of De Luisterlijn you can also chat with a volunteer.",
+    "eh": "Around the clock. You pay the usual call charges."
    }
   ]
  },
@@ -318,6 +452,7 @@ export const CRISIS = [
   "checked": "2026-11-17",
   "nameJa": "韓国",
   "nameEn": "South Korea",
+  "lang": "ko",
   "lines": [
    {
     "n": "자살예방상담전화 109",
@@ -325,7 +460,11 @@ export const CRISIS = [
     "tel": "109",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "죽고 싶은 마음이 들 만큼 힘들 때 전화할 수 있는 상담전화예요. 상담 내용은 기본적으로 비밀이 지켜지지만, 위급할 때는 다른 기관에 도움을 요청할 수 있어요. 따로 동의하지 않으면 개인정보를 모으지 않아요. 카카오톡, 앱, 문자로 상담하는 ‘마들랜’도 있어요.",
+    "nh": "365일 24시간.",
+    "ed": "A phone line you can call when things are so hard that you have thoughts of suicide. What you say is kept confidential as a rule, but in an emergency they can ask other bodies for help. They do not collect personal information unless you agree separately. There is also ‘마들랜’, where you can talk through KakaoTalk, an app or text messages.",
+    "eh": "24 hours a day, 365 days a year."
    },
    {
     "n": "정신건강위기상담전화 1577-0199",
@@ -333,7 +472,11 @@ export const CRISIS = [
     "tel": "1577-0199",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "전국 어디서나 같은 번호예요. 휴대전화 위치를 기준으로 가까운 정신건강복지센터로 연결돼요. 자살 위기 상담을 포함한 정신건강 상담, 정신건강 정보, 정신의료기관 안내를 받을 수 있어요.",
+    "nh": "밤과 휴일에는 광역정신건강복지센터로 연결돼요.",
+    "ed": "It is the same number everywhere in the country. Based on the location of your mobile phone, you are connected to a mental health welfare center near you. You can get mental health advice including for suicide crises, mental health information, and guidance to mental health care institutions.",
+    "eh": "At night and on holidays, you are connected to the regional mental health welfare center."
    },
    {
     "n": "119",
@@ -341,7 +484,11 @@ export const CRISIS = [
     "tel": "119",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "목숨이 위험할 때, 갑자기 몹시 아프거나 다쳤을 때는 119에 연락하세요. 혼자 판단하기 어려울 때도 119에서 의학적인 상담을 받을 수 있어요.",
+    "nh": "",
+    "ed": "If your life is in danger, or you suddenly become very ill or get hurt, contact 119. Even when it is hard to tell for yourself what to do, you can get medical advice from 119.",
+    "eh": ""
    },
    {
     "n": "112",
@@ -349,7 +496,11 @@ export const CRISIS = [
     "tel": "112",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "범죄나 폭력으로 위험할 때는 112에 신고하세요. 긴급한 신고는 112와 119로 모여 있고, 급하지 않은 민원 상담은 110이에요.",
+    "nh": "",
+    "ed": "If you are in danger because of a crime or violence, report it to 112. Urgent reports go through 112 and 119, and 110 is for inquiries that are not urgent.",
+    "eh": ""
    },
    {
     "n": "말하기 어려울 때: 112에 문자, 똑똑112",
@@ -357,7 +508,11 @@ export const CRISIS = [
     "tel": "",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "문자 받는 사람에 112를 넣고, 이름과 장소, 신고하는 이유를 문자로 보낼 수 있어요. 112에 전화했는데 말하기 어려우면, 전화가 연결된 뒤 아무 숫자 버튼이나 누르세요. 말하기 어려운 상황이라는 것을 경찰이 알게 돼요.",
+    "nh": "",
+    "ed": "You can put 112 as the recipient of a text message and send your name, your location and the reason you are reporting. If you called 112 and find it hard to speak, press any number key after the call connects. The police will know that you are in a situation where speaking is hard.",
+    "eh": ""
    },
    {
     "n": "듣기나 말하기가 어려울 때: 119 영상통화",
@@ -365,7 +520,11 @@ export const CRISIS = [
     "tel": "",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "청각·언어장애가 있는 사람은 119에 영상통화로 직접 신고할 수 있어요. 119 접수 직원이 손말이음센터(107)를 불러, 수어 통역사와 함께 세 사람이 영상통화로 이야기해요.",
+    "nh": "",
+    "ed": "People with hearing or speech disabilities can report directly to 119 by video call. The 119 staff member brings in the 손말이음센터 (107, sign language relay center), and three people, you, the staff member and a sign language interpreter, talk together on the video call.",
+    "eh": ""
    },
    {
     "n": "여성긴급전화 1366",
@@ -373,7 +532,11 @@ export const CRISIS = [
     "tel": "1366",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "가정폭력, 성폭력, 스토킹, 디지털 성범죄 등 폭력 피해로 긴급한 구조나 보호, 상담이 필요할 때 전화할 수 있어요. 112·119와 연결하거나, 의료 기관과 보호 시설에 대한 정보를 알려 줘요.",
+    "nh": "365일 24시간.",
+    "ed": "You can call when you need urgent rescue, protection or advice because of violence such as domestic violence, sexual violence, stalking or digital sex crimes. They can connect you with 112 or 119, or tell you about medical institutions and shelters.",
+    "eh": "24 hours a day, 365 days a year."
    }
   ]
  },
@@ -383,6 +546,7 @@ export const CRISIS = [
   "checked": "2026-11-17",
   "nameJa": "台湾",
   "nameEn": "Taiwan",
+  "lang": "zh",
   "lines": [
    {
     "n": "安心專線 1925",
@@ -390,7 +554,11 @@ export const CRISIS = [
     "tel": "1925",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "衛生福利部設置的心理諮詢專線，用市話或手機撥打「1925」就能接通。接聽的人會傾聽心理上的困擾，也會依需要提供相關資訊、轉介醫療單位資訊。情況危急時，可能會聯繫警察機關協助緊急救援。",
+    "nh": "全年無休，24小時，免付費。",
+    "ed": "A phone line for mental health consultation set up by the Ministry of Health and Welfare. You can reach it by dialing 1925 from a landline or a mobile phone. The person who answers listens to emotional and mental difficulties, and also gives related information and information about medical units you can be referred to, as needed. In an urgent situation, the line may contact the police to help with emergency rescue.",
+    "eh": "Every day of the year, 24 hours a day, free of charge."
    },
    {
     "n": "生命線 1995",
@@ -398,7 +566,11 @@ export const CRISIS = [
     "tel": "1995",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "生命線的電話輔導。各種心理上的困擾都可以談，例如危機處理、家庭、感情、人際關係、精神與心理的困擾。由民間團體（生命線協會）接聽。",
+    "nh": "週一至週日，24小時。",
+    "ed": "Phone support from Life Line. You can talk about many kinds of difficulties, for example crisis situations, family, love and romantic relationships, relationships with other people, and mental and emotional difficulties. It is answered by a private group (the Life Line association).",
+    "eh": "Monday to Sunday, 24 hours a day."
    },
    {
     "n": "119",
@@ -406,7 +578,11 @@ export const CRISIS = [
     "tel": "119",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "發生火災或需要緊急救助時，撥打119。手機沒有訊號時，可以撥112再按9，轉接到所在地的119。",
+    "nh": "24小時。",
+    "ed": "Call 119 for a fire or when you need urgent rescue. When your mobile phone has no signal, you can dial 112 and then press 9 to be connected to the 119 of the place where you are.",
+    "eh": "24 hours a day."
    },
    {
     "n": "110",
@@ -414,7 +590,11 @@ export const CRISIS = [
     "tel": "110",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "有急難需要協助或救助時，撥打110，或聯絡所在地的警察局勤務指揮中心。",
+    "nh": "",
+    "ed": "Call 110 when you face an emergency and need help or rescue, or contact the duty command center of the police bureau of the place where you are.",
+    "eh": ""
    },
    {
     "n": "不方便說話時：用手機簡訊向警察局報案",
@@ -422,7 +602,11 @@ export const CRISIS = [
     "tel": "",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "各縣市警察局都設有手機簡訊報案專線，除了聽語障人士，一般民眾也可以使用。只能傳一般的文字簡訊。簡訊號碼每個縣市不同，請在內政部警政署的網頁確認住處所在地的號碼。",
+    "nh": "",
+    "ed": "Police bureaus in every city and county have a text message line for reports. Besides people with hearing or speech disabilities, the general public can also use it. Only ordinary text messages can be sent. The number is different in each city or county, so check the number for the place where you live on the page of the National Police Agency of the Ministry of the Interior.",
+    "eh": ""
    },
    {
     "n": "113保護專線",
@@ -430,7 +614,11 @@ export const CRISIS = [
     "tel": "113",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "本人或家人、朋友遭受家庭暴力、性侵害或性騷擾的困擾時，可以撥打。市話、公共電話、手機都可以撥打，免付費。也可以用簡訊或網路對談諮詢。有立即的人身安全危險時，請先撥110報警。",
+    "nh": "24小時，全年無休。",
+    "ed": "You can call when you, a family member or a friend is having trouble because of domestic violence, sexual assault or sexual harassment. You can call from a landline, a public phone or a mobile phone, free of charge. You can also get advice by text message or online chat. If you are in immediate danger, call 110 to report it first.",
+    "eh": "24 hours a day, all year round."
    }
   ]
  },
@@ -440,6 +628,7 @@ export const CRISIS = [
   "checked": "2026-11-17",
   "nameJa": "イタリア",
   "nameEn": "Italy",
+  "lang": "it",
   "lines": [
    {
     "n": "112: numero unico europeo per le emergenze",
@@ -447,7 +636,11 @@ export const CRISIS = [
     "tel": "112",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "Per chiedere con urgenza l'intervento di polizia, vigili del fuoco o soccorso sanitario. Risponde un operatore, che passa la chiamata alla centrale competente per il tipo di emergenza. La chiamata è gratuita da rete fissa e mobile, anche quando il telefono non ha SIM, è bloccato o non c'è credito. Il servizio con la centrale unica di risposta non è attivo in tutte le zone: dove manca, il 112 è assicurato dalle centrali dell'Arma dei Carabinieri.",
+    "nh": "",
+    "ed": "To ask urgently for the police, the fire service or emergency medical help. An operator answers and passes the call to the control center responsible for that kind of emergency. The call is free from landlines and mobile phones, even when the phone has no SIM card, is locked or has no credit. The service with the single answering center is not active in every area: where it is missing, 112 is handled by the control centers of the Arma dei Carabinieri.",
+    "eh": ""
    },
    {
     "n": "Se non puoi parlare: l'app Where ARE U",
@@ -455,7 +648,11 @@ export const CRISIS = [
     "tel": "",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "Where ARE U è l'app del 112: serve a segnalare alla centrale operativa che non puoi parlare o che vuoi mandare un messaggio di testo. Trasmette in automatico la tua identità e la tua posizione. Va scaricata e registrata prima. Il servizio 112 con la centrale unica di risposta non è ancora attivo in tutte le zone: la mappa è sul sito 112.gov.it. Per le persone sorde esiste il servizio 112 Sordi.",
+    "nh": "",
+    "ed": "Where ARE U is the 112 app: it lets you tell the control center that you cannot speak or that you want to send a text message. It sends your identity and your location automatically. You need to download it and register beforehand. The 112 service with the single answering center is not yet active in every area: the map is on the website 112.gov.it. For deaf people, there is the 112 Sordi service.",
+    "eh": ""
    },
    {
     "n": "1522: violenza e stalking",
@@ -463,7 +660,11 @@ export const CRISIS = [
     "tel": "1522",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "È il numero pubblico antiviolenza e antistalking, promosso dal Dipartimento per le pari opportunità. Rispondono operatrici specializzate, per chi subisce violenza o stalking. C'è anche una chat con un'operatrice sul sito 1522.eu e nella sua app.",
+    "nh": "Numero gratuito, attivo giorno e notte.",
+    "ed": "This is the public helpline against violence and stalking, promoted by the Department for Equal Opportunities. Specially trained women operators answer, for people who are experiencing violence or stalking. There is also a chat with an operator on the website 1522.eu and in its app.",
+    "eh": "Free number, open day and night."
    },
    {
     "n": "Telefono Amico Italia: 02 2327 2327",
@@ -471,7 +672,11 @@ export const CRISIS = [
     "tel": "0223272327",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "Se hai bisogno di parlare con qualcuno, puoi chiamare Telefono Amico Italia. Rispondono volontari. Il servizio è gratuito; la chiamata costa come una chiamata a un numero fisso. Se c'è un pericolo immediato, chiama il 112.",
+    "nh": "Ogni giorno.",
+    "ed": "If you need to talk with someone, you can call Telefono Amico Italia. Volunteers answer. The service is free, but the call costs the same as a call to a landline. If there is immediate danger, call 112.",
+    "eh": "Every day."
    }
   ]
  },
@@ -481,6 +686,7 @@ export const CRISIS = [
   "checked": "2026-11-17",
   "nameJa": "スウェーデン",
   "nameEn": "Sweden",
+  "lang": "sv",
   "lines": [
    {
     "n": "112, nödnumret",
@@ -488,7 +694,11 @@ export const CRISIS = [
     "tel": "112",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "Ring 112 om ditt eller någon annans liv är i fara. Om du mår mycket dåligt och behöver akut hjälp kan du också kontakta en psykiatrisk akutmottagning. Det kostar inget att ringa 112.",
+    "nh": "",
+    "ed": "Call 112 if your life or someone else's life is in danger. If you feel very unwell and need urgent help, you can also contact a psychiatric emergency department. It is free to call 112.",
+    "eh": ""
    },
    {
     "n": "Hjälplinjen: 90390",
@@ -496,7 +706,11 @@ export const CRISIS = [
     "tel": "90390",
     "tel2": "020290390",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "Hjälplinjen är en nationell stödlinje för vuxna som befinner sig i en svår livssituation eller i kris, eller som har psykiska besvär. Den är till för dig som är över 18 år och drivs av Region Stockholm på uppdrag av regeringen. Folkhälsomyndigheten beskriver stödet som professionellt, anonymt och kostnadsfritt. Din telefonoperatör kan ta betalt för samtalet. Om samtalet inte kopplas fram kan du ringa 0202-90390. Stödet ges främst på svenska, men tolk kan användas vid behov.",
+    "nh": "Öppet dygnet runt, året om.",
+    "ed": "Hjälplinjen is a national support line for adults who are in a difficult life situation or in crisis, or who have mental health difficulties. It is for people over 18 and is run by Region Stockholm on behalf of the government. Folkhälsomyndigheten describes the support as professional, anonymous and free of charge. Your phone operator may charge for the call. If the call does not connect, you can call 0202-90390. The support is given mainly in Swedish, but an interpreter can be used when needed.",
+    "eh": "Open around the clock, all year."
    },
    {
     "n": "Kvinnofridslinjen: 116 016, och tre andra stödlinjer",
@@ -504,7 +718,11 @@ export const CRISIS = [
     "tel": "116016",
     "tel2": "020505050",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "Kvinnofridslinjen, 116 016, ger stöd till den som utsatts för hot eller för fysiskt, psykiskt eller sexuellt våld. Samtalet kostar ingenting och syns inte på telefonräkningen, men det syns i samtalshistoriken i din telefon. Du kan själv ta bort det därifrån. Alla oavsett ålder kan ringa eller chatta. Du kan bara ringa från Sverige. Om du inte pratar svenska kan du be om tolk i telefon, och det kan ta en stund innan tolken kopplas in. Chatten är bara på svenska. Om du är under 18 år och berättar vem du är, var du bor och att du är i en svår situation, kan de behöva kontakta din kommun. De kontaktar inte kommunen utan att berätta det för dig först. Stödlinjen för män, 020-80 80 80, Stödlinjen för transpersoner, 020-55 00 00, och Rätt att välja, 020-57 70 70, drivs av samma centrum och är också öppna dygnet runt.",
+    "nh": "Telefonerna är öppna dygnet runt. Chatten på alla fyra är öppen måndag 15-21, tisdag 8-13, torsdag 15-21, fredag 9-16 och söndag 11-17 (svensk tid).",
+    "ed": "Kvinnofridslinjen, 116 016, gives support to people who have been exposed to threats or to physical, psychological or sexual violence. The call is free and does not show on the phone bill, but it does show in the call history on your phone. You can delete it from there yourself. People of any age can call or chat. You can only call from Sweden. If you do not speak Swedish you can ask for an interpreter on the phone, and it can take a while before the interpreter is connected. The chat is in Swedish only. If you are under 18 and tell them who you are, where you live and that you are in a difficult situation, they may need to contact your municipality (kommun). They do not contact the municipality without telling you first. Stödlinjen för män, 020-80 80 80, Stödlinjen för transpersoner, 020-55 00 00, and Rätt att välja, 020-57 70 70, are run by the same center and are also open around the clock.",
+    "eh": "The phones are open around the clock. The chat on all four lines is open Monday 15-21, Tuesday 8-13, Thursday 15-21, Friday 9-16 and Sunday 11-17 (Swedish time)."
    },
    {
     "n": "Om du inte kan tala eller höra: sms, text och förmedlingstjänst till 112",
@@ -512,7 +730,11 @@ export const CRISIS = [
     "tel": "",
     "tel2": "0200221112",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "Om du är döv, hörselskadad eller talskadad kan du registrera dig i förväg hos SOS Alarm för att kunna skicka sms till 112. Det tar några dagar efter anmälan innan tjänsten är klar att använda. Du kan också ringa 112 med realtidstext (RTT). Du behöver slå på RTT i inställningarna på telefonen. Via förmedlingstjänsten Teletal kan du nå 112 på 0200-22 11 12 utan att registrera dig, men bara under Teletals öppettider.",
+    "nh": "",
+    "ed": "If you are deaf, hard of hearing or speech-impaired, you can register in advance with SOS Alarm to be able to send an SMS to 112. It takes a few days after you register before the service is ready to use. You can also call 112 with real-time text (RTT). You need to turn on RTT in the settings on your phone. Through the relay service Teletal you can reach 112 on 0200-22 11 12 without registering, but only during Teletal's opening hours.",
+    "eh": ""
    },
    {
     "n": "Jourhavande medmänniska: 08-702 16 80",
@@ -520,7 +742,11 @@ export const CRISIS = [
     "tel": "087021680",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "Hit kan du ringa på natten om du behöver prata med någon. Det är volontärer som svarar, och i chatten svarar en människa. Du kan vara anonym. Samtalet kostar vanlig telefontaxa.",
+    "nh": "Telefon varje natt klockan 21-06. Chatt klockan 21-24 på lördagar, söndagar, måndagar och tisdagar (svensk tid).",
+    "ed": "You can call here at night if you need to talk to someone. Volunteers answer, and in the chat a person answers. You can be anonymous. The call costs the regular phone rate.",
+    "eh": "Phone every night 21-06. Chat 21-24 on Saturdays, Sundays, Mondays and Tuesdays (Swedish time)."
    },
    {
     "n": "Självmordslinjen: 90101",
@@ -528,7 +754,11 @@ export const CRISIS = [
     "tel": "90101",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "Självmordslinjen, 90101. Enligt Region Stockholm och Uppsala kommun är den öppen dygnet runt. Linjen drivs av föreningen Mind. De som svarar är volontärer som har fått utbildning.",
+    "nh": "",
+    "ed": "Självmordslinjen, 90101. According to Region Stockholm and Uppsala kommun it is open around the clock. The line is run by the association Mind. The people who answer are volunteers who have received training.",
+    "eh": ""
    }
   ]
  },
@@ -538,6 +768,7 @@ export const CRISIS = [
   "checked": "2026-11-17",
   "nameJa": "ブラジル",
   "nameEn": "Brazil",
+  "lang": "pt",
   "lines": [
    {
     "n": "SAMU 192, urgência e emergência",
@@ -545,7 +776,11 @@ export const CRISIS = [
     "tel": "192",
     "tel2": "190",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "Se a situação é de urgência ou emergência, com risco de morte ou sofrimento intenso, você pode ligar para o SAMU 192. A ligação é gratuita e o serviço funciona 24 horas por dia, todos os dias. O Ministério da Saúde lista as tentativas de suicídio entre os casos em que se deve chamar o SAMU. Se o perigo é imediato e há violência acontecendo agora, ligue para a Polícia Militar: 190. Para incêndio, acidente com vítimas ou resgate, ligue para os Bombeiros: 193.",
+    "nh": "24 horas por dia, todos os dias.",
+    "ed": "If the situation is urgent or an emergency, with life in danger or intense distress, you can call SAMU 192. The call is free and the service runs 24 hours a day, every day. The Ministério da Saúde lists suicide attempts among the cases in which SAMU should be called. If the danger is immediate and violence is happening right now, call the Polícia Militar (military police): 190. For a fire, an accident with victims or a rescue, call the Bombeiros (fire department): 193.",
+    "eh": "24 hours a day, every day."
    },
    {
     "n": "CVV: 188, apoio emocional por voluntários",
@@ -553,7 +788,11 @@ export const CRISIS = [
     "tel": "188",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "O CVV (Centro de Valorização da Vida, telefone 188) oferece apoio emocional feito por voluntários. A ligação é gratuita e o telefone funciona 24 horas por dia, todos os dias. Há também chat e e-mail, em cvv.org.br; o chat tem horários marcados e o e-mail não é respondido na hora. O CVV informa que o atendimento é sigiloso e anônimo. O Ministério da Saúde indica o CVV entre os lugares para buscar ajuda.",
+    "nh": "Telefone: 24 horas por dia, todos os dias. O chat tem horários marcados.",
+    "ed": "The CVV (Centro de Valorização da Vida, phone 188) offers emotional support given by volunteers. The call is free and the phone line runs 24 hours a day, every day. There is also chat and email, at cvv.org.br; the chat has set hours and the email is not answered right away. The CVV says the service is confidential and anonymous. The Ministério da Saúde lists the CVV among the places to look for help.",
+    "eh": "Phone: 24 hours a day, every day. The chat has set hours."
    },
    {
     "n": "Ligue 180: Central de Atendimento à Mulher",
@@ -561,7 +800,11 @@ export const CRISIS = [
     "tel": "180",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "O Ligue 180 é a central do Ministério das Mulheres para quem vive violência contra a mulher ou quer denunciar. A ligação é gratuita e o serviço funciona 24 horas por dia, todos os dias. A denúncia pode ser feita de forma anônima. O atendimento também pode ser em inglês ou espanhol. Se o perigo é imediato, ligue 190.",
+    "nh": "24 horas por dia, todos os dias.",
+    "ed": "Ligue 180 is the line of the Ministério das Mulheres for people who are experiencing violence against women or who want to report it. The call is free and the service runs 24 hours a day, every day. A report can be made anonymously. The service can also be given in English or Spanish. If the danger is immediate, call 190.",
+    "eh": "24 hours a day, every day."
    },
    {
     "n": "Disque 100: Disque Direitos Humanos",
@@ -569,7 +812,11 @@ export const CRISIS = [
     "tel": "100",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "O Disque 100 (Disque Direitos Humanos) recebe denúncias de violações de direitos humanos. A ligação é gratuita e o serviço funciona 24 horas por dia, todos os dias. A denúncia pode ser feita pela própria pessoa ou por quem conhece a situação, sem informar o nome, e também pelo WhatsApp. Em emergência, com risco imediato à vida ou crime acontecendo naquele momento, o Ministério orienta ligar direto para a Polícia Militar, 190.",
+    "nh": "24 horas por dia, todos os dias.",
+    "ed": "Disque 100 (Disque Direitos Humanos) receives reports of human rights violations. The call is free and the service runs 24 hours a day, every day. A report can be made by the person themselves or by someone who knows about the situation, without giving a name, and also by WhatsApp. In an emergency, with immediate danger to life or a crime happening at that moment, the Ministério advises calling the Polícia Militar directly, 190.",
+    "eh": "24 hours a day, every day."
    },
    {
     "n": "UPA 24h ou pronto-socorro",
@@ -577,7 +824,11 @@ export const CRISIS = [
     "tel": "",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "Em uma crise, você também pode ir a uma UPA 24h (Unidade de Pronto Atendimento) ou a um pronto-socorro. A UPA funciona 24 horas por dia e atende casos de urgência clínica, traumática ou psiquiátrica.",
+    "nh": "UPA 24h: 24 horas por dia.",
+    "ed": "In a crisis, you can also go to a UPA 24h (Unidade de Pronto Atendimento, an emergency care unit) or to a pronto-socorro (emergency room). The UPA runs 24 hours a day and sees urgent medical, trauma or psychiatric cases.",
+    "eh": "UPA 24h: 24 hours a day."
    },
    {
     "n": "Sem usar a voz: chat, e-mail, WhatsApp e Libras",
@@ -585,7 +836,11 @@ export const CRISIS = [
     "tel": "",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "Sem usar a voz: o CVV atende por chat e e-mail (cvv.org.br; o chat tem horários marcados). O Disque 100 recebe denúncias por WhatsApp e Telegram. O Ligue 180, para mulheres em situação de violência, e o Disque 100 têm atendimento por videochamada em Libras para pessoas surdas ou com deficiência auditiva que usam Libras. Nas páginas do governo federal consultadas, não aparece uma forma nacional de falar com o 192 ou o 190 sem usar a voz; pergunte antes, na Secretaria de Saúde ou na polícia do seu estado, como funciona onde você mora.",
+    "nh": "",
+    "ed": "Without using your voice: the CVV answers by chat and email (cvv.org.br; the chat has set hours). Disque 100 receives reports by WhatsApp and Telegram. Ligue 180, for women in situations of violence, and Disque 100 offer video-call service in Libras for deaf or hard-of-hearing people who use Libras. The federal government pages that were checked do not show a national way to reach 192 or 190 without using your voice; ask first, at the Secretaria de Saúde (health department) or the police of your state, how it works where you live.",
+    "eh": ""
    }
   ]
  },
@@ -595,6 +850,7 @@ export const CRISIS = [
   "checked": "2026-11-17",
   "nameJa": "サウジアラビア",
   "nameEn": "Saudi Arabia",
+  "lang": "ar",
   "lines": [
    {
     "n": "الإسعاف: 997",
@@ -602,7 +858,11 @@ export const CRISIS = [
     "tel": "997",
     "tel2": "999",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "للبلاغات الإسعافية: 997. وللدفاع المدني: 998. وللدوريات الأمنية: 999.",
+    "nh": "",
+    "ed": "For ambulance calls: 997. For Civil Defense: 998. For security patrols: 999.",
+    "eh": ""
    },
    {
     "n": "وزارة الصحة 937: استشارات طبية",
@@ -610,7 +870,11 @@ export const CRISIS = [
     "tel": "937",
     "tel2": "",
     "url": "https://www.moh.gov.sa/937/pages/default.aspx",
-    "link": true
+    "link": true,
+    "nd": "وزارة الصحة: 937، رقم للاستشارات الطبية. تذكر الوزارة أن الخدمة متاحة على مدار الساعة.",
+    "nh": "على مدار الساعة",
+    "ed": "Ministry of Health (MOH): 937, a number for medical consultation. The Ministry says the service is available 24 hours a day.",
+    "eh": "24 hours a day"
    },
    {
     "n": "المركز الوطني لتعزيز الصحة النفسية: 920033360",
@@ -618,7 +882,11 @@ export const CRISIS = [
     "tel": "920033360",
     "tel2": "",
     "url": "https://www.moh.gov.sa/ministry/information-and-services/pages/psychiatry.aspx",
-    "link": true
+    "link": true,
+    "nd": "الاستشارات النفسية الهاتفية: 920033360. تذكر وزارة الصحة أن هذه الاستشارات تُطلب عبر هذا الرقم من جميع مناطق المملكة ولجميع فئات المجتمع، وأن مركز الاستشارات النفسية التابع للجنة الوطنية لتعزيز الصحة النفسية يعمل من الساعة 8 صباحًا حتى 8 مساءً، ويوم السبت من الساعة 1 مساءً حتى 8 مساءً. قد تتغير الأوقات.",
+    "nh": "من الساعة 8 صباحًا حتى 8 مساءً، ويوم السبت من الساعة 1 مساءً حتى 8 مساءً (بتوقيت السعودية).",
+    "ed": "Psychological consultations by phone: 920033360. The Ministry of Health (MOH) says these consultations can be requested through this number from all regions of the Kingdom and for all groups of society, and that the psychological consultation center of the National Committee for Mental Health Promotion works from 8 a.m. to 8 p.m., and on Saturdays from 1 p.m. to 8 p.m. Hours may change.",
+    "eh": "From 8 a.m. to 8 p.m., and on Saturdays from 1 p.m. to 8 p.m. (Saudi time)."
    },
    {
     "n": "مركز بلاغات العنف الأسري: 1919",
@@ -626,7 +894,11 @@ export const CRISIS = [
     "tel": "1919",
     "tel2": "",
     "url": "https://www.hrsd.gov.sa/ministry/about-ministry/about-us/ministry-sectors/767581",
-    "link": true
+    "link": true,
+    "nd": "مركز بلاغات العنف الأسري: 1919، رقم مجاني على مدار 24 ساعة طوال أيام الأسبوع. وتذكر الوزارة أن البلاغات تُستقبل بسرية، وأن البلاغات الخطرة يُنسَّق فيها فورًا مع الجهات الأمنية.",
+    "nh": "24 ساعة طوال أيام الأسبوع",
+    "ed": "Domestic Violence Reporting Center: 1919, a free number available 24 hours a day, every day of the week. The Ministry of Human Resources and Social Development (HRSD) says that reports are received confidentially, and that dangerous reports are coordinated immediately with the security authorities.",
+    "eh": "24 hours a day, every day of the week"
    },
    {
     "n": "أقسام الطوارئ والمراكز الصحية المناوبة",
@@ -634,7 +906,11 @@ export const CRISIS = [
     "tel": "",
     "tel2": "",
     "url": "https://www.moh.gov.sa/ministry/information-and-services/pages/psychiatry.aspx",
-    "link": true
+    "link": true,
+    "nd": "تذكر وزارة الصحة أقسام الطوارئ بالمستشفيات (24 ساعة)، ويمكن معرفة أقربها عبر الخريطة التفاعلية في موقع الوزارة. وتذكر أيضًا مراكز الرعاية الصحية العاجلة في المراكز الصحية المناوبة (24 ساعة).",
+    "nh": "24 ساعة",
+    "ed": "The Ministry of Health (MOH) lists the emergency departments in hospitals (24 hours), and the nearest one can be found on the interactive map on the Ministry's website. It also lists urgent care centers within the on-duty health centers (24 hours).",
+    "eh": "24 hours"
    },
    {
     "n": "دون استخدام الصوت",
@@ -642,7 +918,11 @@ export const CRISIS = [
     "tel": "",
     "tel2": "",
     "url": "https://www.hrsd.gov.sa/ministry/about-ministry/about-us/ministry-sectors/767581",
-    "link": true
+    "link": true,
+    "nd": "دون استخدام الصوت: يمكن إرسال بلاغ العنف الأسري إلى البريد 1919@hrsd.gov.sa أو عبر تطبيق وزارة الموارد البشرية والتنمية الاجتماعية. ولم تظهر في الصفحات الحكومية التي رُوجعت طريقة وطنية للتواصل مع الإسعاف أو الشرطة بالرسائل النصية أو بلغة الإشارة.",
+    "nh": "",
+    "ed": "Without using your voice: a report of domestic violence can be sent by email to 1919@hrsd.gov.sa or through the app of the Ministry of Human Resources and Social Development (HRSD). A national way to contact the ambulance or the police by text message or in sign language did not appear in the government pages that were reviewed.",
+    "eh": ""
    }
   ]
  },
@@ -652,6 +932,7 @@ export const CRISIS = [
   "checked": "2026-11-17",
   "nameJa": "イギリス",
   "nameEn": "United Kingdom",
+  "lang": "en",
   "lines": [
    {
     "n": "999 (emergency)",
@@ -659,7 +940,11 @@ export const CRISIS = [
     "tel": "999",
     "tel2": "",
     "url": "https://www.gov.uk/guidance/domestic-abuse-how-to-get-help",
-    "link": true
+    "link": true,
+    "nd": "If a life is in danger, call 999. Calls to 999 are free. If you cannot speak, stay on the line and, if you can, answer by coughing or tapping the handset. On a mobile, if asked, press 55 to be put through to the police; this does not tell them where you are. If you are deaf or cannot use a phone, you can register with emergencySMS before you need it: when it is safe, text REGISTER to 999.",
+    "nh": "For emergencies, at any time.",
+    "ed": "If a life is in danger, call 999. Calls to 999 are free. If you cannot speak, stay on the line and, if you can, answer by coughing or tapping the handset. On a mobile, if asked, press 55 to be put through to the police; this does not tell them where you are. If you are deaf or cannot use a phone, you can register with emergencySMS before you need it: when it is safe, text REGISTER to 999.",
+    "eh": "For emergencies, at any time."
    },
    {
     "n": "England: NHS 111",
@@ -667,7 +952,11 @@ export const CRISIS = [
     "tel": "111",
     "tel2": "",
     "url": "https://www.nhs.uk/nhs-services/mental-health-services/where-to-get-urgent-help-for-mental-health/",
-    "link": true
+    "link": true,
+    "nd": "Call 111 and choose the mental health option. They can tell you where to get the right help, and you may be able to talk to a trained mental health professional on the phone. If you are deaf, you can call 18001 111 using the Relay UK app or a textphone.",
+    "nh": "24 hours every day. Calls to 111 are free.",
+    "ed": "Call 111 and choose the mental health option. They can tell you where to get the right help, and you may be able to talk to a trained mental health professional on the phone. If you are deaf, you can call 18001 111 using the Relay UK app or a textphone.",
+    "eh": "24 hours every day. Calls to 111 are free."
    },
    {
     "n": "Northern Ireland: Lifeline",
@@ -675,7 +964,11 @@ export const CRISIS = [
     "tel": "0808 808 8000",
     "tel2": "",
     "url": "https://www.nidirect.gov.uk/articles/mental-health-emergency-if-youre-crisis-or-despair",
-    "link": true
+    "link": true,
+    "nd": "A crisis response helpline for everyone in Northern Ireland. It is confidential, free and open 24 hours every day. You can also call for advice if you are worried about a friend or family member. Calls are answered by trained counsellors. In exceptional circumstances, Lifeline may share a caller's details with the emergency services if someone's safety is in danger. Textphone: 18001 0808 808 8000.",
+    "nh": "24 hours every day.",
+    "ed": "A crisis response helpline for everyone in Northern Ireland. It is confidential, free and open 24 hours every day. You can also call for advice if you are worried about a friend or family member. Calls are answered by trained counsellors. In exceptional circumstances, Lifeline may share a caller's details with the emergency services if someone's safety is in danger. Textphone: 18001 0808 808 8000.",
+    "eh": "24 hours every day."
    },
    {
     "n": "Scotland: NHS 24 (111)",
@@ -683,7 +976,11 @@ export const CRISIS = [
     "tel": "111",
     "tel2": "",
     "url": "https://www.nhsinform.scot/illnesses-and-conditions/mental-health/mental-health-support/get-urgent-mental-health-help/",
-    "link": true
+    "link": true,
+    "nd": "Phone 111 and choose the mental health option to reach the NHS 24 Mental Health Hub. It is open to all ages. Calls to 111 are free and do not appear on your bill. Textphone: 18001 111, or use the Relay UK app.",
+    "nh": "Always available.",
+    "ed": "Phone 111 and choose the mental health option to reach the NHS 24 Mental Health Hub. It is open to all ages. Calls to 111 are free and do not appear on your bill. Textphone: 18001 111, or use the Relay UK app.",
+    "eh": "Always available."
    },
    {
     "n": "Wales: NHS 111 Wales (press 2)",
@@ -691,7 +988,11 @@ export const CRISIS = [
     "tel": "111",
     "tel2": "",
     "url": "https://www.gov.wales/nhs-111-press-2",
-    "link": true
+    "link": true,
+    "nd": "For urgent mental health support, call 111 and press 2. It is for people of all ages, open 24 hours a day, 7 days a week across Wales, and free from a landline or mobile, even with no credit left. You will be put in touch with a mental health professional in your area. Calls in Welsh are welcome.",
+    "nh": "24 hours a day, 7 days a week.",
+    "ed": "For urgent mental health support, call 111 and press 2. It is for people of all ages, open 24 hours a day, 7 days a week across Wales, and free from a landline or mobile, even with no credit left. You will be put in touch with a mental health professional in your area. Calls in Welsh are welcome.",
+    "eh": "24 hours a day, 7 days a week."
    },
    {
     "n": "Samaritans",
@@ -699,7 +1000,11 @@ export const CRISIS = [
     "tel": "116 123",
     "tel2": "",
     "url": "https://www.nhs.uk/nhs-services/mental-health-services/where-to-get-urgent-help-for-mental-health/",
-    "link": true
+    "link": true,
+    "nd": "Call 116 123 to talk to Samaritans. It is a free listening service with trained volunteers, open 24 hours a day, every day, and you can talk about anything that is troubling you. What you say stays confidential unless they are very worried about you or think you are in immediate danger.",
+    "nh": "24 hours a day, every day.",
+    "ed": "Call 116 123 to talk to Samaritans. It is a free listening service with trained volunteers, open 24 hours a day, every day, and you can talk about anything that is troubling you. What you say stays confidential unless they are very worried about you or think you are in immediate danger.",
+    "eh": "24 hours a day, every day."
    },
    {
     "n": "Shout (text)",
@@ -707,7 +1012,11 @@ export const CRISIS = [
     "tel": "",
     "tel2": "",
     "url": "https://www.nhs.uk/mental-health/feelings-symptoms-behaviours/behaviours/help-for-suicidal-thoughts/",
-    "link": true
+    "link": true,
+    "nd": "If you would rather not talk on the phone, you can text SHOUT to 85258. The text line is open 24 hours a day, every day.",
+    "nh": "24 hours a day, every day.",
+    "ed": "If you would rather not talk on the phone, you can text SHOUT to 85258. The text line is open 24 hours a day, every day.",
+    "eh": "24 hours a day, every day."
    },
    {
     "n": "England: National Domestic Abuse Helpline",
@@ -715,7 +1024,11 @@ export const CRISIS = [
     "tel": "0808 2000 247",
     "tel2": "",
     "url": "https://www.gov.uk/guidance/domestic-abuse-how-to-get-help",
-    "link": true
+    "link": true,
+    "nd": "Refuge's National Domestic Abuse Helpline for England. Free, confidential advice and support, 24 hours a day.",
+    "nh": "24 hours a day.",
+    "ed": "Refuge's National Domestic Abuse Helpline for England. Free, confidential advice and support, 24 hours a day.",
+    "eh": "24 hours a day."
    },
    {
     "n": "Northern Ireland: Domestic and Sexual Abuse Helpline",
@@ -723,7 +1036,11 @@ export const CRISIS = [
     "tel": "0808 802 1414",
     "tel2": "",
     "url": "https://www.nidirect.gov.uk/articles/domestic-and-sexual-abuse-helpline",
-    "link": true
+    "link": true,
+    "nd": "For men and women affected by domestic or sexual violence in Northern Ireland. Open 24 hours a day, every day of the year, and free from a landline or mobile. The helpline is confidential, with a few exceptions explained on the nidirect page. You can ask for an interpreter.",
+    "nh": "24 hours a day, 365 days a year.",
+    "ed": "For men and women affected by domestic or sexual violence in Northern Ireland. Open 24 hours a day, every day of the year, and free from a landline or mobile. The helpline is confidential, with a few exceptions explained on the nidirect page. You can ask for an interpreter.",
+    "eh": "24 hours a day, 365 days a year."
    },
    {
     "n": "Scotland: Domestic Abuse and Forced Marriage Helpline",
@@ -731,7 +1048,11 @@ export const CRISIS = [
     "tel": "0800 027 1234",
     "tel2": "",
     "url": "https://www.gov.uk/guidance/domestic-abuse-how-to-get-help",
-    "link": true
+    "link": true,
+    "nd": "Free, confidential support and advice in Scotland about domestic abuse and forced marriage, for people affected and for worried family or friends. 24 hours a day.",
+    "nh": "24 hours a day.",
+    "ed": "Free, confidential support and advice in Scotland about domestic abuse and forced marriage, for people affected and for worried family or friends. 24 hours a day.",
+    "eh": "24 hours a day."
    },
    {
     "n": "Wales: Live Fear Free Helpline",
@@ -739,7 +1060,11 @@ export const CRISIS = [
     "tel": "0808 80 10 100",
     "tel2": "",
     "url": "https://www.gov.uk/guidance/domestic-abuse-how-to-get-help",
-    "link": true
+    "link": true,
+    "nd": "For anyone in Wales affected by domestic abuse, or worried about someone. A service funded by the Welsh Government, with online live chat, text and email as well as the phone line. Free, confidential support and advice, 24 hours a day, 365 days a year.",
+    "nh": "24 hours a day, 365 days a year.",
+    "ed": "For anyone in Wales affected by domestic abuse, or worried about someone. A service funded by the Welsh Government, with online live chat, text and email as well as the phone line. Free, confidential support and advice, 24 hours a day, 365 days a year.",
+    "eh": "24 hours a day, 365 days a year."
    }
   ]
  },
@@ -749,6 +1074,7 @@ export const CRISIS = [
   "checked": "2026-11-17",
   "nameJa": "オーストラリア",
   "nameEn": "Australia",
+  "lang": "en",
   "lines": [
    {
     "n": "Triple zero (000)",
@@ -756,7 +1082,11 @@ export const CRISIS = [
     "tel": "000",
     "tel2": "",
     "url": "https://www.healthdirect.gov.au/healthcare-and-services/emergency-and-urgent-care/calling-triple-zero",
-    "link": true
+    "link": true,
+    "nd": "Call triple zero (000) if your life is in danger, or if someone is seriously injured or needs urgent medical help. Calls to 000 are free from any fixed or mobile phone in Australia. If you have a speech or hearing impairment and use a TTY or another device for Deaf or hard of hearing people, you can call 106. Sending a text message will not reach emergency services.",
+    "nh": "For emergencies.",
+    "ed": "Call triple zero (000) if your life is in danger, or if someone is seriously injured or needs urgent medical help. Calls to 000 are free from any fixed or mobile phone in Australia. If you have a speech or hearing impairment and use a TTY or another device for Deaf or hard of hearing people, you can call 106. Sending a text message will not reach emergency services.",
+    "eh": "For emergencies."
    },
    {
     "n": "Australian Capital Territory: Access Mental Health",
@@ -764,7 +1094,11 @@ export const CRISIS = [
     "tel": "1800 629 354",
     "tel2": "",
     "url": "https://www.canberrahealthservices.act.gov.au/services-and-clinics/services/access-mental-health",
-    "link": false
+    "link": false,
+    "nd": "A free call, 24 hours a day, 7 days a week, for people of any age who are worried about their own or someone else's mental health. If staff are worried about your immediate safety, they will contact police or ambulance.",
+    "nh": "24 hours a day, 7 days a week.",
+    "ed": "A free call, 24 hours a day, 7 days a week, for people of any age who are worried about their own or someone else's mental health. If staff are worried about your immediate safety, they will contact police or ambulance.",
+    "eh": "24 hours a day, 7 days a week."
    },
    {
     "n": "New South Wales: Mental Health Line",
@@ -772,7 +1106,11 @@ export const CRISIS = [
     "tel": "1800 011 511",
     "tel2": "",
     "url": "https://www.health.nsw.gov.au/mentalhealth/Pages/mental-health-line.aspx",
-    "link": false
+    "link": false,
+    "nd": "A free NSW Health phone line, open 24 hours a day, 7 days a week, that links people with NSW Health mental health services. NSW Health tries to keep what you say confidential, but may need to share it in some situations. It links you with services rather than offering one-off crisis support. You will be asked for your name, contact details, address and date of birth.",
+    "nh": "24 hours a day, 7 days a week.",
+    "ed": "A free NSW Health phone line, open 24 hours a day, 7 days a week, that links people with NSW Health mental health services. NSW Health tries to keep what you say confidential, but may need to share it in some situations. It links you with services rather than offering one-off crisis support. You will be asked for your name, contact details, address and date of birth.",
+    "eh": "24 hours a day, 7 days a week."
    },
    {
     "n": "Queensland: 1300 MH CALL",
@@ -780,7 +1118,11 @@ export const CRISIS = [
     "tel": "1300 642 255",
     "tel2": "",
     "url": "https://www.qld.gov.au/health/mental-health-and-wellbeing/how-to-get-help/1300-mh-call",
-    "link": false
+    "link": false,
+    "nd": "A confidential mental health phone line, open 24 hours a day, 7 days a week, that links you to the nearest Queensland public mental health service. Calls are kept as confidential Queensland Health medical records. Only available in Queensland.",
+    "nh": "24 hours a day, 7 days a week.",
+    "ed": "A confidential mental health phone line, open 24 hours a day, 7 days a week, that links you to the nearest Queensland public mental health service. Calls are kept as confidential Queensland Health medical records. Only available in Queensland.",
+    "eh": "24 hours a day, 7 days a week."
    },
    {
     "n": "South Australia: Mental Health Triage Service",
@@ -788,7 +1130,11 @@ export const CRISIS = [
     "tel": "13 14 65",
     "tel2": "",
     "url": "https://www.sahealth.sa.gov.au/wps/wcm/connect/public+content/sa+health+internet/services/mental+health+and+drug+and+alcohol+services/mental+health+services/find+mental+health+help+now",
-    "link": false
+    "link": false,
+    "nd": "Open 24 hours a day, 7 days a week, for help in a mental health emergency. The service is staffed by trained mental health professionals who can help connect you to the support you need. If your life is in danger, call 000.",
+    "nh": "24 hours a day, 7 days a week.",
+    "ed": "Open 24 hours a day, 7 days a week, for help in a mental health emergency. The service is staffed by trained mental health professionals who can help connect you to the support you need. If your life is in danger, call 000.",
+    "eh": "24 hours a day, 7 days a week."
    },
    {
     "n": "Tasmania: Access Mental Health",
@@ -796,7 +1142,11 @@ export const CRISIS = [
     "tel": "1800 332 388",
     "tel2": "",
     "url": "https://www.health.tas.gov.au/health-topics/mental-health/mental-health-get-help-now",
-    "link": false
+    "link": false,
+    "nd": "A phone line where Tasmanian public mental health services can give you advice, referrals or support. Calls are free and confidential, and the line is open 24 hours a day, 7 days a week. This line is not a crisis service; in an emergency, call triple zero (000).",
+    "nh": "24 hours a day, 7 days a week.",
+    "ed": "A phone line where Tasmanian public mental health services can give you advice, referrals or support. Calls are free and confidential, and the line is open 24 hours a day, 7 days a week. This line is not a crisis service; in an emergency, call triple zero (000).",
+    "eh": "24 hours a day, 7 days a week."
    },
    {
     "n": "Western Australia (Perth and Peel): Mental Health Emergency Response Line",
@@ -804,7 +1154,11 @@ export const CRISIS = [
     "tel": "1300 555 788",
     "tel2": "1800 676 822",
     "url": "https://emhs.health.wa.gov.au/Hospitals-and-Services/Mental-Health-Alcohol-and-Other-Drugs/Inpatient-and-Other-Services/MHERL",
-    "link": true
+    "link": true,
+    "nd": "A phone line, open 24 hours a day, 7 days a week, for people in the Perth metropolitan area and the Peel region who are going through a mental health crisis. This line is not an emergency service; if there is an emergency, call triple zero (000). 1300 555 788 (Perth) is a local call. 1800 676 822 (Peel) is a free call.",
+    "nh": "24 hours a day, 7 days a week.",
+    "ed": "A phone line, open 24 hours a day, 7 days a week, for people in the Perth metropolitan area and the Peel region who are going through a mental health crisis. This line is not an emergency service; if there is an emergency, call triple zero (000). 1300 555 788 (Perth) is a local call. 1800 676 822 (Peel) is a free call.",
+    "eh": "24 hours a day, 7 days a week."
    },
    {
     "n": "Lifeline",
@@ -812,7 +1166,11 @@ export const CRISIS = [
     "tel": "13 11 14",
     "tel2": "",
     "url": "https://www.healthdirect.gov.au/healthcare-and-services/mental-health/mental-health-helplines",
-    "link": true
+    "link": true,
+    "nd": "Crisis support by phone, 24 hours a day, 7 days a week. You can also send a text or chat online.",
+    "nh": "24 hours a day, 7 days a week.",
+    "ed": "Crisis support by phone, 24 hours a day, 7 days a week. You can also send a text or chat online.",
+    "eh": "24 hours a day, 7 days a week."
    },
    {
     "n": "13YARN",
@@ -820,7 +1178,11 @@ export const CRISIS = [
     "tel": "13 92 76",
     "tel2": "",
     "url": "https://www.healthdirect.gov.au/healthcare-and-services/mental-health/mental-health-helplines",
-    "link": true
+    "link": true,
+    "nd": "For Aboriginal and Torres Strait Islander people. Free and confidential crisis support, 24 hours a day, 7 days a week.",
+    "nh": "24 hours a day, 7 days a week.",
+    "ed": "For Aboriginal and Torres Strait Islander people. Free and confidential crisis support, 24 hours a day, 7 days a week.",
+    "eh": "24 hours a day, 7 days a week."
    },
    {
     "n": "Suicide Call Back Service",
@@ -828,7 +1190,11 @@ export const CRISIS = [
     "tel": "1300 659 467",
     "tel2": "",
     "url": "https://www.healthdirect.gov.au/healthcare-and-services/mental-health/mental-health-helplines",
-    "link": true
+    "link": true,
+    "nd": "Support 24 hours a day, 7 days a week, if you are having thoughts of ending your life, or if someone you know is.",
+    "nh": "24 hours a day, 7 days a week.",
+    "ed": "Support 24 hours a day, 7 days a week, if you are having thoughts of ending your life, or if someone you know is.",
+    "eh": "24 hours a day, 7 days a week."
    },
    {
     "n": "1800RESPECT",
@@ -836,7 +1202,11 @@ export const CRISIS = [
     "tel": "1800 737 732",
     "tel2": "",
     "url": "https://www.healthdirect.gov.au/healthcare-and-services/mental-health/mental-health-helplines",
-    "link": true
+    "link": true,
+    "nd": "For people affected by domestic or family violence. Support 24 hours a day, 7 days a week. In a crisis where you need help right away, call triple zero (000).",
+    "nh": "24 hours a day, 7 days a week.",
+    "ed": "For people affected by domestic or family violence. Support 24 hours a day, 7 days a week. In a crisis where you need help right away, call triple zero (000).",
+    "eh": "24 hours a day, 7 days a week."
    },
    {
     "n": "National Relay Service and Translating and Interpreting Service",
@@ -844,7 +1214,11 @@ export const CRISIS = [
     "tel": "0423 677 767",
     "tel2": "131 450",
     "url": "https://www.healthdirect.gov.au/healthcare-and-services/mental-health/mental-health-helplines",
-    "link": true
+    "link": true,
+    "nd": "If you are deaf or have a hearing impairment, the National Relay Service can help you call a mental health helpline (0423 677 767), 24 hours a day, 7 days a week. This help is free and confidential. For help in your language when calling a mental health helpline, call the Translating and Interpreting Service (131 450), 24 hours a day, 7 days a week.",
+    "nh": "24 hours a day, 7 days a week.",
+    "ed": "If you are deaf or have a hearing impairment, the National Relay Service can help you call a mental health helpline (0423 677 767), 24 hours a day, 7 days a week. This help is free and confidential. For help in your language when calling a mental health helpline, call the Translating and Interpreting Service (131 450), 24 hours a day, 7 days a week.",
+    "eh": "24 hours a day, 7 days a week."
    },
    {
     "n": "healthdirect helpline",
@@ -852,7 +1226,11 @@ export const CRISIS = [
     "tel": "1800 022 222",
     "tel2": "",
     "url": "https://www.healthdirect.gov.au/how-healthdirect-can-help-you",
-    "link": true
+    "link": true,
+    "nd": "Registered nurses give advice, 24 hours a day, 7 days a week, if you are unsure what to do. Free to call, but call charges may apply from mobiles. If you have a hearing or speech impairment, you can call the National Relay Service on 1800 555 677 and ask them to put you through to healthdirect.",
+    "nh": "24 hours a day, 7 days a week.",
+    "ed": "Registered nurses give advice, 24 hours a day, 7 days a week, if you are unsure what to do. Free to call, but call charges may apply from mobiles. If you have a hearing or speech impairment, you can call the National Relay Service on 1800 555 677 and ask them to put you through to healthdirect.",
+    "eh": "24 hours a day, 7 days a week."
    },
    {
     "n": "Beyond Blue",
@@ -860,7 +1238,11 @@ export const CRISIS = [
     "tel": "1300 22 4636",
     "tel2": "",
     "url": "https://www.healthdirect.gov.au/healthcare-and-services/mental-health/mental-health-helplines",
-    "link": true
+    "link": true,
+    "nd": "Support with depression and anxiety, for you or someone close to you. You can call 24 hours a day, 7 days a week, or chat online.",
+    "nh": "24 hours a day, 7 days a week.",
+    "ed": "Support with depression and anxiety, for you or someone close to you. You can call 24 hours a day, 7 days a week, or chat online.",
+    "eh": "24 hours a day, 7 days a week."
    }
   ]
  },
@@ -870,6 +1252,7 @@ export const CRISIS = [
   "checked": "2026-11-17",
   "nameJa": "ニュージーランド",
   "nameEn": "New Zealand",
+  "lang": "en",
   "lines": [
    {
     "n": "111 (emergency)",
@@ -877,7 +1260,11 @@ export const CRISIS = [
     "tel": "111",
     "tel2": "",
     "url": "https://www.police.govt.nz/call-111",
-    "link": false
+    "link": false,
+    "nd": "For an emergency where you need Police, Fire or Ambulance, call 111. Calls to 111 are free, even from a mobile phone with no credit. If you need Police but it is not safe for you to speak, you will be asked to press keys instead. If hearing or talking on the phone is hard for you, you can register for the 111 TXT service.",
+    "nh": "For emergencies.",
+    "ed": "For an emergency where you need Police, Fire or Ambulance, call 111. Calls to 111 are free, even from a mobile phone with no credit. If you need Police but it is not safe for you to speak, you will be asked to press keys instead. If hearing or talking on the phone is hard for you, you can register for the 111 TXT service.",
+    "eh": "For emergencies."
    },
    {
     "n": "Emergency department",
@@ -885,7 +1272,11 @@ export const CRISIS = [
     "tel": "",
     "tel2": "",
     "url": "https://www.healthnz.govt.nz/hospitals-services/services-support/emergency-departments",
-    "link": false
+    "link": false,
+    "nd": "For a serious illness or injury that needs urgent care, you can go to the emergency department of a hospital. This can include a mental health emergency. If it is life-threatening, call 111 for an ambulance. Major emergency departments are open 24 hours a day, every day of the year.",
+    "nh": "Major emergency departments: 24 hours a day, every day of the year.",
+    "ed": "For a serious illness or injury that needs urgent care, you can go to the emergency department of a hospital. This can include a mental health emergency. If it is life-threatening, call 111 for an ambulance. Major emergency departments are open 24 hours a day, every day of the year.",
+    "eh": "Major emergency departments: 24 hours a day, every day of the year."
    },
    {
     "n": "1737, Need to talk?",
@@ -893,7 +1284,11 @@ export const CRISIS = [
     "tel": "1737",
     "tel2": "",
     "url": "https://www.police.govt.nz/advice-services/advice-victims/support-victims",
-    "link": false
+    "link": false,
+    "nd": "You can call or text 1737 at any time, day or night, to talk with a trained counsellor or a peer support worker. It is free and confidential. If a life is in danger, call 111.",
+    "nh": "24 hours a day, 7 days a week.",
+    "ed": "You can call or text 1737 at any time, day or night, to talk with a trained counsellor or a peer support worker. It is free and confidential. If a life is in danger, call 111.",
+    "eh": "24 hours a day, 7 days a week."
    },
    {
     "n": "Depression Helpline",
@@ -901,7 +1296,11 @@ export const CRISIS = [
     "tel": "0800 111 757",
     "tel2": "",
     "url": "https://www.healthnz.govt.nz/health-topics/mental-health/where-to-get-help",
-    "link": false
+    "link": false,
+    "nd": "A free service that is open 24 hours a day, 7 days a week. Trained counsellors can talk with you about what you are going through and suggest where to find help near you. Call 0800 111 757 or text 4202.",
+    "nh": "24 hours a day, 7 days a week.",
+    "ed": "A free service that is open 24 hours a day, 7 days a week. Trained counsellors can talk with you about what you are going through and suggest where to find help near you. Call 0800 111 757 or text 4202.",
+    "eh": "24 hours a day, 7 days a week."
    },
    {
     "n": "Women's Refuge (0800 REFUGE)",
@@ -909,7 +1308,11 @@ export const CRISIS = [
     "tel": "0800 733 843",
     "tel2": "",
     "url": "https://www.justice.govt.nz/family/family-violence/services-for-family-violence/family-violence-specialist-services/",
-    "link": false
+    "link": false,
+    "nd": "Support for women experiencing family violence, available 24 hours a day, 7 days a week. Freephone 0800 733 843.",
+    "nh": "24 hours a day, 7 days a week.",
+    "ed": "Support for women experiencing family violence, available 24 hours a day, 7 days a week. Freephone 0800 733 843.",
+    "eh": "24 hours a day, 7 days a week."
    },
    {
     "n": "Shine",
@@ -917,7 +1320,11 @@ export const CRISIS = [
     "tel": "0508 744 633",
     "tel2": "",
     "url": "https://www.justice.govt.nz/family/family-violence/services-for-family-violence/family-violence-specialist-services/",
-    "link": false
+    "link": false,
+    "nd": "Support for anyone experiencing family violence, for anyone worried about their own harmful behaviour, and for anyone worried about someone else. It is available 24 hours a day, 7 days a week, and the website has an online chat. Freephone 0508 744 633.",
+    "nh": "24 hours a day, 7 days a week.",
+    "ed": "Support for anyone experiencing family violence, for anyone worried about their own harmful behaviour, and for anyone worried about someone else. It is available 24 hours a day, 7 days a week, and the website has an online chat. Freephone 0508 744 633.",
+    "eh": "24 hours a day, 7 days a week."
    },
    {
     "n": "Safe to talk (sexual harm)",
@@ -925,7 +1332,11 @@ export const CRISIS = [
     "tel": "0800 044 334",
     "tel2": "",
     "url": "https://www.healthnz.govt.nz/health-topics/mental-health/assault-and-abuse/sexual-harm",
-    "link": false
+    "link": false,
+    "nd": "A free and confidential service, available 24 hours a day, 7 days a week, for anyone looking for help with sexual harm. Call 0800 044 334 or text 4334.",
+    "nh": "24 hours a day, 7 days a week.",
+    "ed": "A free and confidential service, available 24 hours a day, 7 days a week, for anyone looking for help with sexual harm. Call 0800 044 334 or text 4334.",
+    "eh": "24 hours a day, 7 days a week."
    },
    {
     "n": "Victim Support",
@@ -933,7 +1344,11 @@ export const CRISIS = [
     "tel": "0800 842 846",
     "tel2": "",
     "url": "https://www.police.govt.nz/advice-services/advice-victims/support-victims",
-    "link": false
+    "link": false,
+    "nd": "Free support at any time, day or night, after a crime or a traumatic event. Family members and people who saw what happened can get support too. Call 0800 842 846.",
+    "nh": "24 hours a day, 7 days a week.",
+    "ed": "Free support at any time, day or night, after a crime or a traumatic event. Family members and people who saw what happened can get support too. Call 0800 842 846.",
+    "eh": "24 hours a day, 7 days a week."
    },
    {
     "n": "Healthline",
@@ -941,7 +1356,11 @@ export const CRISIS = [
     "tel": "0800 611 116",
     "tel2": "",
     "url": "https://www.healthnz.govt.nz/online-phone-healthcare/healthline",
-    "link": false
+    "link": false,
+    "nd": "A free phone service, open 24 hours a day, 7 days a week. You can talk with experienced nurses and paramedics about a health concern and what to do next. Interpreters are available.",
+    "nh": "24 hours a day, 7 days a week.",
+    "ed": "A free phone service, open 24 hours a day, 7 days a week. You can talk with experienced nurses and paramedics about a health concern and what to do next. Interpreters are available.",
+    "eh": "24 hours a day, 7 days a week."
    }
   ]
  },
@@ -951,6 +1370,7 @@ export const CRISIS = [
   "checked": "2026-11-17",
   "nameJa": "アイルランド",
   "nameEn": "Ireland",
+  "lang": "en",
   "lines": [
    {
     "n": "112 or 999 (emergency)",
@@ -958,7 +1378,11 @@ export const CRISIS = [
     "tel": "112",
     "tel2": "999",
     "url": "https://www.gov.ie/en/department-of-the-taoiseach/services/how-to-contact-emergency-services-in-ireland/",
-    "link": false
+    "link": false,
+    "nd": "If someone is seriously ill or injured, or a life is in danger, call 112 or 999, or go to your nearest emergency department (ED). Calling 112 or 999 is free of charge. If you cannot make a voice call, you can send a text to 112 from an Irish mobile phone. A voice call is better if you can make one, because a text takes longer.",
+    "nh": "For emergencies.",
+    "ed": "If someone is seriously ill or injured, or a life is in danger, call 112 or 999, or go to your nearest emergency department (ED). Calling 112 or 999 is free of charge. If you cannot make a voice call, you can send a text to 112 from an Irish mobile phone. A voice call is better if you can make one, because a text takes longer.",
+    "eh": "For emergencies."
    },
    {
     "n": "Samaritans",
@@ -966,7 +1390,11 @@ export const CRISIS = [
     "tel": "116 123",
     "tel2": "",
     "url": "https://www2.hse.ie/mental-health/services-support/get-urgent-help/",
-    "link": false
+    "link": false,
+    "nd": "Freephone 116 123. Samaritans is open 24 hours a day, every day, for confidential support. You can also email jo@samaritans.ie.",
+    "nh": "24 hours a day, every day.",
+    "ed": "Freephone 116 123. Samaritans is open 24 hours a day, every day, for confidential support. You can also email jo@samaritans.ie.",
+    "eh": "24 hours a day, every day."
    },
    {
     "n": "Pieta",
@@ -974,7 +1402,11 @@ export const CRISIS = [
     "tel": "1800 247 247",
     "tel2": "",
     "url": "https://www2.hse.ie/mental-health/services-support/suicide/",
-    "link": false
+    "link": false,
+    "nd": "Freephone 1800 247 247, any time, 24 hours a day. A helpline for when you are feeling low or thinking about suicide. You can also text HELP to 51444 (standard message rates apply).",
+    "nh": "24 hours a day, every day.",
+    "ed": "Freephone 1800 247 247, any time, 24 hours a day. A helpline for when you are feeling low or thinking about suicide. You can also text HELP to 51444 (standard message rates apply).",
+    "eh": "24 hours a day, every day."
    },
    {
     "n": "Text About It",
@@ -982,7 +1414,11 @@ export const CRISIS = [
     "tel": "",
     "tel2": "",
     "url": "https://www2.hse.ie/mental-health/services-support/get-urgent-help/",
-    "link": false
+    "link": false,
+    "nd": "Free text HELLO to 50808, any time, 24 hours a day, to chat by text with a trained volunteer.",
+    "nh": "24 hours a day, every day.",
+    "ed": "Free text HELLO to 50808, any time, 24 hours a day, to chat by text with a trained volunteer.",
+    "eh": "24 hours a day, every day."
    },
    {
     "n": "Women's Aid",
@@ -990,7 +1426,11 @@ export const CRISIS = [
     "tel": "1800 341 900",
     "tel2": "",
     "url": "https://www.gov.ie/en/department-of-justice-home-affairs-and-migration/publications/information-for-survivors-of-domestic-violence/",
-    "link": false
+    "link": false,
+    "nd": "Freephone 1800 341 900. A 24-hour national helpline for women subjected to domestic violence.",
+    "nh": "24 hours a day.",
+    "ed": "Freephone 1800 341 900. A 24-hour national helpline for women subjected to domestic violence.",
+    "eh": "24 hours a day."
    },
    {
     "n": "National Rape Crisis Helpline (National Sexual Violence Helpline)",
@@ -998,7 +1438,11 @@ export const CRISIS = [
     "tel": "1800 778 888",
     "tel2": "",
     "url": "https://www.citizensinformation.ie/en/justice/victims-of-crime/support-services-for-victims-of-crime/",
-    "link": false
+    "link": false,
+    "nd": "Phone 1800 778 888, available 24 hours a day, 7 days a week. A free, confidential listening and support service for people who have been raped, sexually assaulted, sexually harassed or sexually abused at any time in their lives.",
+    "nh": "24 hours a day, 7 days a week.",
+    "ed": "Phone 1800 778 888, available 24 hours a day, 7 days a week. A free, confidential listening and support service for people who have been raped, sexually assaulted, sexually harassed or sexually abused at any time in their lives.",
+    "eh": "24 hours a day, 7 days a week."
    }
   ]
  },
@@ -1008,6 +1452,7 @@ export const CRISIS = [
   "checked": "2026-11-17",
   "nameJa": "オーストリア",
   "nameEn": "Austria",
+  "lang": "de",
   "lines": [
    {
     "n": "144 (Rettung) · 133 (Polizei)",
@@ -1015,7 +1460,11 @@ export const CRISIS = [
     "tel": "144",
     "tel2": "133",
     "url": "https://www.oesterreich.gv.at/de/themen/notfaelle_unfaelle_und_kriminalitaet/notrufnummern",
-    "link": true
+    "link": true,
+    "nd": "Die Rettung erreichen Sie unter 144, die Polizei unter 133. Notrufnummern können von jedem Telefon aus österreichweit kostenlos angerufen werden.",
+    "nh": "",
+    "ed": "You can reach the ambulance service on 144 and the police on 133. Emergency numbers can be called free of charge from any phone anywhere in Austria.",
+    "eh": ""
    },
    {
     "n": "112 (Euro-Notruf)",
@@ -1023,7 +1472,11 @@ export const CRISIS = [
     "tel": "112",
     "tel2": "",
     "url": "https://www.oesterreich.gv.at/de/themen/notfaelle_unfaelle_und_kriminalitaet/notrufnummern",
-    "link": true
+    "link": true,
+    "nd": "Die einheitliche europäische Notrufnummer. Sie kann auch bei gesperrten Mobiltelefonen (ohne PIN-Code) verwendet werden. Der Anruf ist kostenlos.",
+    "nh": "",
+    "ed": "The single European emergency number. It can also be used from locked mobile phones (without a PIN code). The call is free of charge.",
+    "eh": ""
    },
    {
     "n": "Notruf ohne Sprechen (DEC112, SMS)",
@@ -1031,7 +1484,11 @@ export const CRISIS = [
     "tel": "",
     "tel2": "",
     "url": "https://www.oesterreich.gv.at/de/themen/notfaelle_unfaelle_und_kriminalitaet/notrufnummern",
-    "link": true
+    "link": true,
+    "nd": "Gehörlose und hörbeeinträchtigte Menschen können mit der App DEC112 mit einer Notrufzentrale chatten oder der Polizei unter 0800 133 133 eine SMS oder ein Fax schicken. Ist bei akuter Gefahr (Gewalt in der Privatsphäre) weder Sprechen noch Schreiben möglich, kann über die App ein „Stiller Notruf“ an die Polizei gesendet werden. Dafür muss die genaue Adresse in der App hinterlegt oder in den Chat eingegeben werden.",
+    "nh": "",
+    "ed": "Deaf and hard-of-hearing people can chat with an emergency call center using the DEC112 app, or send the police a text message or a fax at 0800 133 133. If, in acute danger (violence in the private sphere), neither speaking nor writing is feasible, the app can send a \"silent emergency call\" to the police. For this, the exact address has to be saved in the app or typed into the chat.",
+    "eh": ""
    },
    {
     "n": "Telefonseelsorge 142",
@@ -1039,7 +1496,11 @@ export const CRISIS = [
     "tel": "142",
     "tel2": "",
     "url": "https://www.gesundheit.gv.at/service/notruf/hotline.html",
-    "link": false
+    "link": false,
+    "nd": "Menschen in einer schwierigen Lebenssituation oder in einer Krise können hier vertraulich sprechen. Die Beratung kostet nichts; es fallen höchstens die üblichen Telefonkosten an.",
+    "nh": "Rund um die Uhr, auch an Feiertagen.",
+    "ed": "People in a difficult life situation or in a crisis can talk here in confidence. The advice costs nothing; at most the usual phone charges apply.",
+    "eh": "Around the clock, including public holidays."
    },
    {
     "n": "1450 (Gesundheitsberatung)",
@@ -1047,7 +1508,11 @@ export const CRISIS = [
     "tel": "1450",
     "tel2": "",
     "url": "https://1450.at/",
-    "link": false
+    "link": false,
+    "nd": "Telefonische Beratung bei gesundheitlichen Problemen. Sie erfahren, wo Sie passende Hilfe bekommen oder ob Sie sich selbst helfen können. Bei Lebensgefahr wählen Sie den Notruf 144.",
+    "nh": "Rund um die Uhr. Die Beratung ist kostenlos, es fallen nur die Gesprächskosten Ihres Telefontarifs an.",
+    "ed": "Advice by phone on health problems. You find out where to get suitable help or whether you can help yourself. If life is in danger, call the emergency number 144.",
+    "eh": "Around the clock. The advice is free of charge; only the call charges of your phone plan apply."
    },
    {
     "n": "Frauenhelpline gegen Gewalt",
@@ -1055,7 +1520,11 @@ export const CRISIS = [
     "tel": "0800 222 555",
     "tel2": "",
     "url": "https://www.oesterreich.gv.at/de/themen/notfaelle_unfaelle_und_kriminalitaet/hilfe-bei-gewalt/2/Seite.290501/frauenhelpline",
-    "link": true
+    "link": true,
+    "nd": "Für alle Frauen, die Gewalt erleben oder erlebt haben, und für Menschen aus ihrem Umfeld, die sich Sorgen machen oder Fragen haben. Der Anruf ist kostenlos. Die Beratung ist vertraulich und in verschiedenen Sprachen möglich.",
+    "nh": "Rund um die Uhr (24/7).",
+    "ed": "For all women who experience or have experienced violence, and for people around them who are worried or have questions. The call is free of charge. The advice is confidential and available in several languages.",
+    "eh": "Around the clock (24/7)."
    },
    {
     "n": "Telefonberatung für Männer in Krisen",
@@ -1063,7 +1532,11 @@ export const CRISIS = [
     "tel": "0800 400 777",
     "tel2": "",
     "url": "https://www.oesterreich.gv.at/de/themen/notfaelle_unfaelle_und_kriminalitaet/hilfe-bei-gewalt/4/Seite.290800",
-    "link": true
+    "link": true,
+    "nd": "Männer in Krisen bekommen hier kostenlose telefonische Beratung und Unterstützung, auch wenn sie Probleme mit Gewalt haben.",
+    "nh": "Rund um die Uhr.",
+    "ed": "Men in crisis get free phone advice and support here, including when they have problems with violence.",
+    "eh": "Around the clock."
    }
   ]
  },
@@ -1073,6 +1546,7 @@ export const CRISIS = [
   "checked": "2026-11-17",
   "nameJa": "カナダ",
   "nameEn": "Canada",
+  "lang": "fr",
   "lines": [
    {
     "n": "911 (urgences)",
@@ -1080,7 +1554,11 @@ export const CRISIS = [
     "tel": "911",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "En cas d’urgence, appelez le 911. Si vous pensez au suicide, ou si une personne proche y pense, vous pouvez appeler le 911 ou aller à l’hôpital le plus proche.",
+    "nh": "",
+    "ed": "In an emergency, call 911. If you are thinking about suicide, or someone close to you is, you can call 911 or go to the nearest hospital.",
+    "eh": ""
    },
    {
     "n": "9-8-8 (appel ou texto)",
@@ -1088,7 +1566,11 @@ export const CRISIS = [
     "tel": "988",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "Si vous pensez au suicide ou si vous vous inquiétez pour un proche, appelez ou textez le 9-8-8. Le service est offert dans toutes les provinces et tous les territoires, en français et en anglais. Des lignes des provinces et des territoires sont plus bas dans la liste ; si la vôtre n’y est pas, le 9-8-8 répond aussi.",
+    "nh": "24 heures sur 24, tous les jours de l’année.",
+    "ed": "If you are thinking about suicide or you are worried about someone close to you, call or text 9-8-8. The service is offered in all provinces and territories, in French and in English. Lines from the provinces and territories are further down the list; if yours is not there, 9-8-8 answers too.",
+    "eh": "24 hours a day, every day of the year."
    },
    {
     "n": "Ligne d’écoute d’espoir pour le mieux-être (personnes autochtones)",
@@ -1096,7 +1578,11 @@ export const CRISIS = [
     "tel": "1-855-242-3310",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "Pour toutes les personnes autochtones au Canada : soutien immédiat et intervention en cas de crise, par téléphone, sans frais. Le service est offert en français et en anglais.",
+    "nh": "24 heures sur 24, 7 jours sur 7.",
+    "ed": "For all Indigenous people in Canada: immediate support and crisis intervention, by phone, toll-free. The service is offered in French and in English.",
+    "eh": "24 hours a day, 7 days a week."
    },
    {
     "n": "Colombie-Britannique : 310-Mental Health et 1-800-SUICIDE",
@@ -1104,7 +1590,11 @@ export const CRISIS = [
     "tel": "310-6789",
     "tel2": "1-800-784-2433",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "310-6789 (sans indicatif régional) : soutien émotionnel et information sur les ressources en santé mentale. En cas de crise : 1-800-784-2433 (1-800-SUICIDE), ligne de crise confidentielle et sans frais, 24 heures sur 24.",
+    "nh": "À toute heure du jour ou de la nuit.",
+    "ed": "310-6789 (no area code): emotional support and information on mental health resources. In a crisis: 1-800-784-2433 (1-800-SUICIDE), a confidential, toll-free crisis line, 24 hours a day.",
+    "eh": "At any hour of the day or night."
    },
    {
     "n": "Alberta : lignes d’aide en santé mentale et en dépendances",
@@ -1112,7 +1602,11 @@ export const CRISIS = [
     "tel": "211",
     "tel2": "1-877-303-2642",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "Au 211 : soutien, information et orientation, de façon confidentielle, pour les personnes de l’Alberta qui vivent des difficultés de santé mentale ou de dépendance, y compris le jeu. Le 1-877-303-2642 figure aussi sur la page d’Alberta Health Services comme ligne d’aide en santé mentale.",
+    "nh": "24 heures sur 24, 7 jours sur 7.",
+    "ed": "211: support, information and referral, in confidence, for people in Alberta who are going through mental health or addiction difficulties, including gambling. 1-877-303-2642 is also listed on the Alberta Health Services page as a mental health help line.",
+    "eh": "24 hours a day, 7 days a week."
    },
    {
     "n": "Saskatchewan : HealthLine 811",
@@ -1120,7 +1614,11 @@ export const CRISIS = [
     "tel": "811",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "Ligne gratuite et confidentielle de conseils en santé, en santé mentale et en dépendances. Des infirmières et infirmiers psychiatriques autorisés et des travailleuses et travailleurs sociaux autorisés peuvent offrir du soutien en cas de crise. Réponse en anglais, avec un service d’interprétation offert dans plus de 100 langues.",
+    "nh": "24 heures sur 24.",
+    "ed": "A free, confidential line for advice on health, mental health and addictions. Registered psychiatric nurses and registered social workers can offer support in a crisis. Answers in English, with interpretation available in more than 100 languages.",
+    "eh": "24 hours a day."
    },
    {
     "n": "Manitoba : lignes de crise",
@@ -1128,7 +1626,11 @@ export const CRISIS = [
     "tel": "1-877-435-7170",
     "tel2": "1-888-322-3019",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "Manitoba Suicide Prevention & Support Line : 1 877 435-7170, sans frais. Klinic Crisis Line : 1 888 322-3019, sans frais, ou 204 786-8686 à Winnipeg.",
+    "nh": "24 h sur 24.",
+    "ed": "Manitoba Suicide Prevention & Support Line: 1 877 435-7170, toll-free. Klinic Crisis Line: 1 888 322-3019, toll-free, or 204 786-8686 in Winnipeg.",
+    "eh": "24 hours a day."
    },
    {
     "n": "Ontario : Santé811",
@@ -1136,7 +1638,11 @@ export const CRISIS = [
     "tel": "811",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "Appel sans frais au 811 pour joindre une infirmière ou un infirmier autorisé, qui peut répondre à des questions de santé, notamment sur la dépression, l’anxiété, d’autres troubles de santé mentale ou les dépendances. Gratuit et confidentiel.",
+    "nh": "24 heures sur 24, sept jours sur sept.",
+    "ed": "Call 811 toll-free to reach a registered nurse, who can answer health questions, including questions about depression, anxiety, other mental health conditions or addictions. Free and confidential.",
+    "eh": "24 hours a day, seven days a week."
    },
    {
     "n": "Québec : Info-Social 811",
@@ -1144,7 +1650,11 @@ export const CRISIS = [
     "tel": "811",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "Ligne téléphonique de consultation, gratuite et confidentielle, pour les personnes qui vivent au Québec, que l’appel concerne soi-même ou un proche. Ce service n’est pas offert dans les Terres-Cries-de-la-Baie-James ni au Nunavik.",
+    "nh": "24 heures par jour, 365 jours par année.",
+    "ed": "A free, confidential phone consultation line for people who live in Québec, whether the call is about yourself or someone close to you. This service is not offered in the Terres-Cries-de-la-Baie-James (Cree territory of James Bay) or in Nunavik.",
+    "eh": "24 hours a day, 365 days a year."
    },
    {
     "n": "Québec : ligne d’aide et de prévention du suicide",
@@ -1152,7 +1662,11 @@ export const CRISIS = [
     "tel": "1-866-277-3553",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "Si vous pensez au suicide ou si vous vous inquiétez pour un proche : 1 866 APPELLE (1 866 277-3553), ou texto au 535353. Gratuit et confidentiel.",
+    "nh": "24 heures par jour, 365 jours par année.",
+    "ed": "If you are thinking about suicide or you are worried about someone close to you: 1 866 APPELLE (1 866 277-3553), or text 535353. Free and confidential.",
+    "eh": "24 hours a day, 365 days a year."
    },
    {
     "n": "Nouvelle-Écosse : ligne provinciale de crise en santé mentale et en dépendances",
@@ -1160,7 +1674,11 @@ export const CRISIS = [
     "tel": "1-888-429-8167",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "1-888-429-8167, sans frais. C’est la personne qui appelle qui dit si elle est en crise.",
+    "nh": "24 heures sur 24, 7 jours sur 7.",
+    "ed": "1-888-429-8167, toll-free. It is the caller who says whether they are in crisis.",
+    "eh": "24 hours a day, 7 days a week."
    },
    {
     "n": "Terre-Neuve-et-Labrador : 811 HealthLine",
@@ -1168,7 +1686,11 @@ export const CRISIS = [
     "tel": "811",
     "tel2": "1-888-709-2929",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "Ligne tenue par des infirmières et infirmiers, qui peuvent vous écouter, vous soutenir et vous diriger vers les services de santé de votre région, notamment en cas de crise liée à la santé mentale ou aux dépendances. Autre numéro : 1-888-709-2929.",
+    "nh": "24 heures sur 24, 7 jours sur 7.",
+    "ed": "A line staffed by nurses, who can listen to you, support you and direct you to health services in your region, including in a crisis related to mental health or addictions. Other number: 1-888-709-2929.",
+    "eh": "24 hours a day, 7 days a week."
    },
    {
     "n": "Territoires du Nord-Ouest : 811",
@@ -1176,7 +1698,11 @@ export const CRISIS = [
     "tel": "811",
     "tel2": "1-844-259-1793",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "Pour parler à une infirmière ou un infirmier autorisé en cas de difficultés de santé mentale ou de dépendance : 811 ou 1-844-259-1793. Service gratuit et confidentiel, en français, en anglais et dans d’autres langues des Territoires du Nord-Ouest.",
+    "nh": "En tout temps.",
+    "ed": "To speak with a registered nurse about mental health or addiction difficulties: 811 or 1-844-259-1793. Free and confidential service, in French, in English and in other languages of the Northwest Territories.",
+    "eh": "At all times."
    },
    {
     "n": "Nunavut : Kamatsiaqtut Help Line",
@@ -1184,7 +1710,11 @@ export const CRISIS = [
     "tel": "1-800-265-3333",
     "tel2": "867-979-3333",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "1-800-265-3333 (sans frais) ou 867-979-3333.",
+    "nh": "24 heures sur 24.",
+    "ed": "1-800-265-3333 (toll-free) or 867-979-3333.",
+    "eh": "24 hours a day."
    },
    {
     "n": "Colombie-Britannique et Yukon : VictimLinkBC",
@@ -1192,7 +1722,11 @@ export const CRISIS = [
     "tel": "1-800-563-0808",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "Pour toute personne victime d’un acte criminel : information et orientation. En cas de violence familiale ou sexuelle : soutien immédiat en situation de crise. Appel ou texto au 1-800-563-0808, sans frais et confidentiel, en plusieurs langues.",
+    "nh": "24 heures sur 24, 7 jours sur 7.",
+    "ed": "For anyone who is a victim of a crime: information and referral. In cases of family or sexual violence: immediate crisis support. Call or text 1-800-563-0808, toll-free and confidential, in several languages.",
+    "eh": "24 hours a day, 7 days a week."
    },
    {
     "n": "Alberta : Family Violence Info Line",
@@ -1200,7 +1734,11 @@ export const CRISIS = [
     "tel": "211",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "Au 211, par appel ou texto, sans frais. L’aide est confidentielle. Des frais de messagerie texte peuvent s’appliquer.",
+    "nh": "24 heures sur 24, 7 jours sur 7.",
+    "ed": "Call or text 211, toll-free. The help is confidential. Text messaging fees may apply.",
+    "eh": "24 hours a day, 7 days a week."
    },
    {
     "n": "Manitoba : violence familiale, ligne de détresse",
@@ -1208,7 +1746,11 @@ export const CRISIS = [
     "tel": "1-877-977-0007",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "1 877 977-0007, sans frais.",
+    "nh": "24 h sur 24.",
+    "ed": "1 877 977-0007, toll-free.",
+    "eh": "24 hours a day."
    },
    {
     "n": "Ontario : Fem’aide et Assaulted Women’s Helpline",
@@ -1216,7 +1758,11 @@ export const CRISIS = [
     "tel": "1-877-336-2433",
     "tel2": "1-866-863-0511",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "Fem’aide, pour les femmes francophones et celles qui parlent français : appel ou texto au 1 877 336-2433. Assaulted Women’s Helpline, pour les femmes et leurs personnes à charge : 1 866 863-0511. Ces lignes d’aide sont gratuites et confidentielles. Pour toute victime d’actes criminels : Ligne d’aide aux victimes, 1 888 579-2888.",
+    "nh": "24 heures sur 24.",
+    "ed": "Fem’aide, for Francophone women and women who speak French: call or text 1 877 336-2433. Assaulted Women’s Helpline, for women and their dependants: 1 866 863-0511. These help lines are free and confidential. For any victim of crime: Victim Support Line (Ligne d’aide aux victimes), 1 888 579-2888.",
+    "eh": "24 hours a day."
    },
    {
     "n": "Québec : SOS violence conjugale",
@@ -1224,7 +1770,11 @@ export const CRISIS = [
     "tel": "1-800-363-9010",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "Ligne sans frais. Si vous êtes en danger immédiat, composez le 911.",
+    "nh": "24 h/24, 7 j/7.",
+    "ed": "Toll-free line. If you are in immediate danger, call 911.",
+    "eh": "24 hours a day, 7 days a week."
    },
    {
     "n": "Nouvelle-Écosse : Transition House Association of Nova Scotia",
@@ -1232,7 +1782,11 @@ export const CRISIS = [
     "tel": "1-855-225-0220",
     "tel2": "211",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "Ligne sans frais 1-855-225-0220, pour obtenir de l’aide ou de l’information sur la violence. Le 211 met aussi en lien avec des lignes d’aide pour les hommes, pour les femmes ou pour toutes les personnes : gratuites, confidentielles, 24 heures sur 24, 7 jours sur 7.",
+    "nh": "24 heures sur 24.",
+    "ed": "Toll-free line 1-855-225-0220, for help or information about violence. 211 also connects you to help lines for men, for women or for everyone: free, confidential, 24 hours a day, 7 days a week.",
+    "eh": "24 hours a day."
    },
    {
     "n": "Terre-Neuve-et-Labrador : ligne d’aide en cas de violence familiale",
@@ -1240,7 +1794,11 @@ export const CRISIS = [
     "tel": "1-888-709-7090",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "1-888-709-7090, sans frais, par appel ou texto, partout dans la province. L’appel est dirigé vers une maison d’hébergement de transition de votre région.",
+    "nh": "24 heures sur 24, 7 jours sur 7.",
+    "ed": "1-888-709-7090, toll-free, by call or text, throughout the province. The call is routed to a transition house in your region.",
+    "eh": "24 hours a day, 7 days a week."
    },
    {
     "n": "Territoires du Nord-Ouest : ligne de crise de la maison Alison McAteer",
@@ -1248,7 +1806,11 @@ export const CRISIS = [
     "tel": "1-866-223-7775",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "1-866-223-7775, pour toute personne qui vit aux Territoires du Nord-Ouest et qui subit de la violence à la maison.",
+    "nh": "24 heures sur 24, 7 jours sur 7.",
+    "ed": "1-866-223-7775, for anyone who lives in the Northwest Territories and is experiencing violence at home.",
+    "eh": "24 hours a day, 7 days a week."
    }
   ]
  },
@@ -1258,6 +1820,7 @@ export const CRISIS = [
   "checked": "2026-11-17",
   "nameJa": "ポルトガル",
   "nameEn": "Portugal",
+  "lang": "pt",
   "lines": [
    {
     "n": "112, emergência médica",
@@ -1265,7 +1828,11 @@ export const CRISIS = [
     "tel": "112",
     "tel2": "",
     "url": "https://www.gov.pt/linhas-uteis",
-    "link": true
+    "link": true,
+    "nd": "O 112 é o número europeu de emergência médica: está disponível 24 horas por dia, todos os dias, e as chamadas são gratuitas. Em caso de emergência, ligue 112.",
+    "nh": "24 horas por dia, todos os dias.",
+    "ed": "112 is the European emergency number for medical emergencies. It is available 24 hours a day, every day, and calls are free. In an emergency, call 112.",
+    "eh": "24 hours a day, every day."
    },
    {
     "n": "1411, Linha Nacional de Prevenção do Suicídio",
@@ -1273,7 +1840,11 @@ export const CRISIS = [
     "tel": "1411",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "A Linha Nacional de Prevenção do Suicídio (1411) é gratuita e funciona 24 horas por dia, todos os dias do ano. Atendem profissionais com formação em saúde mental, entre eles psicólogos clínicos e enfermeiros especialistas. O que se diz na chamada fica sob dever de confidencialidade. Quando há risco para a vida, a chamada passa para o INEM.",
+    "nh": "24 horas por dia, todos os dias do ano.",
+    "ed": "The national suicide prevention line (1411) is free and runs 24 hours a day, every day of the year. The people who answer are professionals trained in mental health, including clinical psychologists and specialist nurses. What is said on the call is covered by a duty of confidentiality. When a life is in danger, the call is passed to INEM (the national emergency medical service).",
+    "eh": "24 hours a day, every day of the year."
    },
    {
     "n": "Linha SNS 24: opção 4, com psicólogos clínicos",
@@ -1281,7 +1852,11 @@ export const CRISIS = [
     "tel": "808242424",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "Na Linha SNS 24 (808242424), depois de ligar, escolha a opção 4 para o Serviço de Aconselhamento Psicológico, com psicólogos clínicos, 24 horas por dia, 7 dias por semana. É pedida autorização para gravar a chamada; sem essa autorização, a conversa segue sem gravação. O apoio também pode ser em inglês. A Linha SNS 24 não é a linha para situações de perigo de suicídio: nesses casos, encaminha logo a chamada para o INEM. Em caso de risco de vida, ligue 112.",
+    "nh": "24 horas por dia, 7 dias por semana.",
+    "ed": "On the Linha SNS 24 (808242424), after you call, choose option 4 for the Serviço de Aconselhamento Psicológico (psychological advice service), with clinical psychologists, 24 hours a day, 7 days a week. You are asked for permission to record the call; without that permission, the conversation goes ahead without a recording. Support can also be in English. The Linha SNS 24 is not the line for situations of danger of suicide: in those cases, it passes the call straight to INEM (the national emergency medical service). If a life is in danger, call 112.",
+    "eh": "24 hours a day, 7 days a week."
    },
    {
     "n": "Violência doméstica: linha 800 202 148 e SMS 3060",
@@ -1289,7 +1864,11 @@ export const CRISIS = [
     "tel": "800 202 148",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "Para quem vive violência doméstica: a linha 800 202 148 é gratuita, anónima e confidencial e funciona 24 horas por dia, todos os dias do ano. Para quem prefere não telefonar, também é possível escrever por SMS para o 3060, um serviço igualmente gratuito e confidencial.",
+    "nh": "24 horas por dia, todos os dias do ano.",
+    "ed": "For people living with domestic violence: the line 800 202 148 is free and confidential and runs 24 hours a day, every day of the year. For those who prefer not to phone, you can also write by SMS to 3060, a service that is equally free and confidential.",
+    "eh": "24 hours a day, every day of the year."
    },
    {
     "n": "144, Linha Nacional de Emergência Social",
@@ -1297,7 +1876,11 @@ export const CRISIS = [
     "tel": "144",
     "tel2": "",
     "url": "https://www.gov.pt/linhas-uteis",
-    "link": true
+    "link": true,
+    "nd": "A Linha Nacional de Emergência Social (144) responde a situações urgentes de proteção social e, depois, encaminha e acompanha. Está disponível 24 horas por dia, todos os dias, e as chamadas são gratuitas.",
+    "nh": "24 horas por dia, todos os dias.",
+    "ed": "The national social emergency line (144) responds to urgent social protection situations, and then refers people on and follows up. It is available 24 hours a day, every day, and calls are free.",
+    "eh": "24 hours a day, every day."
    },
    {
     "n": "Para pessoas surdas: SMS para o 961010200",
@@ -1305,7 +1888,11 @@ export const CRISIS = [
     "tel": "",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "Para pessoas surdas: é possível enviar uma SMS para o 961010200. Os operadores da GNR podem comunicar a mensagem, por voz, à GNR, à PSP ou ao INEM.",
+    "nh": "",
+    "ed": "For deaf people: you can send an SMS to 961010200. The GNR operators can pass the message on, by voice, to the GNR, the PSP or INEM (the national emergency medical service).",
+    "eh": ""
    }
   ]
  },
@@ -1315,6 +1902,7 @@ export const CRISIS = [
   "checked": "2026-11-17",
   "nameJa": "メキシコ",
   "nameEn": "Mexico",
+  "lang": "es",
   "lines": [
    {
     "n": "911 (emergencias)",
@@ -1322,7 +1910,11 @@ export const CRISIS = [
     "tel": "911",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "Número único de emergencias. La llamada es gratuita, también desde teléfonos sin saldo.",
+    "nh": "Las 24 horas, los 365 días del año.",
+    "ed": "Single emergency number. The call is free, including from phones with no credit left.",
+    "eh": "24 hours a day, 365 days a year."
    },
    {
     "n": "Servicio de urgencias más cercano",
@@ -1330,7 +1922,11 @@ export const CRISIS = [
     "tel": "",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "Si hay un peligro inmediato, acude al servicio de urgencias más cercano.",
+    "nh": "",
+    "ed": "If there is immediate danger, go to the nearest emergency room.",
+    "eh": ""
    },
    {
     "n": "Línea de la Vida",
@@ -1338,7 +1934,11 @@ export const CRISIS = [
     "tel": "800 911 2000",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "Orientación por teléfono en salud mental y adicciones, para ti o para alguien cercano. Contesta una persona profesional de la salud mental, que te escucha y te orienta; si hace falta, puede canalizarte a otro servicio de salud mental. Puedes llamar desde celular o teléfono fijo.",
+    "nh": "Las 24 horas, los 365 días del año. Gratuita.",
+    "ed": "Phone guidance on mental health and addictions, for you or for someone close to you. A mental health professional answers, listens to you and guides you; if needed, they can refer you to another mental health service. You can call from a cell phone or a landline.",
+    "eh": "24 hours a day, 365 days a year. Free of charge."
    },
    {
     "n": "Línea de las Mujeres 079, opción 1",
@@ -1346,7 +1946,11 @@ export const CRISIS = [
     "tel": "079",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "Para mujeres que viven violencia. Marca 079 y elige la opción 1. Ofrece orientación y auxilio de primer contacto y, si hace falta, canaliza a los Centros de Justicia para las Mujeres u otras instancias. Es gratuita y confidencial.",
+    "nh": "Las 24 horas, los 365 días del año.",
+    "ed": "For women experiencing violence. Dial 079 and choose option 1. It offers guidance and first-contact assistance and, if needed, refers them to the Centros de Justicia para las Mujeres (Justice Centers for Women) or other bodies. It is free and confidential.",
+    "eh": "24 hours a day, 365 days a year."
    }
   ]
  },
@@ -1356,6 +1960,7 @@ export const CRISIS = [
   "checked": "2026-11-18",
   "nameJa": "シンガポール",
   "nameEn": "Singapore",
+  "lang": "en",
   "lines": [
    {
     "n": "995 (ambulance) or 999 (police)",
@@ -1363,7 +1968,11 @@ export const CRISIS = [
     "tel": "995",
     "tel2": "999",
     "url": "https://www.scdf.gov.sg/home/about-scdf/emergency-medical-services",
-    "link": false
+    "link": false,
+    "nd": "If a life is in danger or someone needs emergency medical help, call 995 for an ambulance, or 999 for the police. If you cannot speak or it is not safe to call, you can send an SMS to 70999 (police) saying what is happening and where. You can also go to the emergency department (A&E) of any hospital.",
+    "nh": "For emergencies.",
+    "ed": "If a life is in danger or someone needs emergency medical help, call 995 for an ambulance, or 999 for the police. If you cannot speak or it is not safe to call, you can send an SMS to 70999 (police) saying what is happening and where. You can also go to the emergency department (A&E) of any hospital.",
+    "eh": "For emergencies."
    },
    {
     "n": "national mindline 1771",
@@ -1371,7 +1980,11 @@ export const CRISIS = [
     "tel": "1771",
     "tel2": "",
     "url": "https://www.moh.gov.sg/newsroom/national-mindline-1771-to-provide--round-the-clock-support-for-mental-health/",
-    "link": false
+    "link": false,
+    "nd": "Call 1771, or send a WhatsApp message to 6669 1771, any time of the day or night, to talk with a trained counsellor. You can also use the online chat on the mindline.sg website. What you share is kept confidential. You do not have to give your name.",
+    "nh": "24 hours a day.",
+    "ed": "Call 1771, or send a WhatsApp message to 6669 1771, any time of the day or night, to talk with a trained counsellor. You can also use the online chat on the mindline.sg website. What you share is kept confidential. You do not have to give your name.",
+    "eh": "24 hours a day."
    },
    {
     "n": "Samaritans of Singapore",
@@ -1379,7 +1992,11 @@ export const CRISIS = [
     "tel": "1767",
     "tel2": "",
     "url": "https://www.moh.gov.sg/seeking-healthcare/find-a-facility-or-service/mental-health-services/",
-    "link": false
+    "link": false,
+    "nd": "Call 1767, 24 hours a day, or send a WhatsApp message to 9151 1767. For anyone having thoughts of suicide, or worried about someone they care about.",
+    "nh": "24 hours a day.",
+    "ed": "Call 1767, 24 hours a day, or send a WhatsApp message to 9151 1767. For anyone having thoughts of suicide, or worried about someone they care about.",
+    "eh": "24 hours a day."
    },
    {
     "n": "National Anti-Violence and Sexual Harassment Helpline (NAVH)",
@@ -1387,7 +2004,11 @@ export const CRISIS = [
     "tel": "1800 777 0000",
     "tel2": "",
     "url": "https://familyassist.msf.gov.sg/content/making-decisions/seeking-safety/getting-help/support-services-available/",
-    "link": false
+    "link": false,
+    "nd": "Call 1800 777 0000, 24 hours a day, to report family violence, abuse or neglect, and to get help. You can also make a report online. Information you share is kept confidential, but a police report may be made if the law requires it. Charges apply for calls from a mobile phone.",
+    "nh": "24 hours a day.",
+    "ed": "Call 1800 777 0000, 24 hours a day, to report family violence, abuse or neglect, and to get help. You can also make a report online. Information you share is kept confidential, but a police report may be made if the law requires it. Charges apply for calls from a mobile phone.",
+    "eh": "24 hours a day."
    }
   ]
  },
@@ -1397,6 +2018,7 @@ export const CRISIS = [
   "checked": "2026-11-18",
   "nameJa": "香港",
   "nameEn": "Hong Kong",
+  "lang": "zh",
   "lines": [
    {
     "n": "999（警察、消防、救護車）",
@@ -1404,7 +2026,11 @@ export const CRISIS = [
     "tel": "999",
     "tel2": "",
     "url": "https://www.gov.hk/en/nonresidents/visitinghk/usefulinfo/emergency.htm",
-    "link": true
+    "link": true,
+    "nd": "如需要警察、消防或救護車，或有人正在傷害自己或他人，請致電 999，或前往醫院的急症室。聽障或語言障礙人士如已預先登記，可以發出短訊至 992 向警方求助。",
+    "nh": "",
+    "ed": "If you need the police, the fire services or an ambulance, or someone is harming themselves or another person, call 999 or go to a hospital Accident and Emergency Department. People with a hearing or speech impairment who have registered in advance can send an SMS to 992 to ask the police for help.",
+    "eh": ""
    },
    {
     "n": "「情緒通」18111 精神健康支援熱線",
@@ -1412,7 +2038,11 @@ export const CRISIS = [
     "tel": "18111",
     "tel2": "",
     "url": "https://www.shallwetalk.hk/zh/get-help/mental-health-support-hotline-18111/",
-    "link": false
+    "link": false,
+    "nd": "政府的精神健康支援熱線。可以致電，也可以用 WhatsApp 發送訊息至 (852) 18111。電話和 WhatsApp 的對話會被記錄。",
+    "nh": "全日二十四小時",
+    "ed": "The Government's mental health support hotline. You can phone it, or message (852) 18111 on WhatsApp. Conversations by phone and on WhatsApp are recorded.",
+    "eh": "24 hours a day"
    },
    {
     "n": "醫院管理局精神健康專線",
@@ -1420,7 +2050,11 @@ export const CRISIS = [
     "tel": "2466 7350",
     "tel2": "",
     "url": "https://www.ha.org.hk/haho/ho/cc/Mental_Health_Direct__CHIB5.html",
-    "link": false
+    "link": false,
+    "nd": "醫院管理局的精神健康熱線，為有需要的人、家屬和市民提供精神健康諮詢。",
+    "nh": "全日二十四小時",
+    "ed": "A Hospital Authority mental health hotline, giving mental health advice to people in need, their carers and the public.",
+    "eh": "24 hours a day"
    },
    {
     "n": "香港撒瑪利亞防止自殺會",
@@ -1428,7 +2062,11 @@ export const CRISIS = [
     "tel": "2389 2222",
     "tel2": "",
     "url": "https://www.shallwetalk.hk/zh/get-help/emergency-helplines/",
-    "link": false
+    "link": false,
+    "nd": "「陪我講」的緊急求助熱線一覽列出的熱線服務。",
+    "nh": "全日二十四小時",
+    "ed": "A hotline service listed on the emergency helplines page of Shall We Talk.",
+    "eh": "24 hours a day"
    },
    {
     "n": "生命熱線",
@@ -1436,7 +2074,11 @@ export const CRISIS = [
     "tel": "2382 0000",
     "tel2": "",
     "url": "https://www.shallwetalk.hk/zh/get-help/emergency-helplines/",
-    "link": false
+    "link": false,
+    "nd": "「陪我講」的緊急求助熱線一覽列出的熱線服務。",
+    "nh": "全日二十四小時",
+    "ed": "A hotline service listed on the emergency helplines page of Shall We Talk.",
+    "eh": "24 hours a day"
    },
    {
     "n": "撒瑪利亞會",
@@ -1444,7 +2086,11 @@ export const CRISIS = [
     "tel": "2896 0000",
     "tel2": "",
     "url": "https://www.shallwetalk.hk/zh/get-help/emergency-helplines/",
-    "link": false
+    "link": false,
+    "nd": "「陪我講」的緊急求助熱線一覽列出的中文及多種語言熱線。",
+    "nh": "全日二十四小時",
+    "ed": "A hotline in Chinese and other languages, listed on the emergency helplines page of Shall We Talk.",
+    "eh": "24 hours a day"
    },
    {
     "n": "危機介入及支援中心（芷若園）",
@@ -1452,7 +2098,11 @@ export const CRISIS = [
     "tel": "18281",
     "tel2": "",
     "url": "https://www.swd.gov.hk/tc/pubsvc/family/cat_familyandc/crisisintervention/index.html",
-    "link": false
+    "link": false,
+    "nd": "社會福利署介紹的熱線。面對性暴力、家庭暴力或其他家庭危機的個人或家庭，不論年齡、性別和種族，都可以聯絡。",
+    "nh": "全日二十四小時",
+    "ed": "A hotline listed by the Social Welfare Department. Individuals or families facing sexual violence, domestic violence or other family crises can contact it, regardless of age, gender and race.",
+    "eh": "24 hours a day"
    },
    {
     "n": "明愛向晴軒",
@@ -1460,7 +2110,11 @@ export const CRISIS = [
     "tel": "18288",
     "tel2": "",
     "url": "https://www.familycouncil.gov.hk/tc/support/support_health.html",
-    "link": false
+    "link": false,
+    "nd": "為面對家庭危機或困擾的個人或家庭提供熱線服務。",
+    "nh": "全日二十四小時",
+    "ed": "A hotline for individuals or families facing a family crisis or distress.",
+    "eh": "24 hours a day"
    }
   ]
  },
@@ -1470,6 +2124,7 @@ export const CRISIS = [
   "checked": "2026-11-18",
   "nameJa": "アラブ首長国連邦",
   "nameEn": "United Arab Emirates",
+  "lang": "ar",
   "lines": [
    {
     "n": "الشرطة 999 والإسعاف 998",
@@ -1477,7 +2132,11 @@ export const CRISIS = [
     "tel": "999",
     "tel2": "998",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "من أي مكان في الإمارات: 999 للشرطة، و998 للإسعاف، و997 للدفاع المدني (الحريق). وإذا كان الكلام صعبًا: في أبوظبي يمكن لأصحاب الهمم إرسال رسالة نصية إلى 5999 في حالات الطوارئ الطبية، وفي دبي يوفر تطبيق DCAS SOS خدمات لأصحاب الهمم من ذوي الإعاقة السمعية والبصرية.",
+    "nh": "",
+    "ed": "From anywhere in the UAE: 999 for police, 998 for ambulance, and 997 for civil defence (fire). If speaking is hard: in Abu Dhabi, people of determination can send an SMS to 5999 for a medical emergency, and in Dubai the DCAS SOS app has features for people with hearing or visual disabilities.",
+    "eh": ""
    },
    {
     "n": "800-سكينة (800725462)، أبوظبي",
@@ -1485,7 +2144,11 @@ export const CRISIS = [
     "tel": "800725462",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "خط سرّي للدعم النفسي في أبوظبي، يعمل على مدار الساعة باللغتين العربية والإنجليزية، ويخدم من يعيش في الإمارة ومن يزورها.",
+    "nh": "على مدار الساعة",
+    "ed": "A confidential mental health support line in Abu Dhabi, open 24/7 in Arabic and English, for long-time residents and for people who have only recently arrived from abroad.",
+    "eh": "24/7"
    },
    {
     "n": "مؤسسة دبي لرعاية النساء والأطفال (800111)",
@@ -1493,7 +2156,11 @@ export const CRISIS = [
     "tel": "800111",
     "tel2": "",
     "url": "",
-    "link": false
+    "link": false,
+    "nd": "خط مساعدة مجاني على مدار الساعة لسكان دبي والإمارات.",
+    "nh": "على مدار الساعة",
+    "ed": "A free helpline, 24/7, for residents of Dubai and the UAE.",
+    "eh": "24/7"
    }
   ]
  },
@@ -1503,6 +2170,7 @@ export const CRISIS = [
   "checked": "2026-11-18",
   "nameJa": "チリ",
   "nameEn": "Chile",
+  "lang": "es",
   "lines": [
    {
     "n": "Emergencias: 131 (ambulancia) y 133 (Carabineros)",
@@ -1510,7 +2178,11 @@ export const CRISIS = [
     "tel": "131",
     "tel2": "133",
     "url": "https://www.consulado.gob.cl/emergencias-en-chile",
-    "link": false
+    "link": false,
+    "nd": "131: ambulancia y atención médica. 133: Carabineros, emergencias.",
+    "nh": "Para emergencias.",
+    "ed": "131: ambulance and medical care. 133: Carabineros, emergencies.",
+    "eh": "For emergencies."
    },
    {
     "n": "Línea de prevención del suicidio *4141",
@@ -1518,7 +2190,11 @@ export const CRISIS = [
     "tel": "*4141",
     "tel2": "",
     "url": "https://www.minsal.cl/linea-de-atencion-4141-no-estas-solo-no-estas-sola/",
-    "link": false
+    "link": false,
+    "nd": "Línea de prevención del suicidio del Ministerio de Salud. Llama al *4141 desde un celular. Es gratuita, atiende de lunes a domingo, las 24 horas del día, y te contesta un psicólogo. La atención es confidencial.",
+    "nh": "De lunes a domingo, las 24 horas del día.",
+    "ed": "Suicide prevention line of the Ministry of Health. Call *4141 from a mobile phone. It is free, runs Monday to Sunday, 24 hours a day, and a psychologist answers. The service is confidential.",
+    "eh": "Monday to Sunday, 24 hours a day."
    },
    {
     "n": "Fono Familia 149 (Carabineros de Chile)",
@@ -1526,7 +2202,11 @@ export const CRISIS = [
     "tel": "149",
     "tel2": "",
     "url": "https://www.chileatiende.gob.cl/fichas/28630-fono-familia-149",
-    "link": false
+    "link": false,
+    "nd": "Teléfono de Carabineros de Chile para recibir orientación si eres o podrías ser víctima de violencia intrafamiliar. Es gratuito y confidencial y está disponible las 24 horas y durante todo el año. Desde aquí también se pueden activar procedimientos policiales.",
+    "nh": "Las 24 horas, durante todo el año.",
+    "ed": "Carabineros de Chile phone line for guidance if you are, or may be, a victim of domestic violence. It is free and confidential and is available 24 hours a day, all year round. Police procedures can also be activated through it.",
+    "eh": "24 hours a day, all year round."
    },
    {
     "n": "Salud Responde 600 360 77 77",
@@ -1534,7 +2214,11 @@ export const CRISIS = [
     "tel": "600 360 77 77",
     "tel2": "",
     "url": "https://www.chileatiende.gob.cl/fichas/2467-salud-responde",
-    "link": false
+    "link": false,
+    "nd": "Teléfono del Ministerio de Salud con médicos, enfermeras, enfermeros, matronas y matrones. Atiende durante todo el año, las 24 horas del día, a todas las personas. El costo equivale a una llamada local. Entrega información sobre los derechos y beneficios de la red de salud. También hay atención en kreyol y en lengua de señas por videollamada.",
+    "nh": "Durante todo el año, las 24 horas del día.",
+    "ed": "Ministry of Health phone line with doctors, nurses and midwives. It is open all year, 24 hours a day, to everyone. The cost is equivalent to a local call. It gives information about the rights and benefits of the health network. Service is also available in kreyol, and in sign language by video call.",
+    "eh": "All year, 24 hours a day."
    }
   ]
  },
@@ -1544,6 +2228,7 @@ export const CRISIS = [
   "checked": "2026-11-18",
   "nameJa": "インド",
   "nameEn": "India",
+  "lang": "hi",
   "lines": [
    {
     "n": "112 (आपातकालीन प्रतिक्रिया सहायता प्रणाली)",
@@ -1551,7 +2236,11 @@ export const CRISIS = [
     "tel": "112",
     "tel2": "",
     "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2296048",
-    "link": false
+    "link": false,
+    "nd": "जान का खतरा हो तो 112 पर कॉल करें। यह भारत का एकल आपातकालीन नंबर है, जो 36 राज्यों और केंद्र शासित प्रदेशों में लागू किया जा चुका है।",
+    "nh": "आपात स्थिति के लिए।",
+    "ed": "If a life is in danger, call 112. It is India’s single emergency number, and it has been put in place in 36 States and Union Territories.",
+    "eh": "For emergencies."
    },
    {
     "n": "टेली मानस (टेली मानसिक स्वास्थ्य हेल्पलाइन)",
@@ -1559,7 +2248,11 @@ export const CRISIS = [
     "tel": "14416",
     "tel2": "18008914416",
     "url": "https://telemanas.mohfw.gov.in/privacy-policy",
-    "link": false
+    "link": false,
+    "nd": "14416 या 1800 891 4416 पर कॉल करें। टेली मानस पूरे देश में टेली मानसिक स्वास्थ्य सेवा देने वाली हेल्पलाइन है। कॉल निःशुल्क है और सेवा 24 घंटे, हर दिन उपलब्ध है। कॉल आपके राज्य या केंद्र शासित प्रदेश के टेली मानस सेल तक जाती है और आप भाषा चुन सकते हैं। अपना नाम बताना ज़रूरी नहीं है।",
+    "nh": "24 घंटे, हर दिन।",
+    "ed": "Call 14416 or 1800 891 4416. Tele-MANAS is a helpline that offers tele mental health services across the country. Calls are free, and it is open 24 hours a day, every day. Your call goes to a Tele-MANAS cell in your State or Union Territory, and you can choose a language. You do not have to give your name.",
+    "eh": "24 hours a day, every day."
    },
    {
     "n": "महिला हेल्पलाइन 181",
@@ -1567,7 +2260,11 @@ export const CRISIS = [
     "tel": "181",
     "tel2": "",
     "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2296048",
-    "link": false
+    "link": false,
+    "nd": "महिला हेल्पलाइन 181 महिलाओं की मदद करती है, चाहे आपात स्थिति हो या न हो। यह टोल-फ्री है और 24 घंटे खुली रहती है। यह आपको वन स्टॉप सेंटर जैसी दूसरी सेवाओं से जोड़ सकती है। अगर 181 न लगे, तो 112 पर कॉल करें।",
+    "nh": "24 घंटे।",
+    "ed": "Women Helpline 181 helps women, whether or not it is an emergency. It is toll-free and open 24 hours a day. It can link you with other services, such as a One Stop Centre. If 181 does not connect, call 112.",
+    "eh": "24 hours a day."
    }
   ]
  },
@@ -1577,6 +2274,7 @@ export const CRISIS = [
   "checked": "2026-11-20",
   "nameJa": "アルゼンチン",
   "nameEn": "Argentina",
+  "lang": "es",
   "lines": [
    {
     "n": "Emergencias: 911",
@@ -1584,7 +2282,11 @@ export const CRISIS = [
     "tel": "911",
     "tel2": "",
     "url": "https://www.argentina.gob.ar/tema/emergencias",
-    "link": false
+    "link": false,
+    "nd": "Llamá al 911 si necesitás una ambulancia de emergencias o a la policía. En la Ciudad de Buenos Aires y en localidades de la provincia de Buenos Aires también funciona el 107 (SAME, emergencias médicas).",
+    "nh": "Para emergencias.",
+    "ed": "Call 911 if you need an emergency ambulance or the police. In the City of Buenos Aires and in some places in Buenos Aires Province, 107 (SAME, medical emergencies) also works.",
+    "eh": "For emergencies."
    },
    {
     "n": "Línea Nacional de Salud Mental: 0800 999 0091",
@@ -1592,7 +2294,11 @@ export const CRISIS = [
     "tel": "0800 999 0091",
     "tel2": "",
     "url": "https://www.argentina.gob.ar/salud/hospitalbonaparte/hospital-en-red/dispositivo-0800",
-    "link": false
+    "link": false,
+    "nd": "Línea Nacional de Orientación y Apoyo en la Urgencia de Salud Mental (Ministerio de Salud, Hospital Nacional Laura Bonaparte). Atención gratuita y confidencial en todo el país. No reemplaza a la guardia ni a los servicios de emergencia médica.",
+    "nh": "Las 24 horas, los 365 días del año.",
+    "ed": "National Line for Guidance and Support in Urgent Mental Health Situations (Ministry of Health, Laura Bonaparte National Hospital). Free and confidential, across the country. It does not replace the hospital emergency department or emergency medical services.",
+    "eh": "24 hours a day, 365 days a year."
    },
    {
     "n": "Línea 144",
@@ -1600,7 +2306,11 @@ export const CRISIS = [
     "tel": "144",
     "tel2": "",
     "url": "https://www.argentina.gob.ar/justicia/proteccion-contra-toda-forma-de-violencia",
-    "link": false
+    "link": false,
+    "nd": "Línea 144 del Ministerio de Justicia: atención, contención y asesoramiento para personas en situación de violencia, de manera gratuita y en todo el país. También por WhatsApp. No es una línea de emergencia: si hay peligro, llamá al 911.",
+    "nh": "Las 24 horas.",
+    "ed": "Line 144 of the Ministry of Justice: care, support and advice for people in situations of violence, free and across the country. Also by WhatsApp. It is not an emergency line: if there is danger, call 911.",
+    "eh": "24 hours a day."
    },
    {
     "n": "Línea 137",
@@ -1608,7 +2318,11 @@ export const CRISIS = [
     "tel": "137",
     "tel2": "",
     "url": "https://www.argentina.gob.ar/justicia/violencia-familiar-sexual",
-    "link": false
+    "link": false,
+    "nd": "Línea 137 del Ministerio de Justicia: asistencia y acompañamiento para víctimas de violencia familiar o sexual (opción 1). También podés escribir por WhatsApp al (54911) 3133-1000. Por convenio, también funciona en Misiones (Posadas, Garupá, Eldorado y Oberá) y en Chaco (Resistencia).",
+    "nh": "Las 24 horas, los 365 días del año.",
+    "ed": "Line 137 of the Ministry of Justice: help and support for victims of family or sexual violence (option 1). You can also send a WhatsApp message to (54911) 3133-1000. By agreement, it also works in Misiones (Posadas, Garupá, Eldorado and Oberá) and in Chaco (Resistencia).",
+    "eh": "24 hours a day, 365 days a year."
    }
   ]
  },
@@ -1618,6 +2332,7 @@ export const CRISIS = [
   "checked": "2026-11-20",
   "nameJa": "ベルギー",
   "nameEn": "Belgium",
+  "lang": "nl",
   "lines": [
    {
     "n": "Noodnummers 112 en 101",
@@ -1625,7 +2340,11 @@ export const CRISIS = [
     "tel": "112",
     "tel2": "101",
     "url": "https://112.be/nl",
-    "link": false
+    "link": false,
+    "nd": "Voor de brandweer of een ziekenwagen: bel 112. Voor dringende hulp van de politie: bel 101.",
+    "nh": "Voor noodgevallen.",
+    "ed": "For the fire brigade or an ambulance, call 112. For urgent police help, call 101.",
+    "eh": "For emergencies."
    },
    {
     "n": "Zelfmoordlijn 1813 (Nederlandstalig)",
@@ -1633,7 +2352,11 @@ export const CRISIS = [
     "tel": "1813",
     "tel2": "",
     "url": "https://www.vlaanderen.be/gezondheid-en-welzijn/gezondheid/psychische-gezondheid",
-    "link": false
+    "link": false,
+    "nd": "Voor wie aan zelfdoding denkt. Dag en nacht bereikbaar. Gratis.",
+    "nh": "Dag en nacht.",
+    "ed": "For people with thoughts of suicide. Day and night. Free.",
+    "eh": "Day and night."
    },
    {
     "n": "Tele-Onthaal 106 (Nederlandstalig)",
@@ -1641,7 +2364,11 @@ export const CRISIS = [
     "tel": "106",
     "tel2": "",
     "url": "https://112.be/nl/andere-noodnummers",
-    "link": false
+    "link": false,
+    "nd": "Praten met een deskundige vrijwilliger, 24 uur op 24. Gratis.",
+    "nh": "24 uur op 24.",
+    "ed": "Talk to a trained volunteer, 24 hours a day. Free.",
+    "eh": "24 hours a day."
    },
    {
     "n": "Centre de Prévention du Suicide (Franstalig)",
@@ -1649,7 +2376,11 @@ export const CRISIS = [
     "tel": "0800 32 123",
     "tel2": "",
     "url": "https://112.be/fr/autres-numeros-durgence",
-    "link": false
+    "link": false,
+    "nd": "Voor wie aan zelfdoding denkt. Telefonische hulp, 24 uur op 24, 7 dagen op 7. Gratis nummer.",
+    "nh": "24 uur op 24, 7 dagen op 7.",
+    "ed": "For people with thoughts of suicide. Telephone help, 24 hours a day, 7 days a week. Free number.",
+    "eh": "24 hours a day, 7 days a week."
    },
    {
     "n": "Télé-Accueil 107 (Franstalig)",
@@ -1657,7 +2388,11 @@ export const CRISIS = [
     "tel": "107",
     "tel2": "",
     "url": "https://www.aviq.be/fr/vie-quotidienne/aides-la-vie-quotidienne/centres-de-tele-accueil",
-    "link": false
+    "link": false,
+    "nd": "Hulp via de telefoon, dag en nacht, elke dag van het jaar. Gratis nummer.",
+    "nh": "Dag en nacht, elke dag van het jaar.",
+    "ed": "Help by phone, day and night, every day of the year. Free number.",
+    "eh": "Day and night, every day of the year."
    },
    {
     "n": "Telefonhilfe 108 (Duitstalig)",
@@ -1665,7 +2400,11 @@ export const CRISIS = [
     "tel": "108",
     "tel2": "",
     "url": "https://ostbelgienlive.be/desktopdefault.aspx/tabid-8406/",
-    "link": false
+    "link": false,
+    "nd": "Telefonhilfe van de Duitstalige Gemeenschap. Elke dag, dag en nacht, ook in het weekend en op feestdagen. Gratis.",
+    "nh": "Elke dag, dag en nacht.",
+    "ed": "Telefonhilfe of the German-speaking Community. Every day, around the clock, including weekends and public holidays. Free.",
+    "eh": "Every day, around the clock."
    },
    {
     "n": "Community Help Service, CHS (Engelstalig)",
@@ -1673,7 +2412,11 @@ export const CRISIS = [
     "tel": "02 648 40 14",
     "tel2": "",
     "url": "https://be.brussels/en/assistance-social-health/assistance-individuals-and-families/psychological-help",
-    "link": false
+    "link": false,
+    "nd": "Hulp in het Engels als je geen Frans of Nederlands spreekt. 24 uur op 24.",
+    "nh": "24 uur op 24.",
+    "ed": "Help in English if you do not speak French or Dutch. 24 hours a day.",
+    "eh": "24 hours a day."
    },
    {
     "n": "Zorgcentrum na Seksueel Geweld (ZSG)",
@@ -1681,7 +2424,11 @@ export const CRISIS = [
     "tel": "",
     "tel2": "",
     "url": "https://hulp.igvm-iefh.belgium.be/nl",
-    "link": false
+    "link": false,
+    "nd": "Na fysiek seksueel geweld, voor jezelf of iemand in je omgeving: gratis en 24 uur op 24, 7 dagen op 7. De contactgegevens van de centra staan op zsg.belgium.be.",
+    "nh": "24 uur op 24, 7 dagen op 7.",
+    "ed": "After physical sexual violence, for you or someone close to you: free, 24 hours a day, 7 days a week. The contact details of the centres are on zsg.belgium.be (Dutch) and cpvs.belgium.be (French).",
+    "eh": "24 hours a day, 7 days a week."
    }
   ]
  },
@@ -1691,6 +2438,7 @@ export const CRISIS = [
   "checked": "2026-11-20",
   "nameJa": "スイス",
   "nameEn": "Switzerland",
+  "lang": "de",
   "lines": [
    {
     "n": "144 (Sanität)",
@@ -1698,7 +2446,11 @@ export const CRISIS = [
     "tel": "144",
     "tel2": "",
     "url": "https://www.bakom.admin.ch/de/weitere-nummern-kostenpflichtig-oder-gratis",
-    "link": false
+    "link": false,
+    "nd": "Sanitätsnotruf. Der Anruf ist gratis.",
+    "nh": "Für Notfälle.",
+    "ed": "Medical emergency call. The call is free of charge.",
+    "eh": "For emergencies."
    },
    {
     "n": "112 · 117 (Notruf)",
@@ -1706,7 +2458,11 @@ export const CRISIS = [
     "tel": "112",
     "tel2": "117",
     "url": "https://www.bakom.admin.ch/de/weitere-nummern-kostenpflichtig-oder-gratis",
-    "link": false
+    "link": false,
+    "nd": "112 ist die europäische Notrufnummer, 117 der Polizeinotruf. Die Anrufe sind gratis.",
+    "nh": "Für Notfälle.",
+    "ed": "112 is the European emergency number, 117 the police emergency call. The calls are free of charge.",
+    "eh": "For emergencies."
    },
    {
     "n": "Die Dargebotene Hand",
@@ -1714,7 +2470,11 @@ export const CRISIS = [
     "tel": "143",
     "tel2": "",
     "url": "https://www.bag.admin.ch/de/hilfsangebote-zur-psychischen-gesundheit",
-    "link": false
+    "link": false,
+    "nd": "Für psychische Notsituationen: Telefon rund um die Uhr, dazu Mail und Chat über 143.ch.",
+    "nh": "Rund um die Uhr.",
+    "ed": "For a psychological emergency: telephone around the clock, plus email and chat at 143.ch.",
+    "eh": "Around the clock."
    },
    {
     "n": "Opferhilfe (142)",
@@ -1722,7 +2482,11 @@ export const CRISIS = [
     "tel": "142",
     "tel2": "",
     "url": "https://www.bj.admin.ch/de/opferhilfe",
-    "link": false
+    "link": false,
+    "nd": "Kostenlose und vertrauliche Beratung für Menschen, die körperliche, psychische oder sexuelle Gewalt erlebt haben, und für ihre Angehörigen, rund um die Uhr.",
+    "nh": "Rund um die Uhr.",
+    "ed": "Free and confidential advice for people who have experienced physical, psychological or sexual violence, and for their relatives, around the clock.",
+    "eh": "Around the clock."
    }
   ]
  }

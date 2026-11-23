@@ -56,11 +56,11 @@ export default {
   },
   "standard": {
    "label": "Gewoon",
-   "note": "Voor de meeste computers. Veel betrouwbaarder dan Licht."
+   "note": "Voor telefoons en de meeste computers. De antwoorden kunnen fout zijn."
   },
   "smart": {
    "label": "Slim",
-   "note": "Voor krachtige computers, zoals gaming-pc's. Zorgvuldige, betrouwbare antwoorden."
+   "note": "Voor krachtige computers, zoals gamecomputers. Antwoordt zorgvuldiger dan „Gewoon”."
   },
   "best": {
    "label": "Slimst",

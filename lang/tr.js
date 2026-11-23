@@ -56,11 +56,11 @@ export default {
   },
   "standard": {
    "label": "Normal",
-   "note": "Çoğu bilgisayar için. Hafiften çok daha güvenilir."
+   "note": "Telefonlar ve çoğu bilgisayar için. Yanıtları yanlış olabilir."
   },
   "smart": {
    "label": "Akıllı",
-   "note": "Oyun bilgisayarı gibi güçlü bilgisayarlar için. Özenli, güvenilir cevaplar."
+   "note": "Oyun bilgisayarı gibi güçlü bilgisayarlar için. «Normal»den daha özenli yanıt verir."
   },
   "best": {
    "label": "En akıllı",

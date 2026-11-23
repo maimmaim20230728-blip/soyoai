@@ -56,11 +56,11 @@ export default {
   },
   "standard": {
    "label": "Kawaida",
-   "note": "Kwa kompyuta nyingi. Inaaminika zaidi kuliko Nyepesi."
+   "note": "Kwa simu na kompyuta nyingi. Majibu yake yanaweza kuwa na makosa."
   },
   "smart": {
    "label": "Erevu",
-   "note": "Kwa kompyuta zenye nguvu, kama za michezo. Majibu ya makini na yanayoaminika."
+   "note": "Kwa kompyuta zenye nguvu, kama za michezo. Hujibu kwa uangalifu zaidi kuliko «Kawaida»."
   },
   "best": {
    "label": "Erevu zaidi",
