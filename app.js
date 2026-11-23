@@ -140,9 +140,13 @@ export function hideTailDigits(s) {
   return String(s || "").replace(/[\d+(][\d\s\-‐()]*$/, "");
 }
 
+// 半角カナ(ｺﾛｽ)や全角の英数字でも当たるように、文と言葉の両方を NFKC でそろえてから見る(2026-11-24)
+export function normCare(x) {
+  return String(x || "").normalize("NFKC").toLowerCase();
+}
 export function needsCrisisCard(textIn, words) {
-  const s = String(textIn || "").toLowerCase();
-  return (words || []).some((w) => w && s.includes(String(w).toLowerCase()));
+  const s = normCare(textIn);
+  return (words || []).some((w) => w && s.includes(normCare(w)));
 }
 
 // 末尾が「1〜12文字のかたまりの12回以上のくり返し」なら、くり返しを1回分だけ残して返す。そうでなければ null。
@@ -531,8 +535,8 @@ function isCrisisText(s) {
 // そよぎの言葉に切り替える合図。つらい言葉か、人に向けた「つもり」の言葉(harmStart)。
 // 2026-11-24 ヒロさん「自殺も他殺も本質は同じ。他人を傷つける話もそよぎの言葉で」。料理やゲームで切り替わらないよう、最初は「殺したい」「刺してくる」のような言葉だけ。
 export function isHarmStart(text, startWords, crisisWords) {
-  let rest = String(text || "").toLowerCase();
-  for (const w of crisisWords || []) if (w) rest = rest.split(String(w).toLowerCase()).join(" ");
+  let rest = normCare(text);
+  for (const w of crisisWords || []) if (w) rest = rest.split(normCare(w)).join(" ");
   return needsCrisisCard(rest, startWords);
 }
 function startsCare(s) {
@@ -553,9 +557,9 @@ function wantsAi(s) {
 const CARE_ORDER = ["harm", "urgent", "sleep", "calm", "notHeard", "cantCall", "selfBlame", "alone", "night"];
 // harm は、つらい言葉(「自殺」など)を除いた文で見る(「自殺したい」の「殺し」で harm にしない)。
 export function careSituation(text, words, crisis, hour, crisisWords) {
-  const s = String(text || "").toLowerCase();
+  const s = normCare(text);
   let rest = s;
-  for (const w of crisisWords || []) if (w) rest = rest.split(String(w).toLowerCase()).join(" ");
+  for (const w of crisisWords || []) if (w) rest = rest.split(normCare(w)).join(" ");
   // 心中・一緒に死ぬ言葉は、つらい言葉を除く前の文で見る(「一緒に死にたい」の「死にたい」で消えないように・2026-11-24 ヒロさんの画面で「心中する」「息子と一緒に逝く」にふつうの言葉が出た)
   if (needsCrisisCard(s, words("together") || [])) return "together";
   for (const k of CARE_ORDER) {

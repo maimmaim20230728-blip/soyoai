@@ -1,7 +1,7 @@
 // 設定はこのファイル1か所にまとめる。決まっていない値は(仮)。
 // 版を上げるときは、sw.js の VER も必ず同じ値にする(_smoke.js が照合する)。
 
-export const VER = "0.3.11";
+export const VER = "0.3.12";
 
 export const CONFIG = {
   appName: { ja: "SOYOAI", en: "SOYOAI" }, // 2026-11-23 ヒロさん決定
